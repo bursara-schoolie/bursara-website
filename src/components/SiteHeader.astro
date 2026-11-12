@@ -1,0 +1,21 @@
+---
+const path = Astro.url.pathname;
+const productLinks = [['/features/', 'All features'], ['/student-billing/', 'Student billing'], ['/receipts-and-payments/', 'Receipts & payments'], ['/debtors/', 'Debtor management'], ['/multi-currency/', 'Multiple currencies']];
+const institutionLinks = [['/institutions/', 'Learning institutions'], ['/institutions/schools/', 'Schools & academies'], ['/institutions/colleges-and-training/', 'Colleges & training providers']];
+---
+<header class="site-header">
+  <a class="site-brand" href="/" aria-label="Bursara home"><img src="/bursara-logo-navy.svg" alt="Bursara" width="166" height="47" /></a>
+  <nav class="desktop-navigation" aria-label="Main navigation">
+    <details class="nav-disclosure"><summary class:list={{'current':productLinks.some(([href])=>href===path)}}>The product <span aria-hidden="true">⌄</span></summary><div class="nav-dropdown">{productLinks.map(([href,label])=><a href={href} aria-current={path===href?'page':undefined}>{label}<span aria-hidden="true">↗</span></a>)}</div></details>
+    <details class="nav-disclosure"><summary class:list={{'current':path.startsWith('/institutions/')}}>Institutions <span aria-hidden="true">⌄</span></summary><div class="nav-dropdown">{institutionLinks.map(([href,label])=><a href={href} aria-current={path===href?'page':undefined}>{label}<span aria-hidden="true">↗</span></a>)}</div></details>
+    <a href="/about/" aria-current={path==='/about/'?'page':undefined}>About</a><a href="/help/" aria-current={path==='/help/'?'page':undefined}>Help</a><a href="/contact/" aria-current={path==='/contact/'?'page':undefined}>Contact</a>
+  </nav>
+  <a class="site-app-link" href="https://app.bursara.com">Open the alpha <span aria-hidden="true">↗</span></a>
+  <details class="mobile-navigation"><summary aria-label="Open navigation">Menu <span aria-hidden="true">☰</span></summary><nav aria-label="Mobile navigation"><strong>The product</strong>{productLinks.map(([href,label])=><a href={href}>{label}</a>)}<strong>Institutions</strong>{institutionLinks.map(([href,label])=><a href={href}>{label}</a>)}<strong>Resources</strong><a href="/about/">About Bursara</a><a href="/help/">Help & guides</a><a href="/contact/">Contact the team</a></nav></details>
+</header>
+<script>
+const menus=Array.from(document.querySelectorAll<HTMLDetailsElement>('.nav-disclosure, .mobile-navigation'));
+menus.forEach(menu=>menu.addEventListener('toggle',()=>{if(menu.open)menus.forEach(other=>{if(other!==menu)other.open=false;});}));
+document.addEventListener('click',event=>{menus.forEach(menu=>{if(event.target instanceof Node&&!menu.contains(event.target))menu.open=false;});});
+document.addEventListener('keydown',event=>{if(event.key==='Escape')menus.forEach(menu=>{if(menu.open){menu.open=false;menu.querySelector('summary')?.focus();}});});
+</script>

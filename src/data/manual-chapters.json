@@ -1,0 +1,1285 @@
+{
+  "title": "Bursara Alpha User Guide",
+  "edition": "13 November 2026",
+  "chapters": [
+    {
+      "slug": "start-here",
+      "title": "Start here",
+      "summary": "Bursara brings student fees, bills, receipts and unpaid balances into one workspace. This guide covers the working alpha.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open https://app.bursara.com in your browser. Use the login supplied by your institution or the demonstration access shared separately.",
+            "Start with Courses & units, then enrol a student. A course is the full programme; a unit is a priced part of that programme.",
+            "Create a bill, receive a payment and open the resulting receipt. Return to the student account to see the remaining balance.",
+            "Use About this screen whenever you need a reminder. This guide follows the same button and field names as the application."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/02-overview.jpg",
+            "alt": "Start here in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1580,
+            "height": 1410
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The protected example school is BURARA CHILRENS ACADEMY. It uses fictional records and is shared with other testers. Never enter real student details, real payments or confidential information into the alpha demonstration.",
+            "This is an evaluation release. Posted examples can be corrected through credits or refunds, but alpha records may also be reset during development. Classroom allocation, attendance and timetables are outside the current release."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "money-words",
+      "title": "Understand the money words",
+      "summary": "A few everyday terms make the rest of the screens easier to follow.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "A bill or invoice says what a student or their responsible party owes. It can cover the whole year even when payment will come in smaller parts.",
+            "A receipt acknowledges money already received. Recording a bill alone does not mean the school has received money.",
+            "An allocation applies a received payment to a particular bill. The bill then shows a lower outstanding balance.",
+            "An instalment is one scheduled amount and due date within a bill. Outstanding includes every unpaid amount; overdue includes only amounts whose due dates have passed.",
+            "Unapplied credit is money received for a student that has not yet been used against a bill. A fee credit reduces a charge; a refund returns unused money."
+          ]
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: a MUR 120,000 annual bill paid in twelve monthly instalments still starts as one MUR 120,000 bill. A MUR 25,000 allocated payment leaves MUR 95,000 outstanding. The overdue amount depends on the instalment dates and the selected balance date.",
+            "A bill, receipt and fee credit are different financial records even when an institution chooses a combined invoice/receipt workflow."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sign-in",
+      "title": "Sign in and sign out",
+      "summary": "Sign in to reach the workspace your administrator has assigned to you.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Enter your email address in Email address (1). Enter your password in Password (2).",
+            "Select Sign in (3). Institution users arrive at their own institution. Platform staff arrive at Client institutions.",
+            "If the email or password is incorrect, check the spelling and try again. After five failed attempts for the same account and connection, wait the number of seconds shown.",
+            "When finished, select Sign out at the bottom of the navigation menu. On a shared computer, close the browser after signing out."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/01-sign-in.jpg",
+            "alt": "Sign in and sign out in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 570,
+            "height": 356
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Your institution administrator creates ordinary user accounts and can set a new password through Users & permissions. This alpha does not provide a self-service forgotten-password screen.",
+            "The shared demonstration login is protected. Its password cannot be changed and it cannot enrol passkeys or time-based one-time passwords. Private platform staff credentials are never included in this guide."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "navigation-help",
+      "title": "Find your way around",
+      "summary": "The left menu groups the daily work. The floating help control explains the screen you are viewing.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Use Students (1) for learners and their individual accounts. Use Courses & units for programmes and their fees.",
+            "Use Billing (2) for posted charges and Payments (3) for received money and receipts.",
+            "Use Debtors (4) to follow unpaid fees. Reports contains currency summaries, the financial control journal and the balance export.",
+            "Select About this screen at the lower right. Read the explanation, then select the same control again to close it.",
+            "If a menu item or action is missing, ask your administrator whether your user has the relevant permission."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/04-navigation.jpg",
+            "alt": "Find your way around in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 357,
+            "height": 504
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Opening an invoice, receipt or student account does not change its figures. Posting a bill, receiving money, applying credit, issuing a credit or recording a refund does change the financial records.",
+            "Tables use a ledger layout. Move the pointer over a row to highlight it, then select the document number, student name or small open arrow."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "overview",
+      "title": "Read the overview",
+      "summary": "The overview gives a quick account position for one currency and one date.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Choose Balance date (2). The figures use financial records up to that date, so changing it lets you review an earlier position.",
+            "Choose Display currency (3). Each currency has its own figures; selecting USD does not convert every MUR transaction into dollars.",
+            "Read the four totals (1): Fees billed, Payments received, Outstanding and Overdue.",
+            "Look at unapplied student credit below the totals. This is received money still available to apply to a student's bills.",
+            "Open a document in Recent bills or Recent collections, or use Create bill and Receive payment when your permissions allow them."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/02-overview.jpg",
+            "alt": "Read the overview in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1580,
+            "height": 1410
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Outstanding and overdue answer different questions. A future instalment is outstanding but is not overdue. An instalment due today becomes overdue only after that day has passed.",
+            "The overview is a starting point. Open the relevant bill, student account or report to understand a particular figure."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "create-course",
+      "title": "Create a course",
+      "summary": "A course is the complete programme, such as High School or BSc Biomedical Sciences.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Courses & units and select New course.",
+            "Enter Course name (1) in language that school staff will recognise.",
+            "Enter a short Code (2), such as HS. Codes must be unique within your institution.",
+            "Optionally enter a Description, then select Create course (3).",
+            "Add the priced units next. Creating the course by itself does not bill any student."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/06-new-course.jpg",
+            "alt": "Create a course in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 885,
+            "height": 782
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "For a school that bills by year, create one High School course and units such as Year 1, Year 2, Year 3 and Year 4. For a university programme, use the programme as the course and the subjects or modules as units.",
+            "The alpha creates courses and units but does not provide a separate edit or delete workflow for them. Review names, codes and prices before saving."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fixed-unit",
+      "title": "Set a fixed unit fee",
+      "summary": "Use a fixed fee when the price applies to the entire unit, such as one school year.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "In Courses & units, select Add unit. Choose its Course (1).",
+            "Enter Unit name and a unique Code. For example, use Year 1 and Y1.",
+            "Enter Price (2) and choose Currency. Enter amounts as numbers without currency symbols or thousands separators.",
+            "Choose Fixed unit fee in Price basis (3). For a whole-year fee, leave Credits / weight as 1.",
+            "Select Save unit. The unit will appear under its course and can be selected when enrolling a student."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/07-fixed-unit.jpg",
+            "alt": "Set a fixed unit fee in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 501
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: Year 1 has a fixed price of MUR 120,000. Billing a quantity of 1 produces MUR 120,000 before any line discount or tax.",
+            "The currency belongs to the unit. Units using different currencies need separate bills. Entering the unit does not automatically enrol students or create bills."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "per-credit-unit",
+      "title": "Set a fee per credit",
+      "summary": "Use a per-credit fee when the unit charge depends on its credit weight.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Select Add unit and choose the programme in Course.",
+            "Enter the unit name and code, such as Cell Biology and BIO101.",
+            "Enter the price for one credit in Price (1), then choose Currency (2).",
+            "Choose Per credit in Price basis (3). Enter the number of credits in Credits / weight (4).",
+            "Select Save unit. When this enrolled unit is selected on a bill, Bursara fills the quantity with its credit weight."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/08-credit-unit.jpg",
+            "alt": "Set a fee per credit in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 261
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: a unit with a USD 250 price per credit and a weight of 3 credits gives a USD 750 fee before discount or tax.",
+            "The posted bill uses the quantity and unit price shown on its fee line. Check them before posting. Unit prices support up to five decimal places and credit weights up to three; the final amount is rounded to the currency's normal precision."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "enrol-student",
+      "title": "Enrol a student",
+      "summary": "Enrolment connects a learner, the party responsible for paying and the units that may be billed.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Students and select Enrol student. Enter Student name (1) and a unique Student reference.",
+            "Enter the Debtor / billing contact (2): the person or organisation responsible for the fees. Choose Parent / guardian, Student or Sponsor / employer under Responsible party.",
+            "Optionally enter a student email, contact phone and billing address. Use fictional details while testing the alpha.",
+            "Choose Course (3). Tick the Billable units (4) in which the student is enrolled.",
+            "Select Enrol student. Bursara opens the Student account. Check the learner, programme and billing contact."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/09-enrol-student.jpg",
+            "alt": "Enrol a student in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 630
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Units must belong to the chosen course. A priced unit cannot be billed to a student until that student is enrolled in it. A custom fee can also be entered directly on a bill.",
+            "The student reference distinguishes learners with similar names. The alpha does not yet include editing an existing enrolment, promotions between school years, attendance or a student timetable."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "student-account",
+      "title": "Use a student account",
+      "summary": "The student account brings one learner's bills and receipts together.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Students, search by name, reference or debtor, and select the student name or open arrow.",
+            "Check the learner and billing-contact details (3). These identify the account being reviewed.",
+            "Read the outstanding amount and unapplied credit for each currency. Different currencies stay separate.",
+            "Use the Fee register to open a bill. Use the Receipt register to open a receipt.",
+            "Select Create bill (2), Receive payment or Print statement (1) as needed. Your permissions determine which actions are available."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/10-student-account.jpg",
+            "alt": "Use a student account in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1007,
+            "height": 402
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The student account is useful when a parent or sponsor asks what remains to be paid. Open the individual bill to see its monthly due dates and exactly how payments have been applied.",
+            "Unapplied credit is shown separately from outstanding fees. It does not settle a bill until you explicitly apply it."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "billing-workflows",
+      "title": "Choose the billing workflow",
+      "summary": "Choose how the charge and the collection should be recorded before posting.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Billing and select Create bill. Select the correct Student (1).",
+            "Choose Bill first, collect later in Billing workflow (2) when you want an invoice now and will receive money separately.",
+            "Choose Assessed fees with instalments when you want a fee assessment and a scheduled series of due amounts. This also starts with an unpaid bill.",
+            "Choose Receive full payment and issue only when the entire bill has already been paid. This creates the bill and its full payment together.",
+            "For a partial payment, use Bill first, collect later, post the bill, then use Receive payment for the part received."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/11-workflow.jpg",
+            "alt": "Choose the billing workflow in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 405
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Receive full payment and issue requires both permission to create invoices and permission to receive payments. It is not a method for promising a future payment.",
+            "Bill first and assessed fees both support monthly instalments. The workflow describes your process; it does not automatically collect money from a bank or card."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "annual-bill",
+      "title": "Create an annual school bill",
+      "summary": "Bill the whole school year once and then collect the money over time.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Select the student and choose Bill first, collect later. Enter the Issue date and a clear Service period, such as Academic year 2027.",
+            "Under Fee lines, choose the student's school year in Enrolled unit (1). Bursara fills Description, Quantity / credits and Unit price (2).",
+            "Confirm Currency. If it differs from the institution's functional currency, enter the conversion rate shown by the rate field.",
+            "Check Line discount and Tax %. These are line amounts and percentages, not changes to a previously posted invoice.",
+            "Continue to First due date and Monthly instalments. Review every line before selecting Post bill."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/11-fee-lines.jpg",
+            "alt": "Create an annual school bill in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 456
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "A fixed annual fee of MUR 120,000 with quantity 1 is one annual charge. Choosing twelve instalments changes the payment schedule, not the total fee.",
+            "Use Add line for another charge and the remove icon to remove a line before posting. Posted money records cannot be edited in place."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalment-schedule",
+      "title": "Set monthly instalments",
+      "summary": "The schedule says when parts of a bill fall due. It does not create extra invoices or extra fees.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "In Create a bill, enter the First due date (1). It must be on or after the bill's Issue date.",
+            "Choose the number of Monthly instalments (2). Choose One payment due when the full bill is due on one date.",
+            "Add any Notes that should appear with the bill.",
+            "Select Post bill (3). On the invoice, review Payment schedule and confirm every scheduled amount and date.",
+            "Use Receive payment later when the student pays. Bursara applies a payment to the earliest unpaid instalments first."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/12-bill-schedule.jpg",
+            "alt": "Set monthly instalments in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 482
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: MUR 120,000 over twelve instalments gives MUR 10,000 each. If cents cannot divide evenly, Bursara distributes the small remainder so that the instalments add up to the exact bill total.",
+            "Monthly dates retain the chosen day where possible. A schedule starting on 31 January uses 28 February, or 29 February in a leap year, and then 31 March. Automatic repeat invoice generation is not part of this alpha."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "university-unit-bill",
+      "title": "Bill university units",
+      "summary": "Use one or more enrolled units instead of a whole-year school fee.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Create a bill and select the university student. Check the Service period, such as Semester 1 / 2027.",
+            "Choose a subject under Enrolled unit. A per-credit unit fills Quantity / credits (3) with the credit weight and Unit price (4) with the price for one credit.",
+            "Check Currency (1). Enter the requested Rate (2) when that currency differs from the institution's functional currency.",
+            "Use Add line for another unit in the same currency. Create a separate bill for a unit with a different currency.",
+            "Choose the due schedule, review the fee lines and select Post bill."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/14-unit-bill.jpg",
+            "alt": "Bill university units in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 555
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: 3 credits at USD 250 per credit gives a USD 750 line. A fixed USD 400 laboratory unit can be added as a second line with quantity 1.",
+            "The bill captures its own prices and conversion rate. Changing a unit in a future release will not mean rewriting already posted financial records."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "receive-and-issue",
+      "title": "Receive full payment and issue together",
+      "summary": "Use this workflow when the entire fee is paid at the time you issue the document.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Create the bill and choose Receive full payment and issue in Billing workflow.",
+            "Complete the student, dates, service period, currency and fee lines as for any bill.",
+            "Choose the Payment method (2). Enter a Payment reference if you have a bank, card or other confirmation reference.",
+            "Check that the full charge has really been received. Select Receive and issue document (3).",
+            "Open the resulting invoice/receipt. Confirm that Outstanding is zero and that its recorded payment can be opened."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/13-receive-and-issue.jpg",
+            "alt": "Receive full payment and issue together in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 482
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "This makes one bill and one receipt for the full amount. Repeated clicks or a repeated submission should not create a second set of financial records.",
+            "For a part payment, post an ordinary bill and receive that part separately. A payment method records how money arrived; Bursara does not itself charge a card or initiate a bank transfer."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "read-invoice",
+      "title": "Read a posted invoice",
+      "summary": "The posted invoice is the record of the charge, its payments and its unpaid balance.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Billing, find the bill and select its number. Use the search and status filter if needed.",
+            "Check the invoice number, issue date and status (1). Then check the institution, billing contact, student and service period.",
+            "Review the lines: description, quantity, unit price, discount, tax and amount.",
+            "Read Total fees, Payments applied, Credits and Outstanding in the summary (2). Review Payment schedule below it.",
+            "Use Receive payment to collect against this bill. Use Credit outstanding fees only when you need to reduce an unpaid charge."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/15-invoice.jpg",
+            "alt": "Read a posted invoice in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1500,
+            "height": 1043
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Outstanding means the total still unpaid, including future instalments. The invoice can be outstanding, part paid or settled. Settled means its outstanding balance is zero.",
+            "Posted bills cannot be silently changed. Fee credits create separate correction records. Bills with fiscal documents require their local e-invoicing correction workflow, which is outside the alpha fiscal module."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "part-payment",
+      "title": "Record a partial payment",
+      "summary": "Record only the money actually received, then apply it to the student's bill.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open an unpaid invoice and select Receive payment. The student and bill are preselected.",
+            "Enter the Amount received (1). If MUR 25,000 arrived, enter 25000 even when the full bill is MUR 120,000.",
+            "Check Received date (2), Method (3), Payer and Reference. Use a bank transfer only after it is confirmed, or Cleared cheque only after it has cleared.",
+            "In Allocate to bills, leave the correct bill selected and enter the portion to apply in Apply (MUR).",
+            "Select Receive and issue receipt. Open the bill again and check its new Outstanding amount."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/16-part-payment.jpg",
+            "alt": "Record a partial payment in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 261
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: applying MUR 25,000 to a MUR 120,000 bill leaves MUR 95,000 outstanding. The payment pays the earliest unpaid instalments first.",
+            "The amount applied cannot exceed the bill balance or the money available from the payment. An allocated payment cannot be dated before its bill."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "allocate-payments",
+      "title": "Allocate one payment to bills",
+      "summary": "An allocation tells Bursara which unpaid charge the received money should settle.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Payments and select Receive payment. Choose the student and fill in the received amount, date, currency and method.",
+            "Under Allocate to bills, tick each bill that this payment should help settle.",
+            "Enter the amount to apply for each selected bill. The total used from the payment must not exceed Amount received.",
+            "Leave a bill unticked when this payment is not intended for it. Any unused received money remains unapplied student credit.",
+            "Select Receive and issue receipt. Review Applied to fees on the receipt and follow an invoice link to check its balance."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/37-payment-allocation.jpg",
+            "alt": "Allocate one payment to bills in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "1 Select the bill that this payment should settle. 2 Enter the amount to apply. The payment must have enough money available.",
+            "width": 1194,
+            "height": 186
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "A payment can be applied to several bills for the same student. It cannot be applied to another student's bill or to another institution.",
+            "For one currency, the applied bill amount and the amount used from the payment are the same. For different currencies, you must enter both sides, as explained in the next procedure."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cross-currency",
+      "title": "Receive a payment in another currency",
+      "summary": "Record the currency received and the amount of the bill that it settles as two separate amounts.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Receive a payment and choose the payment Currency. Enter Amount received in that currency.",
+            "Enter the Rate requested by the form (1). Read the label carefully: Rate: 1 USD in MUR means how many MUR equal one USD.",
+            "Tick the bill being paid. Enter Apply (MUR) (2) as the amount to remove from the MUR bill.",
+            "Enter Uses (USD) (3) as the part of the USD payment used for that allocation.",
+            "Check both amounts and the rate, then select Receive and issue receipt. Review the currencies shown in Applied to fees."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/17-cross-currency.jpg",
+            "alt": "Receive a payment in another currency in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 606,
+            "height": 377
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Example: the school receives USD 100 and agrees that this settles MUR 4,600 of a bill. Enter 100 received, 4600 in Apply (MUR), 100 in Uses (USD), and the appropriate rate of 46.",
+            "Bursara does not fetch exchange rates automatically. Your institution must supply the correct rate and agreed settlement amounts. MUR, USD and most supported currencies use two decimal places; JPY uses none and KWD uses three."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "advance-payment",
+      "title": "Record an advance payment",
+      "summary": "Keep money received before it is assigned to a bill as unapplied student credit.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Payments and select Receive payment. Select the correct Student and Payer.",
+            "Enter Amount received, Currency, Received date, Method and any Reference.",
+            "Under Allocate to bills, leave every bill unticked (2). If the student has no unpaid bills, the form explains that the money will be held as credit.",
+            "Select Receive and issue receipt (3). Review Unapplied credit on the receipt.",
+            "Keep the receipt reference. Later, open it to apply available credit to a bill or refund unused money."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/19-advance-payment.jpg",
+            "alt": "Record an advance payment in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1194,
+            "height": 278
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "An advance is still a receipt because money has arrived. It does not reduce any invoice until you apply it.",
+            "Recording an advance separately is the correct approach when the received date is earlier than the bill issue date. Do not create a false earlier bill just to make the allocation fit."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-student-credit",
+      "title": "Apply existing student credit",
+      "summary": "Use an earlier unapplied payment against an outstanding bill without recording the money twice.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open the original receipt from Payments or the student's Receipt register.",
+            "If credit remains and a same-currency bill is unpaid, select Apply student credit.",
+            "Choose the Outstanding invoice (1). Enter Apply amount (MUR), or the currency shown (2).",
+            "Enter Allocation date (3). It cannot be earlier than the original payment, the bill or a refund already recorded against that payment.",
+            "Select Apply credit to bill (4). Check that the receipt's unapplied credit and the bill's outstanding amount both decrease."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/21-apply-credit.jpg",
+            "alt": "Apply existing student credit in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 498
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "This is an application of money already received. Do not use Receive payment again for the same money.",
+            "The alpha applies existing credit to bills in the same currency and for the same student. If the action is absent, check the receipt's available credit, the student's unpaid bills and your permission to receive payments."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "refund-unused-credit",
+      "title": "Refund unused credit",
+      "summary": "Record money returned from the part of a payment that has not been applied to bills.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open the receipt and check its Unapplied credit. Select Refund unused credit.",
+            "Enter the refund Amount in the currency shown (1). It cannot exceed the available unapplied credit.",
+            "Enter Date. The refund cannot predate the original payment.",
+            "Enter a clear Reason (2), then select Record refund (3).",
+            "Confirm that Refunded increases and Unapplied credit decreases on the receipt. Keep the real-world payment reference in your own process as needed."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/22-refund-credit.jpg",
+            "alt": "Refund unused credit in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 581
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "This records a refund that your institution has arranged. It does not send money to a bank or card.",
+            "Only unused credit can be refunded in this alpha. Returning money that has already been applied to a bill needs a fuller reversal workflow and is not supported here. Do not record a negative payment to work around that limit."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "credit-fees",
+      "title": "Reduce an outstanding fee",
+      "summary": "A fee credit reduces a charge that remains unpaid, for example an approved scholarship adjustment.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open the invoice and select Credit outstanding fees. The action requires credit/refund permission.",
+            "Enter Amount in the invoice currency (1). It cannot exceed the current outstanding balance.",
+            "Enter Date (2), on or after the bill issue date and any payment already applied to the bill.",
+            "Enter a clear Reason (3), then select Record credit (4).",
+            "Check the invoice's Credits and Outstanding figures. The original charge remains visible and the credit appears as a separate record."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/18-credit-fees.jpg",
+            "alt": "Reduce an outstanding fee in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 581
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "A fee credit does not return cash. To record money returned from an unused advance, use Refund unused credit on its receipt.",
+            "Credit is applied to the latest unpaid scheduled amounts first. If the bill has a fiscal document, Bursara blocks this core credit action because the local e-invoicing module must handle the fiscal correction. Fiscal credit notes are not implemented in this alpha."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "receipt-print",
+      "title": "Read and print a receipt",
+      "summary": "The receipt shows money received, the bills paid from it and any money still unused.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Payments and select a receipt number. Check the payer, student, received date, method and reference.",
+            "Read Amount received (1). Under Applied to fees, follow an invoice number to inspect its charge and outstanding balance.",
+            "Check Refunded and Unapplied credit (2). These explain why some of the received amount may no longer be available to allocate.",
+            "Select Print / PDF. In your browser's print window, choose a printer or Save as PDF.",
+            "Check the print preview before saving or printing. The navigation and action buttons are left out of the printed document."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/20-receipt.jpg",
+            "alt": "Read and print a receipt in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 884,
+            "height": 548
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Demonstration documents are marked as testing documents. They must not be used as real tax invoices or real payment acknowledgements.",
+            "An institution may use the combined invoice/receipt workflow when charging and collecting together. The receipt register still records the money received."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "print-statement",
+      "title": "Print a student statement",
+      "summary": "Use a statement to review one student's charges and receipts together.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Students and select the learner. Confirm the correct name and reference.",
+            "Review outstanding fees and unapplied credit for each currency, then review the Fee register and Receipt register.",
+            "Select Print statement (1). Choose your printer or Save as PDF in the browser print window.",
+            "Check the preview and page breaks. Save or print the statement using your institution's usual document-sharing process."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/10-student-account.jpg",
+            "alt": "Print a student statement in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1007,
+            "height": 402
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The statement reflects the current student account. It is not a new invoice or a new receipt and does not change the balance.",
+            "To explain a particular instalment or payment, open the related invoice or receipt as well. Use Debtors or Reports with Balance date when you need an institution-wide position at an earlier date."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "debtors",
+      "title": "Follow outstanding and overdue fees",
+      "summary": "Debtors helps staff follow up the fees that remain unpaid.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Debtors. Select Balance date (1) to choose the date of the position you want to inspect.",
+            "Choose Display currency (2). Read Outstanding fees and Overdue instalments (3).",
+            "Use Search records to find a student, debtor or invoice. The table shows open bills in the selected currency.",
+            "Open a bill to inspect its Payment schedule and Outstanding amount.",
+            "If money has arrived, use Receive payment. If an approved unpaid charge must be reduced, use Credit outstanding fees."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/23-debtors.jpg",
+            "alt": "Follow outstanding and overdue fees in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1007,
+            "height": 380
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Outstanding includes unpaid future instalments. Overdue includes scheduled amounts due before the chosen date. For example, a MUR 95,000 balance is not necessarily MUR 95,000 overdue.",
+            "This alpha provides the open-balance view. Automatic reminder emails, collection campaigns and a separate collection-case workflow are not included. Follow your institution's communication process when contacting the responsible party."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "reports-export",
+      "title": "Review and export balances",
+      "summary": "Reports gives a currency summary and a spreadsheet-friendly list of invoice balances.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Reports and choose Balance date. Use the same date when comparing the report with Debtors.",
+            "Read Balances by currency (2). Billed, collected, outstanding and overdue amounts are separated by currency.",
+            "Select Export balances (1). Your browser downloads bursara-open-items.csv.",
+            "Open the CSV in your spreadsheet application. Check the invoice, student, debtor, currency, total, paid, credit, balance and overdue columns.",
+            "Keep the chosen date with the exported file so another person knows which position was reviewed."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/24-report-export.jpg",
+            "alt": "Review and export balances in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1500,
+            "height": 432
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "A CSV is a table of values, not a formatted PDF. Your spreadsheet may ask how to interpret dates, numbers or the comma separator. Collected shows the money originally received before any refunds; it is not a net-cash figure.",
+            "The alpha does not connect to an external accounting platform. Use this export for review and testing; establish the full reporting and accounting process before using Bursara for live operations."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "financial-journal",
+      "title": "Understand the financial control journal",
+      "summary": "The journal is a supporting view for staff who need to trace the financial effect of a posting.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Reports and scroll to Financial control journal.",
+            "Read Date and Source to identify whether an entry came from an invoice, payment, credit, refund or application of existing credit.",
+            "Read Account to understand the type of movement. Movement uses the institution's functional currency.",
+            "Positive amounts are debits and negative amounts are credits. The movements belonging to each posting should add to zero.",
+            "Use the relevant invoice or receipt to investigate a source record. Ask the institution's finance lead if the treatment is unclear."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/25-journal.jpg",
+            "alt": "Understand the financial control journal in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1007,
+            "height": 585
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "This view shows the latest 100 postings. It is a financial control trail, not a complete general ledger, statutory accounts package or accounting-platform integration.",
+            "Ordinary daily users can work through bills, receipts and student accounts without reading journal entries. This screen is available only when report permission is granted."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "create-user",
+      "title": "Create an institution user",
+      "summary": "An authorised administrator can create a login for another member of the institution's team.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Users & permissions and select New user.",
+            "Enter Full name (1) and Login email (2). Give each person their own login.",
+            "Enter a Password of at least twelve characters. Share temporary access privately through your institution's approved process.",
+            "Tick only the actions the person should be able to perform. For a cashier, Receive payments may be sufficient.",
+            "Select Save user and rights. Have the person sign in and check that the expected actions are available."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/39-user-details.jpg",
+            "alt": "Create an institution user in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 386
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Every institution user is confined to that institution. A new ordinary user cannot use the platform staff institution-switching screen.",
+            "Users who can manage other users can assign powerful permissions, so grant that right carefully. The protected demonstration login cannot be edited or have its password changed."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "user-rights",
+      "title": "Set the right permissions",
+      "summary": "Bursara checks these permissions whenever someone tries an action.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Users & permissions. Select Edit permissions for an ordinary user.",
+            "Tick Manage students for enrolment and Manage courses and fees for creating programmes and their priced units.",
+            "Tick Create invoices for posting bills and Receive payments for recording collections or applying existing credit. Receive full payment and issue needs both rights.",
+            "Tick Issue credits and refunds only for users authorised to make financial corrections. Use View and export reports, Manage fiscal modules and Manage institution settings where needed.",
+            "Grant Manage institution users only to trusted administrators. Select Save user and rights after reviewing the checkboxes."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/38-permission-checkboxes.jpg",
+            "alt": "Set the right permissions in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "1 Receive payments is selected for this example cashier. 2 Manage institution users is left off. Choose rights to match the person's responsibilities.",
+            "width": 804,
+            "height": 363
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "A permission is a right to perform an action, not a change of institution. Removing an action right can remove its button or make a direct request to it fail.",
+            "An explicit empty checkbox selection grants none of these action rights. Your account cannot remove its own user-management access through this form. To change a non-demo user's password, enter a new password; leave it blank to keep the existing one."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "institution-settings",
+      "title": "Review institution settings",
+      "summary": "Settings contains the institution identity, address, country and timezone.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Settings. Check Institution name (1), Country code, Timezone and Address.",
+            "For an ordinary client institution, make the permitted changes and select Save institution.",
+            "Read the functional currency shown near the top. This is set when the institution is created and cannot be changed here.",
+            "For the shared demonstration, read the protected-identity notice (2). The identity fields and Save institution action are disabled."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/27-demo-settings.jpg",
+            "alt": "Review institution settings in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1007,
+            "height": 806
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Use a two-letter country code such as MU and a recognised timezone such as Indian/Mauritius. The timezone determines the institution's current date for account views.",
+            "The locked demonstration protects its name and login from changes by testers. It can still be used to try ordinary synthetic school-finance workflows."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "platform-create-institution",
+      "title": "Platform staff: create a client",
+      "summary": "Platform staff can create isolated workspaces for schools and other learning institutions.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Sign in with an authorised platform staff account. On Client institutions, select New institution.",
+            "Enter Institution name (1), Country code, Functional currency (2) and Timezone. Choose the functional currency carefully because it is fixed for that institution.",
+            "Enter Administrator name and Administrator email (3). Enter a temporary password of at least twelve characters.",
+            "Select Create institution. Bursara creates the workspace and its first administrator together.",
+            "Share the administrator's access privately. Select Enter workspace on the new institution to help with its initial setup."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/31-create-institution.jpg",
+            "alt": "Platform staff: create a client in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 804,
+            "height": 735
+          }
+        },
+        {
+          "heading": "Finish the form",
+          "image": {
+            "src": "images/36-institution-footer.jpg",
+            "alt": "Temporary password field and Create institution button highlighted in the institution form.",
+            "caption": "Lower-form detail: enter a private temporary password of at least 12 characters, then select Create institution. No password is shown.",
+            "width": 804,
+            "height": 258
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The first administrator belongs only to this new institution. Other schools' students and financial records are not copied. Share account access privately."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "platform-support-access",
+      "title": "Platform staff: enter and leave a school",
+      "summary": "Support access lets authorised platform staff work inside a chosen institution without sharing its users' passwords.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "On Client institutions, find the correct institution and select Enter workspace.",
+            "Check the institution name in the menu and the Support access banner before making any change.",
+            "Perform the authorised support task. Platform staff can use all actions in that institution, subject to demonstration protections.",
+            "Select Exit institution (1) in the banner to return to Client institutions.",
+            "When finished supporting clients, select Sign out."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/32-support-access.jpg",
+            "alt": "Platform staff: enter and leave a school in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 1157,
+            "height": 108
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Entry and exit are recorded as support sessions. Signing out also closes the active support session. Financial records posted during support retain the staff user as the actor.",
+            "Take particular care when two client names look similar. Always check the visible institution name before posting a bill, collection or correction. The shared demonstration's identity and login remain protected even during support access."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ebs-settings",
+      "title": "Optional Mauritius EBS module",
+      "summary": "EBS is an optional Mauritius fiscal-reporting module. Core billing works without it.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "For a Mauritius client institution with module permission, open Modules. The shared demonstration cannot enable external fiscal submissions.",
+            "Tick Enable EBS sandbox (1) only when your institution has appropriate sandbox access.",
+            "Choose Report when (2): Invoice is raised or Payment is received. This chooses which financial event a prepared fiscal document represents.",
+            "Enter the Sandbox API key, the access key supplied by EBS for its test environment and select Save module. Leave the key blank on a later save to keep the saved key.",
+            "Review the alpha limitations before preparing any fiscal document."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/33-ebs-settings.jpg",
+            "alt": "Optional Mauritius EBS module in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "1 Enable EBS sandbox. 2 Choose when reporting occurs. 3 Enter the access key supplied by EBS. The screenshot uses a fictional local training institution; no external submission was made.",
+            "width": 935,
+            "height": 365
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "This alpha is sandbox-only. Bursara stores the saved access key securely and does not display its value again. Its value is not printed in this guide.",
+            "Only Mauritius institutions can enable this module. There are no accounting-platform integrations in the alpha. Other countries can use the core financial workflows; additional country modules can be added later."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ebs-workflow",
+      "title": "Prepare and review a sandbox fiscal document",
+      "summary": "Preparing a fiscal document and submitting it are separate actions in this alpha.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "With EBS sandbox enabled, use Prepare a sandbox document in Modules. Select the Invoice. In payment mode, also select its allocated Payment.",
+            "Select Prepare sandbox document. The new row appears in Fiscal register with a prepared status.",
+            "Select Review to inspect the document and any provider result. Check the institution, reference, amount, currency and event before submission.",
+            "Only an authorised tester with valid sandbox credentials should select Submit to sandbox. This guide does not require a submission to complete the ordinary billing exercises.",
+            "If a queue ID was returned, select Refresh status to check the outcome. Resolve a pending, unknown or rejected reference before preparing another document."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/34-ebs-prepare.jpg",
+            "alt": "Prepare and review a sandbox fiscal document in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "1 Select the invoice. 2 Prepare the sandbox document locally.",
+            "width": 1320,
+            "height": 371
+          }
+        },
+        {
+          "heading": "Review before submission",
+          "image": {
+            "src": "images/35-ebs-register.jpg",
+            "alt": "Prepared sandbox document with Review and Submit to sandbox highlighted.",
+            "caption": "A prepared document is ready for review. Submit to sandbox is a separate action; it was not used to make this guide.",
+            "width": 1500,
+            "height": 312
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The current EBS option supports undiscounted exempt or 15% service lines. When reporting a payment event, only tuition with no tax that was assigned to a bill is currently supported. A prepared document does not prove fiscal acceptance.",
+            "Accepted means the sandbox returned success. Queued means processing is pending. Unknown means the result is uncertain, for example after a connection failure. Do not resubmit an uncertain document: reconcile the original reference with EBS support. Fiscal credit notes and live fiscal submissions are outside this alpha."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mobile-use",
+      "title": "Use Bursara on a smaller screen",
+      "summary": "The same financial workflows are available in the responsive browser interface.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "On a phone-sized screen, select Open menu near the upper left.",
+            "Choose the screen you need, such as Students (1), Billing (2) or Payments (3). Use Close menu if you want to return without navigating.",
+            "Swipe horizontally inside a wide ledger table to see columns that do not fit. Opening a document gives a clearer view of its full details.",
+            "In a long form, scroll to review every fee line, date and amount before posting.",
+            "Use About this screen for a short reminder. For printing or detailed multi-line entry, a larger screen may be easier."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/29-mobile-navigation.jpg",
+            "alt": "Use Bursara on a smaller screen in Bursara Alpha, with numbered controls highlighted.",
+            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "width": 377,
+            "height": 504
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "The alpha is a web application. It does not require a separate mobile-app installation, and it does not include offline operation.",
+            "Use the browser's normal zoom and text controls when necessary, then verify the whole financial document before sharing or printing."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "common-problems",
+      "title": "Solve common problems",
+      "summary": "Use the message on the screen to decide the next step. Avoid creating a second transaction to solve an uncertain first attempt.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Cannot sign in: check email and password. After repeated failures, wait for the displayed delay. Ask the institution administrator for account help.",
+            "Missing button or access denied: ask an administrator to review your permission checkboxes. Client users cannot enter another institution.",
+            "Unit missing from a bill: check the student's chosen course and enrolled units. Units from another course or another currency cannot be silently combined.",
+            "Payment will not post: check decimal precision, positive amounts, dates and allocations. Applied amounts cannot exceed the bill or available payment.",
+            "Credit or refund blocked: a fee credit cannot exceed unpaid fees; a refund cannot exceed unused student credit. Fiscal documents need their country-specific e-invoicing correction process.",
+            "Unknown fiscal result: stop and reconcile the original reference. Do not submit it again just because a response was slow."
+          ]
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "If you are unsure whether a bill or payment was posted, first search Billing or Payments and open the student account. Check for the existing document before trying another transaction.",
+            "When reporting a problem, give the screen name, document number, steps taken, expected outcome and exact visible message. Use fictional records and remove confidential information from screenshots."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "support-and-glossary",
+      "title": "Help, boundaries and quick reference",
+      "summary": "Use this final page as a short reminder and a route to support.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Institution: one school, college or learning organisation with its own isolated records.",
+            "Course: the whole programme. Unit: a priced year, subject, module or other part of that programme.",
+            "Debtor: the student, parent, guardian, employer or sponsor responsible for paying.",
+            "Functional currency: the institution's main reporting currency. Document currency: the currency on a particular bill or receipt.",
+            "Fee credit: a separate reduction of an unpaid charge. Student credit: money received but not yet applied. Refund: money returned from unused credit.",
+            "For product help, contact support@streaktechnologies.com, +230 215 2998, or visit streaktechnologies.com."
+          ]
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Bursara is a product by Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Mauritius. USA contact: +1 307 500 3256.",
+            "This guide describes Bursara Alpha as reviewed on 13 November 2026. It covers invoicing, receipts, student fee accounts, instalments, debtor balances, permissions and optional Mauritius sandbox preparation. It does not promise attendance, check-in/check-out, timetables, online payment collection, accounting integration, automatic recurring invoices or production fiscal reporting."
+          ]
+        }
+      ]
+    }
+  ]
+}
