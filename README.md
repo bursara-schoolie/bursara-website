@@ -28,6 +28,6 @@ Company contact links use the published Streak Technologies support email and te
 
 Product and institution content is defined in `src/data/pages.ts` and rendered at readable directory URLs. Shared metadata, navigation and footer live in `src/layouts/Site.astro` and `src/components/`.
 
-The illustrated user guide reads `src/data/manual-chapters.json`. Its index is `/help/`; each chapter has `/help/<slug>/`. Guide screenshots are public files under `/help/images/`, and the complete manual is `/downloads/bursara-user-manual.pdf`.
+The illustrated user guide reads `src/data/manual-chapters.json`. Its index is `/help/`; each chapter has `/help/<slug>/`. Guide screenshots are public files under `/help/images/`, and the complete manual is `/downloads/bursara-user-manual.pdf`; the self-contained offline edition is `/downloads/bursara-user-manual.html`.
 
 `/sitemap.xml` is generated from product and guide data. URLs use trailing slashes. The 404 page is excluded from indexing. The build includes a `bursara-release` metadata value from `CF_PAGES_COMMIT_SHA` for deployment verification.

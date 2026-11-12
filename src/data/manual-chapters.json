@@ -67,8 +67,9 @@
         {
           "heading": "How to use it",
           "steps": [
-            "Enter your email address in Email address (1). Enter your password in Password (2).",
-            "Select Sign in (3). Institution users arrive at their own institution. Platform staff arrive at Client institutions.",
+            "If you have registered a passkey, select Sign in with passkey (4) and follow your device’s verification prompt. Otherwise enter Email address (1) and Password (2), then select Sign in (3).",
+            "If the password method opens Verify your sign-in, enter the current code from your authenticator app or one unused recovery code. Select Verify and sign in.",
+            "Institution users arrive at their own institution. Platform staff arrive at Client institutions. A verified passkey signs you in without a separate authenticator-code step.",
             "If the email or password is incorrect, check the spelling and try again. After five failed attempts for the same account and connection, wait the number of seconds shown.",
             "When finished, select Sign out at the bottom of the navigation menu. On a shared computer, close the browser after signing out."
           ]
@@ -79,15 +80,52 @@
             "src": "images/01-sign-in.jpg",
             "alt": "Sign in and sign out in Bursara Alpha, with numbered controls highlighted.",
             "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 570,
-            "height": 356
+            "width": 573,
+            "height": 497
           }
         },
         {
           "heading": "What to expect",
           "paragraphs": [
-            "Your institution administrator creates ordinary user accounts and can set a new password through Users & permissions. This alpha does not provide a self-service forgotten-password screen.",
+            "Your institution administrator creates ordinary user accounts and can set a new password through Users & permissions. A password reset does not remove an enabled authenticator. This alpha does not provide a self-service forgotten-password screen.",
             "The shared demonstration login is protected. Its password cannot be changed and it cannot enrol passkeys or time-based one-time passwords. Private platform staff credentials are never included in this guide."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "passkeys-and-verification",
+      "title": "Passkeys, verification and recovery",
+      "summary": "Sign-in security protects your own login. These options are available to institution users and platform staff; the shared demonstration login stays locked.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Sign-in security. To add a passkey, enter a Passkey name, such as Office laptop, and select Add a passkey.",
+            "A change opens Confirm it’s you. Enter Current password, plus an Authenticator or recovery code if your authenticator is already enabled. Select Continue, then follow any device prompt.",
+            "To enable verification codes, select Set up authenticator app. After confirming your identity, scan the displayed QR code with your authenticator app or enter its setup key privately.",
+            "Enter Code from your authenticator app and select Enable authenticator. Password sign-in will now require your app’s current code or an unused recovery code.",
+            "Save all eight codes from Save your recovery codes in a private place you can reach if your phone is lost. Use the copy or download action, then select I’ve saved these codes.",
+            "Each recovery code works once. Replace recovery codes creates a new set and invalidates the old set. Save the replacement codes before closing the panel.",
+            "A registered passkey is an alternative sign-in method: select Sign in with passkey and verify on your device. It does not ask for a separate authenticator code.",
+            "To retire a passkey, use Remove beside its name. To disable app verification, select Turn off authenticator. Confirm your identity as prompted and keep another working way to sign in."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/40-sign-in-security.jpg",
+            "alt": "Sign-in security controls for a fictional ordinary local user.",
+            "caption": "1 Set up authenticator verification. 2 Name a passkey. 3 Add the passkey after confirming your identity.",
+            "width": 1458,
+            "height": 609
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Keep setup keys and recovery codes private. If you cannot use your passkey, authenticator or recovery codes, contact your institution administrator or Bursara support for account recovery.",
+            "The demonstration login cannot register passkeys or enable an authenticator. Changing another user’s password in Users & permissions does not remove their extra sign-in protection."
           ]
         }
       ]
@@ -104,7 +142,7 @@
             "Use Billing (2) for posted charges and Payments (3) for received money and receipts.",
             "Use Debtors (4) to follow unpaid fees. Reports contains currency summaries, the financial control journal and the balance export.",
             "Select About this screen at the lower right. Read the explanation, then select the same control again to close it.",
-            "If a menu item or action is missing, ask your administrator whether your user has the relevant permission."
+            "Open Sign-in security to protect your own login. If another menu item or action is missing, ask your administrator whether your user has the relevant permission."
           ]
         },
         {
@@ -1004,7 +1042,7 @@
           "heading": "What to expect",
           "paragraphs": [
             "A permission is a right to perform an action, not a change of institution. Removing an action right can remove its button or make a direct request to it fail.",
-            "An explicit empty checkbox selection grants none of these action rights. Your account cannot remove its own user-management access through this form. To change a non-demo user's password, enter a new password; leave it blank to keep the existing one."
+            "An explicit empty checkbox selection grants none of these action rights. Your account cannot remove its own user-management access through this form. To change a non-demo user’s password, enter a new password; leave it blank to keep the existing one. This does not disable that user’s authenticator or remove their passkeys."
           ]
         }
       ]
@@ -1239,7 +1277,7 @@
         {
           "heading": "How to use it",
           "steps": [
-            "Cannot sign in: check email and password. After repeated failures, wait for the displayed delay. Ask the institution administrator for account help.",
+            "Cannot sign in: check email and password, or use a registered passkey. If Verify your sign-in appears, use your authenticator app or an unused recovery code. After repeated failures, wait for the displayed delay. Ask the institution administrator for account help. If a verification code was just used, wait for the next code in your app.",
             "Missing button or access denied: ask an administrator to review your permission checkboxes. Client users cannot enter another institution.",
             "Unit missing from a bill: check the student's chosen course and enrolled units. Units from another course or another currency cannot be silently combined.",
             "Payment will not post: check decimal precision, positive amounts, dates and allocations. Applied amounts cannot exceed the bill or available payment.",
