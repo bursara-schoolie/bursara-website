@@ -1,6 +1,4 @@
 ---
-import Site from './Site.astro';
-const {title}=Astro.props;
-const descriptions:Record<string,string>={'Alpha privacy notice':'How Bursara Alpha handles evaluation data, essential cookies, institution records and optional fiscal sandbox submissions.','Alpha testing terms':'Read the terms for evaluating Bursara Alpha with fictional students and simulated fee transactions.','Page not found':'The requested Bursara page is unavailable. Return to the school finance product site or application.'};
+import Site from './Site.astro';const {title,description,locale='en',pageId='privacy'}=Astro.props;
 ---
-<Site title={title+' | Bursara'} description={descriptions[title]} noindex={title==='Page not found'}><main class="legal-body" id="main-content"><nav aria-label="Breadcrumb"><ol class="breadcrumb-list"><li><a href="/">Home</a></li><li>{title}</li></ol></nav><h1>{title}</h1><slot/></main></Site>
+<Site title={title} description={description} locale={locale} pageId={pageId}><main id="main-content" class="legal-body"><slot/></main></Site>

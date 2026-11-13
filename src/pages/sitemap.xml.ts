@@ -1,7 +1,1 @@
-import {pages} from '../data/pages';
-import manual from '../data/manual-chapters.json';
-export const prerender=true;
-export function GET(){
- const paths=['','contact','help','privacy','terms',...pages.map(page=>page.path),...manual.chapters.map(chapter=>'help/'+chapter.slug)];
- return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+paths.map(path=>'<url><loc>https://bursara.com/'+(path?path+'/':'')+'</loc></url>').join('')+'</urlset>',{headers:{'Content-Type':'application/xml; charset=utf-8'}});
-}
+import {languages,publicIds,pageUrl} from '../locales';export function GET(){const base='https://bursara.com';const entries=languages.flatMap(locale=>publicIds.map(id=>'<url><loc>'+base+pageUrl(id,locale)+'</loc>'+languages.map(lang=>'<xhtml:link rel="alternate" hreflang="'+lang+'" href="'+base+pageUrl(id,lang)+'"/>').join('')+'<xhtml:link rel="alternate" hreflang="x-default" href="'+base+pageUrl(id,'en')+'"/></url>')).join('');return new Response('<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">'+entries+'</urlset>',{headers:{'Content-Type':'application/xml'}});}

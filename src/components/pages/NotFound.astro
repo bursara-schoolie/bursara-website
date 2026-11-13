@@ -1,0 +1,4 @@
+---
+import Site from '../../layouts/Site.astro';import {ui,pageUrl,type Locale} from '../../locales';const {locale='en'}=Astro.props;const t=ui(locale as Locale);
+---
+<Site locale={locale} pageId="404" noindex title={t.notFound.title+' | Bursara'} description={t.notFound.text}><main id="main-content" class="legal-body"><h1>{t.notFound.title}</h1><p>{t.notFound.text}</p><p><a href={pageUrl('home',locale)}>{t.notFound.back}</a> {t.notFound.or} <a href="https://app.bursara.com">Bursara ↗</a></p></main></Site>

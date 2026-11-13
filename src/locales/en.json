@@ -1,0 +1,316 @@
+{
+  "language": "Language",
+  "skip": "Skip to content",
+  "home": "Home",
+  "product": "The product",
+  "institutions": "Institutions",
+  "about": "About",
+  "help": "Help",
+  "contact": "Contact",
+  "menu": "Menu",
+  "openNavigation": "Open navigation",
+  "mainNavigation": "Main navigation",
+  "mobileNavigation": "Mobile navigation",
+  "openApp": "Open the application",
+  "resources": "Resources",
+  "allFeatures": "All features",
+  "studentBilling": "Student billing",
+  "receipts": "Receipts & payments",
+  "debtors": "Debtor management",
+  "currencies": "Multiple currencies",
+  "learningInstitutions": "Learning institutions",
+  "schools": "Schools & academies",
+  "colleges": "Colleges & training providers",
+  "aboutBursara": "About Bursara",
+  "helpGuides": "Help & guides",
+  "contactTeam": "Contact the team",
+  "privacy": "Privacy notice",
+  "terms": "Terms of use",
+  "legalNavigation": "Legal navigation",
+  "workspace": "The workspace",
+  "yourInstitution": "Your institution",
+  "letsTalk": "Let’s talk",
+  "mauritius": "Mauritius",
+  "usa": "USA",
+  "contactDetails": "Contact details",
+  "by": "A product by",
+  "tagline": [
+    "Financial clarity.",
+    "More room to learn."
+  ],
+  "socialAlt": "Bursara student billing, receipts and financial clarity for learning institutions.",
+  "explore": "Explore Bursara",
+  "talkTeam": "Talk to the team",
+  "onPage": "On this page",
+  "questions": "Questions",
+  "illustration": "ILLUSTRATION",
+  "example": "A PRACTICAL EXAMPLE",
+  "questionsAnswered": "QUESTIONS, ANSWERED",
+  "moreClarity": "A little more clarity.",
+  "figuresIntro": "Understanding the workflow is part of understanding the figures.",
+  "findHelp": "Find help & guides",
+  "keepExploring": "Keep exploring.",
+  "seeWorkflow": "See the workflow for yourself.",
+  "seeWorkflowText": "Explore Bursara, or discuss your institution’s requirements with our team.",
+  "openWorkspace": "Open the workspace",
+  "breadcrumb": "Breadcrumb",
+  "previousGuide": "Previous guide",
+  "nextGuide": "Next guide",
+  "allGuides": "All guides",
+  "downloadPdf": "Download the full PDF",
+  "downloadHtml": "Download offline HTML",
+  "guideSections": "Guide sections",
+  "openImage": "Open full-size image:",
+  "guideTitle": "Bursara user guide",
+  "helpMetaTitle": "Bursara help and user guide | School billing and receipts",
+  "helpMetaDescription": "Illustrated instructions for courses, student accounts, editable drafts, posting invoices and payments, permissions, sign-in security and debtor management.",
+  "helpHeading": [
+    "A little guidance.",
+    "A clearer working day."
+  ],
+  "helpIntro": "Follow the steps for the task in front of you. Each guide uses the same screen names and controls as Bursara, with illustrated examples based on fictional records.",
+  "startBasics": "Start with the basics",
+  "findGuide": "Find a guide",
+  "searchPlaceholder": "Try: draft, invoice, payment, permissions",
+  "guides": "guides",
+  "guide": "guide",
+  "noGuides": "No guides match that search.",
+  "shorterSearch": "Try a shorter phrase or contact the team for help.",
+  "workingDemo": "Working in the demonstration?",
+  "fictional": "Use fictional students and simulated financial transactions.",
+  "askHelp": "Ask the team for help",
+  "currentGuide": "A guide to the working application.",
+  "guideBoundary": "Use fictional learners and simulated transactions in the shared demonstration. It is visible to other testers. These guides describe financial workflows; attendance, timetables, automated email delivery and online payment collection are not currently included.",
+  "stillHelp": "Still need a hand?",
+  "supportInstructions": "Tell us the screen, the steps you took and what you expected to happen. Keep personal information out of screenshots and examples.",
+  "guideGroups": [
+    [
+      "Getting started",
+      "Sign in, find the right screen and understand the account."
+    ],
+    [
+      "Programmes & learners",
+      "Build the fee structure and enrol the student."
+    ],
+    [
+      "Bills & instalments",
+      "Prepare, review and post fees when authorised."
+    ],
+    [
+      "Payments & corrections",
+      "Record money received, allocate it and handle adjustments."
+    ],
+    [
+      "Debtors & reporting",
+      "Review what remains unpaid and follow the figures."
+    ],
+    [
+      "People & institution access",
+      "Manage users, rights and authorised platform support."
+    ],
+    [
+      "Fiscal module & further help",
+      "Explore the optional country module and troubleshoot."
+    ]
+  ],
+  "homeData": {
+    "title": "Bursara | School fees, payments and financial clarity",
+    "description": "School, university and bus fees, editable billing drafts, receipts and financial management with optional jurisdiction modules.",
+    "eyebrow": "THE SCHOOL FINANCE OFFICE, REIMAGINED",
+    "heading": [
+      "Every fee.",
+      "Every payment.",
+      "In clear view."
+    ],
+    "intro": "From school tuition and university units to bus transport. One financial workspace for fee drafts, receipts and clear learner accounts.",
+    "meet": "Explore the features",
+    "note": "School fees. University fees. Bus fees. One clear account.",
+    "previewTitle": "STUDENT ACCOUNT",
+    "previewProgramme": "High School · Year 1",
+    "active": "Active",
+    "annual": "Annual fees",
+    "paid": "Paid to date",
+    "progress": "Your year, clearly accounted for.",
+    "paidPercent": "21% paid",
+    "remaining": "Remaining balance",
+    "statement": "View statement",
+    "activity": "Recent activity",
+    "viewAll": "View all",
+    "partPayment": "Part payment received",
+    "transfer": "Bank transfer · Tuition",
+    "annualInvoice": "Annual fee invoice",
+    "schedule": "12 scheduled instalments",
+    "oneAccount": "A single account. A complete picture.",
+    "forLearning": "FOR EVERY KIND OF LEARNING",
+    "institutionTypes": [
+      "Schools",
+      "Universities",
+      "Academies",
+      "Training providers"
+    ],
+    "featureEyebrow": "LESS ADMINISTRATION. MORE UNDERSTANDING.",
+    "featureHeading": [
+      "A better rhythm for",
+      "your finance office."
+    ],
+    "features": [
+      [
+        "01",
+        "Fees that fit your institution.",
+        "Annual tuition, selected university units or bus fees. Prepare a draft around the services your institution provides."
+      ],
+      [
+        "02",
+        "Every payment has its place.",
+        "Review drafts before posting, allocate confirmed receipts and keep a clear account of what has been paid and what remains due."
+      ],
+      [
+        "03",
+        "A clear view of outstanding fees.",
+        "Follow debtor balances, instalment dates and unapplied credits without losing the student behind the numbers."
+      ]
+    ],
+    "billingEyebrow": "YOUR INSTITUTION. YOUR BILLING STYLE.",
+    "billingHeading": [
+      "One year ahead.",
+      "One payment at a time."
+    ],
+    "billingIntro": "Prepare an editable draft for school tuition, university units or bus fees. Review and post with the required permission. Collect separately, or post a fully paid invoice and receipt together.",
+    "viewWorkspace": "See the financial workspace",
+    "steps": [
+      [
+        "Set the fees",
+        "School, university or bus fees and clear payment terms."
+      ],
+      [
+        "Prepare, review and post",
+        "Editable drafts and separate posting permissions."
+      ],
+      [
+        "Keep the whole picture",
+        "Balances, due dates and student statements."
+      ]
+    ],
+    "moduleEyebrow": "YOUR WORKSPACE. YOUR MODULES.",
+    "moduleHeading": [
+      "Core finance.",
+      "Optional modules."
+    ],
+    "moduleIntro": "Keep financial management at the centre and add optional modules where they are useful. E-invoicing belongs in country modules, beginning with EBS for Mauritius; further providers and institution modules can be developed independently.",
+    "moduleLabel": "MAURITIUS MODULE",
+    "moduleTitle": "EBS e-invoicing",
+    "moduleText": "Choose which financial event to report and whether preparation follows a saved draft or a posted document. Submission remains an explicit action.",
+    "moduleNote": "The EBS module currently uses its test environment and requires suitable credentials.",
+    "ctaHeading": "Take a look around.",
+    "ctaIntro": "Explore the workspace, then discuss your institution’s needs.",
+    "ctaButton": "Open the application",
+    "contactHeading": "Let’s talk school finance.",
+    "contactIntro": "Discuss Bursara for your school, college or learning institution."
+  },
+  "contactData": {
+    "title": "Contact Bursara | Streak Technologies Ltd",
+    "description": "Discuss student billing, payment receipts and Bursara with Streak Technologies Ltd. Find the support email and Mauritius and USA telephone numbers.",
+    "eyebrow": "THE TEAM BEHIND BURSARA",
+    "heading": "Let’s talk school finance.",
+    "intro": "Tell us how your institution raises fees, receives payments and follows up outstanding accounts. We can discuss the workflow and help you find a useful starting point.",
+    "conversation": "START A CONVERSATION",
+    "human": "A real person. A practical discussion.",
+    "emailIntro": "For product enquiries or support, email the Streak Technologies team.",
+    "institution": "Discuss your institution",
+    "feedback": "Send product feedback",
+    "opensEmail": "Opens your email application.",
+    "usaHeading": "Speak with the team.",
+    "companyIntro": "Visit the company website for more about Streak Technologies.",
+    "before": "Before you get in touch.",
+    "beforeText": "A short explanation of your institution, typical fees, currencies and payment arrangements is a useful starting point. You do not need to send student records or financial documents to begin a conversation.",
+    "report": "Reporting an issue?",
+    "reportText": "Include the screen, steps you took, what you expected and what happened. Remove personal details from screenshots. The help guide explains the workflow.",
+    "look": "Prefer to look around first?",
+    "lookText": "Explore the demonstration with fictional records."
+  },
+  "notFound": {
+    "title": "Page not found",
+    "text": "The page you’re looking for is unavailable.",
+    "back": "Return to Bursara",
+    "or": "or open the application."
+  },
+  "privacyData": {
+    "title": "Privacy notice",
+    "description": "How Bursara handles account, institution and student financial information.",
+    "sections": [
+      [
+        "Contact",
+        [
+          "Bursara is a product of Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Mauritius. Contact support@streaktechnologies.com or +230 215 2998 about the application or its data."
+        ]
+      ],
+      [
+        "Demonstration data",
+        [
+          "The shared demonstration institution contains fictional records and is accessible to other testers. Use fictional names, contacts and financial entries there. Do not enter personal student information, real payments or confidential documents into the shared demonstration."
+        ]
+      ],
+      [
+        "Information processed",
+        [
+          "The application stores institution settings, user login details, permissions, student and debtor records, courses, drafts, invoices, receipts, allocations and financial corrections. Personal sign-in settings may include passkey records, encrypted authenticator secrets and encrypted recovery codes.",
+          "Support access sessions record the staff user, institution and entry and exit times. Hosting and application logs may include IP addresses, request times and errors for troubleshooting."
+        ]
+      ],
+      [
+        "Cookies and hosting",
+        [
+          "Essential cookies keep you signed in, protect forms and remember your language choice. The product website is hosted on Cloudflare Pages; the application runs on a separate Debian server. Bursara installs no advertising trackers."
+        ]
+      ],
+      [
+        "Optional fiscal module",
+        [
+          "The Mauritius EBS module is disabled for the shared demonstration. When configured in a separate institution, an explicit test submission sends the prepared fiscal document to EBS Mauritius. API credentials are encrypted in the database and omitted from browser responses."
+        ]
+      ],
+      [
+        "Access and removal",
+        [
+          "Contact support to discuss access to, correction of or removal of your account and data, and the applicable data-handling arrangements. Shared demonstration records may be reset."
+        ]
+      ]
+    ]
+  },
+  "termsData": {
+    "title": "Terms of use",
+    "description": "Using Bursara, its shared demonstration and optional fiscal module.",
+    "sections": [
+      [
+        "The service",
+        [
+          "Bursara is supplied by Streak Technologies Ltd for student invoicing, receipting and financial administration. Features and service arrangements should be agreed with your institution before relying on them for its operations."
+        ]
+      ],
+      [
+        "Shared demonstration",
+        [
+          "Use fictional data and simulated transactions in the shared demonstration. Other testers can see those records, and demonstration data may be reset. Demonstration documents are not real payment acknowledgements or tax invoices."
+        ]
+      ],
+      [
+        "Documents and fiscal reporting",
+        [
+          "Your institution is responsible for correct charges, payment records, tax treatment and authorised posting. The optional Mauritius integration currently targets the EBS test environment. Live fiscal reporting, fiscal correction workflows and additional country modules require separate validation."
+        ]
+      ],
+      [
+        "Access and responsibility",
+        [
+          "Keep private institution and platform staff credentials confidential. Use support access only for authorised assistance. Do not try to access another institution’s records or disrupt the service. Keep personal verification and recovery codes private."
+        ]
+      ],
+      [
+        "Feedback and support",
+        [
+          "Report defects with the screen, the steps taken and the expected outcome. Remove confidential information from examples. Contact support@streaktechnologies.com or +230 215 2998. Visit streaktechnologies.com for company information."
+        ]
+      ]
+    ]
+  }
+}

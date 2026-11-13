@@ -1,0 +1,1407 @@
+{
+  "title": "Guide utilisateur Bursara",
+  "edition": "Guide utilisateur",
+  "chapters": [
+    {
+      "slug": "start-here",
+      "title": "Bien commencer",
+      "summary": "Les premières étapes pour préparer les frais, les comptabiliser et suivre les règlements.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez https://app.bursara.com. Choisissez English ou Français dans le sélecteur de langue. Ce choix est mémorisé sur le site et dans l’application. Connectez-vous avec le compte fourni par votre établissement.",
+            "Créez un programme et ses unités facturables, puis inscrivez un apprenant. Le programme correspond au cursus complet ; une unité peut être une année, une matière ou un module payant.",
+            "Enregistrez un brouillon de facture et vérifiez-le. Une personne autorisée choisit Comptabiliser la facture. Préparez ensuite un brouillon de paiement pour les fonds reçus, puis choisissez Comptabiliser le paiement.",
+            "Ouvrez le compte de l’apprenant pour voir les soldes comptabilisés. Les brouillons ne modifient pas ces totaux. À propos de cet écran explique la page et propose le guide correspondant."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/02-overview.jpg",
+            "alt": "Bien commencer dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 251
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "BURARA CHILRENS ACADEMY est un établissement de démonstration partagé et protégé. Utilisez des apprenants, coordonnées et paiements fictifs. Les autres personnes qui essaient l’application peuvent voir ces données.",
+            "Ce guide concerne la gestion financière des établissements. La présence, les entrées et sorties et les emplois du temps ne sont pas inclus."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "money-words",
+      "title": "Comprendre les termes financiers",
+      "summary": "Distinguez les frais à payer, les fonds reçus et les sommes encore disponibles.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Une facture indique ce que doit l’apprenant ou son responsable du paiement. Elle peut couvrir toute l’année, même si le règlement se fait en plusieurs fois.",
+            "Un reçu constate un encaissement déjà reçu et comptabilisé. Une facture seule ne prouve pas que l’établissement a reçu de l’argent.",
+            "Une affectation utilise une partie d’un paiement pour régler une facture précise. Son solde restant diminue alors.",
+            "Une échéance est un montant prévu à une date donnée. Le restant dû comprend toutes les sommes non réglées ; le montant en retard comprend seulement celles dont l’échéance est passée.",
+            "Un crédit non affecté est un encaissement qui n’a pas encore servi à régler une facture. Un avoir sur frais réduit une charge ; un remboursement restitue de l’argent non utilisé."
+          ]
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Exemple : une facture annuelle de 120 000 MUR reste une seule facture, même avec douze échéances. Un paiement affecté de 25 000 MUR laisse 95 000 MUR à régler. Le retard dépend des dates d’échéance et de la date du solde choisie.",
+            "Facture, reçu et avoir sont des documents distincts, même lorsque l’établissement utilise un parcours combinant facturation et encaissement."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "sign-in",
+      "title": "Se connecter et se déconnecter",
+      "summary": "Accédez à votre établissement avec votre mot de passe ou une clé d’accès.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Si vous avez enregistré une clé d’accès, choisissez Se connecter avec une clé d’accès et suivez la vérification de votre appareil. Sinon, renseignez Adresse e-mail et Mot de passe, puis choisissez Se connecter.",
+            "Si la page Vérifier votre connexion apparaît, saisissez le code actuel de votre application d’authentification ou un code de récupération inutilisé. Validez la connexion.",
+            "Les utilisateurs d’un établissement arrivent dans leur propre espace. Le personnel de la plateforme arrive dans Établissements clients. Une clé d’accès vérifiée ne demande pas de code d’authentification supplémentaire.",
+            "Si vos identifiants sont refusés, vérifiez leur saisie. Après cinq tentatives échouées pour le même compte et la même connexion, attendez le délai indiqué.",
+            "À la fin, choisissez Se déconnecter en bas du menu. Sur un ordinateur partagé, fermez également le navigateur."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/01-sign-in.jpg",
+            "alt": "Se connecter et se déconnecter dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 570,
+            "height": 503
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Votre administrateur crée les comptes et peut définir un nouveau mot de passe dans Utilisateurs et droits. Cette modification ne désactive pas l’application d’authentification. Aucun écran de réinitialisation autonome par e-mail n’est actuellement proposé.",
+            "Le compte de démonstration est protégé : son mot de passe ne peut pas être changé et aucune clé d’accès ni authentification par code temporaire ne peut y être ajoutée. Aucun identifiant privé du personnel ne figure dans ce guide."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "passkeys-and-verification",
+      "title": "Clés d’accès, vérification et récupération",
+      "summary": "Protégez votre connexion et prévoyez une solution en cas de perte de votre appareil.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Sécurité de connexion. Indiquez un Nom de la clé d’accès et choisissez Ajouter une clé d’accès pour enregistrer votre appareil.",
+            "Confirmez votre identité demande le Mot de passe actuel et, si la vérification est activée, un Code d’authentification ou de récupération. Choisissez Continuer, puis suivez votre appareil.",
+            "Pour les codes temporaires, choisissez Configurer l’application d’authentification, confirmez votre identité, puis scannez le code QR ou saisissez sa clé dans votre application, en privé.",
+            "Saisissez le Code de votre application d’authentification et choisissez Activer l’authentification. La connexion par mot de passe demandera un code actuel ou un code de récupération inutilisé.",
+            "Conservez les huit codes de récupération en privé, par copie ou téléchargement, puis choisissez J’ai conservé ces codes. Chacun fonctionne une fois. Renouveler les codes de récupération invalide l’ancien jeu.",
+            "Une clé d’accès vérifiée remplace le mot de passe et le code séparé. Supprimez une ancienne clé à côté de son nom ou choisissez Désactiver l’authentification, puis confirmez votre identité."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/40-sign-in-security.jpg",
+            "alt": "Clés d’accès, vérification et récupération dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Configurez l’authentification uniquement sur votre compte ordinaire personnel.",
+            "width": 467,
+            "height": 114
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/43-passkey-controls.jpg",
+            "alt": "Nom de la clé d’accès et commande d’ajout.",
+            "caption": "Choisissez un nom reconnaissable avant d’enregistrer la clé de votre appareil.",
+            "width": 782,
+            "height": 273
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Gardez clés de configuration et codes de récupération confidentiels. Si aucun moyen de connexion ne fonctionne, contactez votre administrateur ou l’assistance.",
+            "La démonstration ne peut pas activer ces méthodes. Changer le mot de passe d’un compte ne retire ni ses clés d’accès ni sa vérification."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "navigation-help",
+      "title": "Se repérer dans l’application",
+      "summary": "Trouvez le bon écran et utilisez son aide.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Apprenants pour les personnes inscrites et leurs comptes. Programmes et unités contient les cursus et leurs tarifs.",
+            "Facturation regroupe les brouillons et factures. Paiements contient les brouillons de paiement et les reçus comptabilisés.",
+            "Suivi des impayés présente les frais non réglés. Rapports contient les soldes par devise, le journal de contrôle et l’export des soldes.",
+            "Choisissez À propos de cet écran en bas à droite. Lisez l’explication, puis utilisez le même bouton pour la fermer.",
+            "Ouvrez Sécurité de connexion pour protéger votre compte. Si une action manque, demandez à votre administrateur de vérifier vos droits."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/04-navigation.jpg",
+            "alt": "Se repérer dans l’application dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 312,
+            "height": 477
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Enregistrer ou modifier un brouillon ne change aucun total financier. Comptabiliser une facture ou un paiement, affecter du crédit, accorder un avoir ou enregistrer un remboursement modifie le compte.",
+            "Les tableaux suivent une présentation de registre et les lignes se surlignent au passage du pointeur. Le sélecteur English/Français mémorise votre langue."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "overview",
+      "title": "Lire la vue d’ensemble",
+      "summary": "Comprenez les totaux de l’établissement à une date donnée.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Choisissez la Date de situation. Les chiffres utilisent les opérations financières jusqu’à cette date ; vous pouvez ainsi examiner une situation antérieure.",
+            "Choisissez la Devise d’affichage. Chaque devise garde ses propres chiffres : sélectionner USD ne convertit pas les opérations en MUR.",
+            "Lisez les totaux des frais facturés, paiements reçus, sommes restant dues et échéances en retard.",
+            "Repérez le crédit apprenant non affecté sous les totaux. Il s’agit d’argent disponible qui n’a pas encore réglé de facture.",
+            "Ouvrez une facture ou un encaissement récent, ou utilisez les actions de création autorisées."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/02-overview.jpg",
+            "alt": "Lire la vue d’ensemble dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 251
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Seules les opérations comptabilisées influencent ces chiffres ; les brouillons sont exclus. Une échéance future reste due sans être en retard. Une échéance due aujourd’hui ne devient en retard qu’après cette journée.",
+            "La vue d’ensemble sert de point de départ. Ouvrez ensuite la facture, le compte de l’apprenant ou le rapport pour expliquer un montant précis."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "create-course",
+      "title": "Créer et modifier un programme",
+      "summary": "Organisez les cursus avant de définir leurs unités facturables.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Programmes et unités, puis choisissez Nouveau programme.",
+            "Saisissez un Nom du programme que l’équipe reconnaîtra facilement.",
+            "Saisissez un Code court, par exemple HS. Il doit être unique dans votre établissement.",
+            "Ajoutez éventuellement une Description, puis choisissez Créer le programme.",
+            "Ajoutez ensuite ses unités payantes. La création du programme ne facture aucun apprenant."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/06-new-course.jpg",
+            "alt": "Créer et modifier un programme dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 885,
+            "height": 798
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Pour des frais scolaires annuels, créez un programme Secondaire avec des unités Année 1 à Année 4. Pour l’université, utilisez le diplôme comme programme et les matières comme unités.",
+            "Pour corriger un programme, choisissez Modifier le programme, mettez à jour son nom, son code ou sa description et enregistrez. Modifier l’unité permet de changer un tarif. Les documents déjà comptabilisés conservent leurs lignes enregistrées."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "fixed-unit",
+      "title": "Définir un tarif fixe par unité",
+      "summary": "Facturez une année, une matière ou un module à un prix fixe.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Programmes et unités, choisissez Ajouter une unité, puis son Programme.",
+            "Saisissez Nom de l’unité et un Code unique, par exemple Année 1 et Y1.",
+            "Renseignez Prix et Devise. Utilisez un nombre sans symbole monétaire ni séparateur de milliers.",
+            "Choisissez Frais fixes par unité dans Base du prix. Pour une année entière, laissez Crédits / pondération à 1.",
+            "Choisissez Enregistrer l’unité. Vous pourrez la sélectionner lors de l’inscription d’un apprenant."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/07-fixed-unit.jpg",
+            "alt": "Définir un tarif fixe par unité dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 267
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Une unité Année 1 à 120 000 MUR produit 120 000 MUR pour une quantité de 1, avant remise ou taxe.",
+            "Choisissez Modifier l’unité pour actualiser le nom, code, prix, devise, base ou coefficient. Les futures sélections utiliseront ces valeurs. Vérifiez séparément les brouillons déjà enregistrés ; les factures comptabilisées ne changent pas. Des devises différentes nécessitent des factures distinctes."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "per-credit-unit",
+      "title": "Définir un tarif par crédit",
+      "summary": "Calculez les frais d’une unité à partir de son nombre de crédits.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Choisissez Ajouter une unité et sélectionnez son Programme.",
+            "Saisissez le nom et le code de l’unité, par exemple Biologie cellulaire et BIO101.",
+            "Saisissez le tarif d’un crédit dans Prix, puis choisissez la Devise.",
+            "Choisissez Par crédit dans Base du prix. Indiquez le nombre de crédits dans Crédits / pondération.",
+            "Enregistrez l’unité. Lors de sa sélection sur une facture, Bursara reprend son nombre de crédits comme quantité."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/08-credit-unit.jpg",
+            "alt": "Définir un tarif par crédit dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 267
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Une unité de trois crédits à 250 USD par crédit donne 750 USD avant remise ou taxe.",
+            "La facture utilise la quantité et le prix affichés sur sa ligne. Vérifiez-les avant comptabilisation. Le prix accepte jusqu’à cinq décimales et le coefficient jusqu’à trois ; le total suit la précision normale de la devise."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "enrol-student",
+      "title": "Inscrire et modifier un apprenant",
+      "summary": "Associez un apprenant, son responsable du paiement et les unités suivies.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Apprenants, puis Inscrire un apprenant. Saisissez Nom de l’apprenant et une Référence de l’apprenant unique.",
+            "Renseignez le Responsable du paiement : parent, tuteur, apprenant, employeur ou organisme qui règle les frais. Choisissez le type de responsable approprié.",
+            "Ajoutez éventuellement l’e-mail de l’apprenant, un téléphone et l’adresse de facturation. Utilisez des coordonnées fictives dans la démonstration.",
+            "Choisissez le Programme et cochez les Unités facturables suivies.",
+            "Choisissez Inscrire l’apprenant. Vérifiez ensuite le compte, le programme et les coordonnées de facturation."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/09-enrol-student.jpg",
+            "alt": "Inscrire et modifier un apprenant dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 648
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les unités doivent appartenir au programme choisi. Inscrivez l’apprenant à une unité pour la sélectionner sur sa facture. Vous pouvez aussi saisir directement des frais personnalisés.",
+            "Pour actualiser une inscription, choisissez Modifier dans le registre ou Modifier l’apprenant dans son compte. Vérifiez coordonnées, programme et unités, puis enregistrez. La référence reste unique. Les documents comptabilisés gardent les coordonnées d’origine. Présence et emplois du temps ne sont pas inclus."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "edit-records",
+      "title": "Modifier programmes, unités et apprenants",
+      "summary": "Actualisez les données sans réécrire les documents comptabilisés.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Programmes et unités, choisissez Modifier le programme pour changer le nom, le code unique ou la description, puis enregistrez.",
+            "Modifier l’unité permet de changer nom, code, prix, devise, base et coefficient. Une unité suivie par des apprenants ne peut pas changer de programme ; créez une nouvelle unité à la place.",
+            "Dans Apprenants, choisissez Modifier ou ouvrez le compte puis Modifier l’apprenant. Vérifiez référence, coordonnées, responsable du paiement, programme et unités, puis enregistrez.",
+            "Si vous changez de programme, choisissez uniquement les unités de ce programme. Vérifiez les cases avant de valider.",
+            "Les brouillons existants ne reprennent pas silencieusement les nouveaux tarifs. Ouvrez Modifier le brouillon et contrôlez les lignes. Les documents comptabilisés gardent leurs montants et coordonnées enregistrés."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/41-edit-records.jpg",
+            "alt": "Commandes de modification des programmes et unités dans Bursara.",
+            "caption": "Choisissez la commande du document que vous souhaitez modifier.",
+            "width": 1455,
+            "height": 315
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Gérer les programmes et les frais autorise le catalogue ; Gérer les apprenants autorise les inscriptions. Une modification ne donne aucun accès à un autre établissement.",
+            "Aucun parcours de suppression ou de passage automatique d’année n’est proposé. Vérifiez les références et coordonnées avant d’enregistrer."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "student-account",
+      "title": "Utiliser le compte d’un apprenant",
+      "summary": "Retrouvez les factures, reçus et soldes d’une personne.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Apprenants, recherchez le nom, la référence ou le responsable du paiement, puis ouvrez le compte.",
+            "Vérifiez l’identité de l’apprenant et les coordonnées de facturation pour confirmer que vous consultez la bonne personne.",
+            "Lisez les sommes restant dues et le crédit non affecté dans chaque devise. Les devises restent séparées.",
+            "Utilisez le Registre des frais pour ouvrir une facture et le Registre des reçus pour ouvrir un encaissement.",
+            "Choisissez Créer un brouillon de facture, Créer un brouillon de paiement ou Imprimer le relevé selon votre tâche et vos droits."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/10-student-account.jpg",
+            "alt": "Utiliser le compte d’un apprenant dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1455,
+            "height": 192
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Ce compte permet d’expliquer à un parent ou un sponsor ce qu’il reste à payer. Ouvrez une facture pour voir ses échéances et les paiements affectés.",
+            "Le crédit non affecté est présenté séparément. Il ne règle une facture qu’après une affectation explicite. Les brouillons ne modifient pas les soldes comptabilisés."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "billing-workflows",
+      "title": "Choisir le parcours de facturation",
+      "summary": "Préparez un brouillon et choisissez quand constater les frais et les paiements.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Facturation et choisissez Créer un brouillon de facture. Sélectionnez l’Apprenant et le Mode de facturation.",
+            "Choisissez Facturer puis encaisser pour un règlement séparé. Choisissez Frais facturés avec échéances pour un montant réparti sur plusieurs dates.",
+            "Choisissez Encaisser la totalité et émettre uniquement lorsque toute la somme a déjà été reçue. Le mode et la référence du paiement sont conservés avec le brouillon.",
+            "Choisissez Enregistrer le brouillon et vérifiez le document. Modifier le brouillon permet de le corriger avant sa comptabilisation.",
+            "Une personne autorisée choisit Comptabiliser la facture. Le parcours combiné comptabilise alors la facture et le paiement intégral ensemble ; dans les autres cas, les paiements sont enregistrés séparément."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/11-workflow.jpg",
+            "alt": "Choisir le parcours de facturation dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 417
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Créer et modifier les brouillons de facture autorise les brouillons. Comptabiliser les factures autorise leur validation financière ; le parcours combiné demande aussi Comptabiliser les paiements. Un brouillon seul ne crée ni dette ni reçu.",
+            "La création attribue une référence permanente SO-00001. Le numéro définitif INV000001 n’est attribué qu’à la comptabilisation. Modifier un brouillon ne consomme aucun numéro définitif. SO et PO sont des références de création, pas des commandes commerciales."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "edit-and-post-drafts",
+      "title": "Vérifier, modifier et comptabiliser un brouillon",
+      "summary": "Le brouillon prépare le document ; sa comptabilisation lui donne un effet financier.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Facturation ou Paiements, retrouvez la référence de création SO ou PO. Utilisez le filtre Brouillon si nécessaire.",
+            "Ouvrez le document et vérifiez apprenant, dates, devise, montants et lignes ou affectations prévues. Aucun solde n’a encore changé.",
+            "Avec le droit de création et modification correspondant, choisissez Modifier le brouillon. Corrigez et enregistrez ; sa référence permanente reste identique.",
+            "Une personne autorisée choisit Comptabiliser la facture ou Comptabiliser le paiement. Le numéro INV ou REC est attribué à cet instant et les soldes et le journal sont actualisés.",
+            "Si une affectation est refusée parce qu’une autre opération a réglé la facture, modifiez le brouillon selon le solde actuel. Recherchez le document existant avant de le recréer."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/42-draft-posting.jpg",
+            "alt": "Actions Modifier le brouillon et Comptabiliser la facture sur un document enregistré.",
+            "caption": "Création et comptabilisation ont des droits distincts. La référence SO reste attachée au document.",
+            "width": 1500,
+            "height": 180
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Un document comptabilisé ne peut plus être modifié. Utilisez un avoir ou un remboursement séparé lorsque cette correction est prise en charge. Répéter la comptabilisation ne crée pas de doublon.",
+            "Un brouillon fiscal transmis ne peut plus être modifié, même si son résultat est rejeté ou incertain. Un instantané préparé mais jamais transmis est invalidé lorsque le brouillon change."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "annual-bill",
+      "title": "Préparer une facture scolaire annuelle",
+      "summary": "Enregistrez, vérifiez et comptabilisez les frais d’une année.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Créez la facture, choisissez l’apprenant et Facturer puis encaisser. Indiquez la Date d’émission et la Période de service, par exemple Année scolaire 2027.",
+            "Dans les lignes de frais, sélectionnez l’année dans Unité inscrite. Vérifiez Description, Quantité / crédits et Prix unitaire. Ajouter une ligne permet d’inclure d’autres frais.",
+            "Confirmez la Devise. Si elle diffère de la devise fonctionnelle, saisissez le taux demandé. Vérifiez les remises et la taxe.",
+            "Indiquez Première échéance et Échéances mensuelles, puis choisissez Enregistrer le brouillon. Sa référence SO ne modifie pas le restant dû.",
+            "Vérifiez le document enregistré. Corrigez-le avec Modifier le brouillon. Une personne autorisée choisit Comptabiliser la facture pour attribuer le numéro définitif et constater les frais."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/11-fee-lines.jpg",
+            "alt": "Préparer une facture scolaire annuelle dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 468
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "120 000 MUR avec une quantité de 1 représentent une seule charge annuelle. Douze échéances changent les dates de règlement, pas le total.",
+            "Une opération comptabilisée ne se modifie plus. Réduisez des frais impayés avec un avoir distinct et autorisé, sans réécrire la facture d’origine."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "instalment-schedule",
+      "title": "Prévoir des échéances mensuelles",
+      "summary": "Répartissez le montant d’une facture sans changer son total.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans le formulaire du brouillon de facture, indiquez Première échéance, à la date d’émission ou après celle-ci.",
+            "Choisissez le nombre de Échéances mensuelles. Une seule échéance signifie que tout le montant est dû à une date unique.",
+            "Ajoutez des Notes, enregistrez le brouillon et vérifiez le calendrier proposé. Modifiez le brouillon si nécessaire.",
+            "Choisissez Comptabiliser la facture avec les droits requis. Vérifiez le Calendrier de paiement sur le document ; le numéro définitif est attribué à ce moment.",
+            "Enregistrez puis comptabilisez les paiements lorsqu’ils arrivent. Les affectations confirmées règlent les échéances impayées les plus anciennes en premier."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/12-bill-schedule.jpg",
+            "alt": "Prévoir des échéances mensuelles dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 489
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "120 000 MUR sur douze échéances donnent 10 000 MUR par mois. Si les centimes ne se divisent pas exactement, Bursara répartit l’écart pour conserver le total exact.",
+            "Le calendrier garde le jour choisi lorsque c’est possible : après le 31 janvier viennent le 28 ou 29 février, puis le 31 mars. La création automatique de factures récurrentes n’est pas incluse."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "university-unit-bill",
+      "title": "Facturer des unités universitaires",
+      "summary": "Regroupez les matières d’un apprenant dans une même devise.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Créez un brouillon de facture pour l’apprenant et indiquez la Période de service, par exemple Semestre 1 / 2027.",
+            "Sélectionnez une Unité inscrite. Pour un tarif par crédit, vérifiez la Quantité / crédits proposée et le prix d’un crédit.",
+            "Vérifiez la Devise et le Taux demandé. Ajouter une ligne permet d’ajouter une autre unité dans la même devise.",
+            "Indiquez les échéances et choisissez Enregistrer le brouillon. Modifier le brouillon permet de corriger les matières, quantités ou tarifs.",
+            "Choisissez Comptabiliser la facture lorsque vous y êtes autorisé. Vérifiez son numéro définitif et ses échéances. Utilisez une autre facture pour des unités dans une autre devise."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/14-unit-bill.jpg",
+            "alt": "Facturer des unités universitaires dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 569
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Trois crédits à 250 USD donnent une ligne de 750 USD. Un laboratoire à tarif fixe de 400 USD peut être ajouté avec une quantité de 1.",
+            "La facture conserve ses descriptions, tarifs, coordonnées d’apprenant et taux. Modifier le catalogue ou l’apprenant plus tard ne réécrit pas les documents comptabilisés."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "receive-and-issue",
+      "title": "Facturer et encaisser intégralement ensemble",
+      "summary": "Comptabilisez une facture et son règlement complet en une seule action.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Créez un brouillon et choisissez Encaisser la totalité et émettre dans Mode de facturation.",
+            "Complétez l’apprenant, les dates, la devise et les frais. Choisissez Moyen de paiement et indiquez une Référence de paiement si disponible.",
+            "Enregistrez le brouillon. Vérifiez sa référence SO, le total et le règlement proposé. Aucune facture ni aucun reçu n’est encore comptabilisé.",
+            "Une fois le montant intégral réellement reçu, une personne autorisée choisit Comptabiliser la facture. Les droits de comptabilisation des factures et des paiements sont nécessaires.",
+            "Ouvrez la facture et le reçu obtenus. Vérifiez les numéros INV et REC et un Restant dû égal à zéro."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/13-receive-and-issue.jpg",
+            "alt": "Facturer et encaisser intégralement ensemble dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 489
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "La comptabilisation crée la charge et son paiement intégral ensemble. Répéter l’action ne produit pas une seconde facture ou un second reçu.",
+            "Pour un règlement partiel, comptabilisez une facture ordinaire et préparez un paiement séparé. Bursara note le mode de règlement mais ne débite aucune carte et ne lance aucun virement."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "read-invoice",
+      "title": "Lire une facture comptabilisée",
+      "summary": "Expliquez les lignes, les règlements et les échéances d’une facture.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Facturation, ouvrez le numéro. Vérifiez établissement, apprenant, responsable du paiement, date et période.",
+            "Lisez les lignes : description, quantité, prix unitaire, remise, taxe et montant.",
+            "Vérifiez Total des frais, Paiements affectés, Avoirs et Impayé, puis le Calendrier de paiement.",
+            "Recevoir un paiement prépare un règlement. Réduire les frais impayés enregistre une réduction autorisée de la charge."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/15-invoice.jpg",
+            "alt": "Lire une facture comptabilisée dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Vérifiez l’établissement, l’apprenant et le numéro définitif de la facture.",
+            "width": 1386,
+            "height": 375
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/44-invoice-totals.jpg",
+            "alt": "Récapitulatif financier de la facture.",
+            "caption": "Lisez les totaux comptabilisés et le solde restant.",
+            "width": 525,
+            "height": 266
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "La référence SO reste associée au numéro INV attribué à la comptabilisation. Le solde inclut les échéances futures impayées. Une facture comptabilisée ne se modifie plus : utilisez un avoir distinct lorsque possible. Les documents fiscaux nécessitent leur correction locale."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "part-payment",
+      "title": "Enregistrer un paiement partiel",
+      "summary": "Préparez puis comptabilisez uniquement la somme réellement reçue.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez une facture impayée et choisissez Recevoir un paiement. L’apprenant et la facture sont présélectionnés.",
+            "Renseignez Montant reçu. Si vous avez reçu 25 000 MUR sur une facture de 120 000 MUR, saisissez 25000.",
+            "Vérifiez Date de réception, Moyen, Payeur et Référence. Utilisez un virement confirmé ou un chèque effectivement encaissé.",
+            "Dans Affecter aux factures, cochez la facture et indiquez le montant à appliquer dans Affecter (MUR).",
+            "Choisissez Enregistrer le brouillon. Vérifiez-le, modifiez-le si nécessaire, puis choisissez Comptabiliser le paiement avec les droits requis. Rouvrez la facture pour vérifier son solde."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/16-part-payment.jpg",
+            "alt": "Enregistrer un paiement partiel dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 267
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Le brouillon reçoit une référence permanente PO-00001 sans modifier les soldes. Comptabiliser le paiement attribue REC000001 et constate l’encaissement et ses affectations. Création et comptabilisation sont des droits distincts.",
+            "Affecter 25 000 MUR à une facture de 120 000 MUR laisse 95 000 MUR dus. La comptabilisation vérifie à nouveau le solde actuel : si un autre reçu a réglé la facture, corrigez les affectations du brouillon."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "allocate-payments",
+      "title": "Affecter un paiement à plusieurs factures",
+      "summary": "Répartissez un encaissement entre les factures du même apprenant.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Paiements, choisissez Créer un brouillon de paiement. Renseignez l’apprenant, le montant, la date, la devise et le mode.",
+            "Dans Affecter aux factures, cochez chaque facture concernée.",
+            "Indiquez le montant affecté à chacune. Le total utilisé ne peut dépasser le Montant reçu.",
+            "Laissez les autres factures décochées. Toute somme reçue non utilisée restera en crédit non affecté.",
+            "Enregistrez le brouillon et vérifiez-le, puis choisissez Comptabiliser le paiement avec les droits nécessaires. Le reçu présente les montants affectés et les liens vers les factures."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/37-payment-allocation.jpg",
+            "alt": "Affecter un paiement à plusieurs factures dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 191
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Un paiement peut régler plusieurs factures du même apprenant, jamais celles d’un autre apprenant ou d’un autre établissement.",
+            "Pour une même devise, le montant retiré de la facture égale celui utilisé du paiement. Avec deux devises différentes, renseignez les deux côtés de l’affectation."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "cross-currency",
+      "title": "Recevoir un paiement dans une autre devise",
+      "summary": "Indiquez séparément la somme reçue et celle qui règle la facture.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans le formulaire de paiement, choisissez la Devise et renseignez Montant reçu dans cette devise.",
+            "Saisissez le Taux demandé. Par exemple, 1 USD en MUR signifie le nombre de roupies correspondant à un dollar.",
+            "Cochez la facture à régler et indiquez Affecter (MUR), le montant à retirer de cette facture.",
+            "Indiquez Utilise (USD), la part du paiement en dollars utilisée pour cette affectation.",
+            "Vérifiez les deux montants et le taux. Enregistrez le brouillon, puis comptabilisez le paiement avec les droits requis. Contrôlez les devises sur le reçu."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/17-cross-currency.jpg",
+            "alt": "Recevoir un paiement dans une autre devise dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 606,
+            "height": 386
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Exemple : 100 USD reçus règlent 4 600 MUR. Saisissez 100 reçus, 4600 dans Affecter (MUR), 100 dans Utilise (USD) et le taux approprié de 46.",
+            "Bursara ne récupère pas les taux automatiquement. L’établissement fournit le taux et les montants convenus. MUR et USD utilisent deux décimales, JPY aucune et KWD trois."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "advance-payment",
+      "title": "Enregistrer une avance",
+      "summary": "Conservez un encaissement disponible sans le rattacher immédiatement à une facture.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Paiements, choisissez Créer un brouillon de paiement, puis l’Apprenant et le Payeur.",
+            "Renseignez montant, devise, date, mode et référence.",
+            "Dans Affecter aux factures, laissez toutes les factures décochées. Sans facture impayée, le formulaire indique que le paiement restera en crédit.",
+            "Enregistrez le brouillon et vérifiez-le, puis choisissez Comptabiliser le paiement. Consultez le Crédit non affecté sur le reçu.",
+            "Conservez la référence du reçu. Vous pourrez ensuite l’ouvrir pour affecter le crédit ou enregistrer un remboursement."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/19-advance-payment.jpg",
+            "alt": "Enregistrer une avance dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1194,
+            "height": 393
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Une avance comptabilisée constate de l’argent reçu, même sans facture. Elle ne règle aucune facture avant une affectation explicite.",
+            "La référence PO reste associée au paiement après l’attribution du numéro REC. Si l’argent a été reçu avant la date de la facture, gardez-le d’abord non affecté, puis appliquez-le à une date ultérieure valide."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "apply-student-credit",
+      "title": "Affecter un crédit déjà disponible",
+      "summary": "Réglez une facture avec de l’argent reçu auparavant, sans le saisir une seconde fois.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez le reçu d’origine dans Paiements ou le registre des reçus de l’apprenant.",
+            "Si du crédit reste disponible et qu’une facture de même devise est impayée, choisissez Affecter le crédit de l’apprenant.",
+            "Choisissez la Facture impayée et renseignez le montant à affecter dans la devise indiquée.",
+            "Indiquez la Date d’affectation. Elle ne peut précéder le paiement d’origine, la facture ou un remboursement déjà enregistré sur ce paiement.",
+            "Choisissez Affecter l’avoir à une facture. Vérifiez que le crédit du reçu et le restant dû de la facture diminuent ensemble."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/21-apply-credit.jpg",
+            "alt": "Affecter un crédit déjà disponible dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 512
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Cette opération utilise un encaissement existant. Ne choisissez pas Recevoir un paiement pour saisir une seconde fois le même argent.",
+            "L’affectation de crédit existant concerne le même apprenant et la même devise. Si l’action manque, vérifiez le crédit disponible, les factures impayées et votre droit Comptabiliser les paiements et affecter le crédit."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "refund-unused-credit",
+      "title": "Rembourser un crédit inutilisé",
+      "summary": "Constatez un remboursement prélevé sur une avance encore disponible.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez le reçu, contrôlez le Crédit non affecté et choisissez Rembourser le crédit inutilisé.",
+            "Indiquez le Montant dans la devise affichée, sans dépasser le crédit disponible.",
+            "Indiquez la Date, qui ne peut précéder le paiement d’origine.",
+            "Renseignez un Motif clair, puis choisissez Enregistrer le remboursement.",
+            "Vérifiez l’augmentation du montant remboursé et la diminution du crédit non affecté. Conservez la preuve du virement ou du remboursement dans votre procédure habituelle."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/22-refund-credit.jpg",
+            "alt": "Rembourser un crédit inutilisé dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 594
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Cette action enregistre un remboursement organisé par votre établissement. Elle n’envoie aucun argent vers une banque ou une carte.",
+            "Seul le crédit inutilisé peut être remboursé ici. Restituer une somme déjà affectée exige une procédure de contrepassation plus complète, non proposée actuellement. N’utilisez pas un paiement négatif pour contourner cette limite."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "credit-fees",
+      "title": "Réduire des frais impayés",
+      "summary": "Enregistrez un avoir distinct sans modifier la facture d’origine.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez la facture et choisissez Réduire les frais impayés avec le droit d’avoirs et remboursements.",
+            "Saisissez le Montant dans la devise de la facture, sans dépasser le restant dû.",
+            "Indiquez la Date, au plus tôt à la date de facture et après les paiements déjà affectés.",
+            "Saisissez un Motif explicite, puis choisissez Enregistrer l’avoir.",
+            "Vérifiez les Avoirs et le Restant dû. La charge initiale reste visible et la correction apparaît séparément."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/18-credit-fees.jpg",
+            "alt": "Réduire des frais impayés dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 594
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Un avoir ne restitue pas d’argent. Pour une somme rendue sur une avance inutilisée, utilisez le remboursement depuis son reçu.",
+            "L’avoir réduit d’abord les dernières échéances impayées. Une facture ayant un document fiscal bloque cette correction générale : son module local doit gérer la correction fiscale. Les avoirs fiscaux ne sont pas encore inclus."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "receipt-print",
+      "title": "Lire et imprimer un reçu",
+      "summary": "Vérifiez l’encaissement et les montants encore disponibles.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Paiements, ouvrez un numéro de reçu. Vérifiez le payeur, l’apprenant, la date, le mode et la référence.",
+            "Lisez Montant reçu. Dans les affectations, ouvrez une facture pour consulter ses frais et son solde.",
+            "Vérifiez les montants remboursés et le Crédit non affecté pour comprendre ce qui reste disponible.",
+            "Choisissez Imprimer / PDF. Dans la fenêtre du navigateur, sélectionnez une imprimante ou Enregistrer au format PDF.",
+            "Contrôlez l’aperçu avant de valider. La navigation et les boutons d’action ne figurent pas sur le document imprimé."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/20-receipt.jpg",
+            "alt": "Lire et imprimer un reçu dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1332,
+            "height": 476
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les documents de démonstration portent un avertissement. Ils ne sont ni de véritables factures fiscales ni des preuves de paiement réel.",
+            "Le parcours combiné permet de facturer et d’encaisser ensemble. Le registre des reçus conserve toujours l’encaissement et sa référence permanente PO."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "print-statement",
+      "title": "Imprimer le relevé d’un apprenant",
+      "summary": "Partagez une vue du compte sans créer de nouvelle opération.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Apprenants et choisissez la personne. Vérifiez son nom et sa référence.",
+            "Contrôlez les sommes dues et le crédit non affecté pour chaque devise, puis les registres de factures et de reçus.",
+            "Choisissez Imprimer le relevé, puis votre imprimante ou Enregistrer au format PDF dans le navigateur.",
+            "Vérifiez l’aperçu et les sauts de page. Enregistrez ou imprimez selon la procédure de votre établissement."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/10-student-account.jpg",
+            "alt": "Imprimer le relevé d’un apprenant dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1455,
+            "height": 192
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Le relevé reflète le compte actuel. Ce n’est ni une nouvelle facture ni un nouveau reçu ; il ne change aucun solde.",
+            "Pour expliquer une échéance ou un paiement, ouvrez aussi le document concerné. Pour une situation globale antérieure, utilisez la Date de situation dans Suivi des impayés ou Rapports."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "debtors",
+      "title": "Suivre les frais dus et en retard",
+      "summary": "Distinguez les échéances futures des règlements déjà en retard.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Suivi des impayés et choisissez la Date de situation à examiner.",
+            "Choisissez la Devise d’affichage et lisez les frais restant dus et les échéances en retard.",
+            "Utilisez la recherche pour retrouver un apprenant, un responsable ou une facture. Le registre affiche les factures ouvertes dans la devise sélectionnée.",
+            "Ouvrez une facture pour vérifier son calendrier et son montant restant dû.",
+            "Si de l’argent est arrivé, préparez puis comptabilisez le paiement. Pour réduire des frais impayés approuvés, utilisez l’avoir sur frais."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/23-debtors.jpg",
+            "alt": "Suivre les frais dus et en retard dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 381
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Seules les opérations comptabilisées sont prises en compte. Les échéances futures restent dues sans être en retard. Un solde de 95 000 MUR n’est donc pas nécessairement entièrement en retard.",
+            "La vue présente les soldes ouverts. Les relances automatiques par e-mail et les campagnes de recouvrement ne sont pas incluses. Utilisez les procédures de communication de votre établissement."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "reports-export",
+      "title": "Consulter et exporter les soldes",
+      "summary": "Retrouvez les montants par devise et téléchargez les factures ouvertes.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Rapports et choisissez la Date de situation. Utilisez la même date pour comparer avec Suivi des impayés.",
+            "Lisez les soldes par devise : facturé, encaissé, restant dû et en retard sont séparés pour chaque devise.",
+            "Choisissez Exporter les soldes. Le navigateur télécharge bursara-open-items.csv.",
+            "Ouvrez le CSV dans votre tableur et vérifiez les colonnes de facture, apprenant, responsable, devise, total, paiements, avoirs, solde et retard.",
+            "Conservez la date choisie avec le fichier pour que son destinataire sache quelle situation il présente."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/24-report-export.jpg",
+            "alt": "Consulter et exporter les soldes dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 341
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les brouillons sont exclus des chiffres. Un CSV contient un tableau de valeurs, pas une mise en page PDF. Votre tableur peut demander comment interpréter les dates, nombres et séparateurs. Les encaissements correspondent aux sommes reçues avant remboursement, pas à une trésorerie nette.",
+            "Aucune connexion à une plateforme comptable externe n’est incluse. Définissez le processus comptable et les contrôles nécessaires avec votre établissement."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "financial-journal",
+      "title": "Comprendre le journal de contrôle",
+      "summary": "Identifiez les mouvements associés aux opérations comptabilisées.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Rapports, descendez jusqu’au Journal de contrôle financier.",
+            "Lisez Date et Origine pour savoir si l’écriture provient d’une facture, d’un paiement, d’un avoir, d’un remboursement ou d’une affectation de crédit.",
+            "Le Compte décrit le type de mouvement. Le Mouvement utilise la devise fonctionnelle de l’établissement.",
+            "Les valeurs positives sont des débits et les valeurs négatives des crédits. Les mouvements d’une même comptabilisation doivent se compenser.",
+            "Ouvrez le document d’origine pour l’expliquer. Demandez au responsable financier si le traitement reste incertain."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/25-journal.jpg",
+            "alt": "Comprendre le journal de contrôle dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 990
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les brouillons ne produisent aucune écriture. Ce journal montre les cent dernières comptabilisations ; il ne remplace pas un grand livre complet ou des comptes réglementaires.",
+            "Les tâches quotidiennes passent par les factures, reçus et comptes apprenants. La consultation du journal nécessite le droit de voir les rapports."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "create-user",
+      "title": "Créer un utilisateur de l’établissement",
+      "summary": "Donnez à chaque personne un compte et les droits utiles.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Utilisateurs et droits, puis Nouvel utilisateur.",
+            "Saisissez Nom complet et E-mail de connexion. Chaque personne doit avoir son propre compte.",
+            "Définissez un mot de passe d’au moins douze caractères. Communiquez les accès en privé.",
+            "Cochez uniquement les droits nécessaires. La création de brouillons et leur comptabilisation sont distinctes : un caissier peut préparer un paiement qu’un responsable comptabilisera.",
+            "Choisissez Enregistrer l’utilisateur et ses droits. Demandez à la personne de vérifier les écrans et actions disponibles après connexion."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/39-user-details.jpg",
+            "alt": "Créer un utilisateur de l’établissement dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 266
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Chaque utilisateur reste limité à son établissement. Un compte ordinaire ne peut pas ouvrir l’écran de changement d’établissement du personnel de plateforme.",
+            "Le droit de gérer d’autres utilisateurs est puissant. Réservez-le aux administrateurs de confiance. Le compte de démonstration ne peut pas être modifié et son mot de passe est protégé."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "user-rights",
+      "title": "Définir les bons droits",
+      "summary": "Séparez la préparation des documents de leur comptabilisation.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Utilisateurs et droits, choisissez Modifier les droits pour un utilisateur ordinaire.",
+            "Gérer les apprenants permet de créer et modifier les inscriptions. Gérer les programmes et les frais permet de gérer les programmes et unités.",
+            "Créer et modifier les brouillons de facture autorise les brouillons ; Comptabiliser les factures autorise leur validation financière. Les paiements suivent la même séparation.",
+            "Le parcours combiné exige les deux droits de comptabilisation. Accorder des avoirs et remboursements autorise les corrections distinctes. Vérifiez séparément les droits de rapports, modules, paramètres et utilisateurs.",
+            "Enregistrez l’utilisateur et les droits, puis contrôlez les actions visibles. Une personne peut préparer un document et en laisser la comptabilisation à un collègue autorisé."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/38-permission-checkboxes.jpg",
+            "alt": "Définir les bons droits dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 570
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les droits ne changent pas l’établissement du compte. Aucune case cochée signifie aucun des droits d’action proposés. Vous ne pouvez pas retirer ici votre propre droit de gestion des utilisateurs.",
+            "Pour changer le mot de passe d’un compte ordinaire, saisissez-en un nouveau ; laissez le champ vide pour conserver l’ancien. Cette action ne retire ni les clés d’accès ni l’authentification supplémentaire. Le compte de démonstration reste protégé."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "institution-settings",
+      "title": "Vérifier les paramètres de l’établissement",
+      "summary": "Contrôlez l’identité et les réglages qui s’appliquent à votre espace.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Paramètres et vérifiez Nom de l’établissement, Code pays, Fuseau horaire et Adresse.",
+            "Pour un établissement client ordinaire, faites les modifications autorisées et choisissez Enregistrer l’établissement.",
+            "La devise fonctionnelle affichée est fixée à la création de l’établissement et ne se change pas ici.",
+            "Dans la démonstration, l’avis de protection explique pourquoi l’identité et son bouton d’enregistrement sont désactivés."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/27-demo-settings.jpg",
+            "alt": "Vérifier les paramètres de l’établissement dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1320,
+            "height": 699
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Utilisez un code pays à deux lettres, comme MU, et un fuseau reconnu, comme Indian/Mauritius. Le fuseau détermine la date actuelle de l’établissement dans les comptes.",
+            "L’identité et le compte de démonstration sont protégés, mais les parcours financiers fictifs restent disponibles pour les essais."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "platform-create-institution",
+      "title": "Personnel plateforme : créer un client",
+      "summary": "Créez un établissement isolé et son premier administrateur.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Connectez-vous avec un compte de personnel plateforme autorisé. Dans Établissements clients, choisissez Nouvel établissement.",
+            "Renseignez Nom de l’établissement, Code pays, Devise fonctionnelle et Fuseau horaire. La devise fonctionnelle restera fixe.",
+            "Saisissez Nom de l’administrateur, E-mail de l’administrateur et un mot de passe temporaire d’au moins douze caractères.",
+            "Choisissez Créer l’établissement. L’espace et son premier administrateur sont créés ensemble.",
+            "Communiquez les accès en privé. Ouvrir l’espace permet ensuite d’aider le client à effectuer son paramétrage initial."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/31-create-institution.jpg",
+            "alt": "Personnel plateforme : créer un client dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 804,
+            "height": 761
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/36-institution-footer.jpg",
+            "alt": "Personnel plateforme : créer un client dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 759,
+            "height": 221
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Le premier administrateur appartient uniquement au nouvel établissement. Les apprenants et données financières des autres établissements ne sont pas copiés. Gardez tous les accès confidentiels."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "platform-support-access",
+      "title": "Personnel plateforme : entrer et sortir d’un établissement",
+      "summary": "Utilisez l’accès d’assistance sans perdre le contexte du client.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Établissements clients, retrouvez le bon établissement et choisissez Ouvrir l’espace.",
+            "Vérifiez son nom dans le menu et la bannière Accès d’assistance avant toute modification.",
+            "Effectuez la tâche d’assistance autorisée. Le personnel plateforme dispose des actions de l’établissement, sous réserve des protections de la démonstration.",
+            "Choisissez Quitter l’établissement dans la bannière pour revenir à la liste des clients.",
+            "À la fin de l’assistance, choisissez Se déconnecter."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/32-support-access.jpg",
+            "alt": "Personnel plateforme : entrer et sortir d’un établissement dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 111
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les entrées et sorties sont enregistrées comme sessions d’assistance. Une déconnexion ferme également la session active. Les opérations comptabilisées conservent l’identité du membre du personnel.",
+            "Vérifiez particulièrement le nom visible lorsque deux clients ont des noms proches. L’identité et le compte de démonstration restent protégés même en accès d’assistance."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ebs-settings",
+      "title": "Module EBS facultatif pour Maurice",
+      "summary": "Configurez l’événement et l’étape du document à déclarer dans l’environnement de test.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Pour un établissement mauricien avec le droit de gérer les modules, ouvrez Modules. La démonstration partagée ne peut pas transmettre de documents fiscaux externes.",
+            "Cochez Activer l’environnement de test EBS avec les accès de test appropriés. Dans Déclarer lors de, choisissez l’émission d’une facture ou la réception d’un paiement.",
+            "Choisissez l’étape du document : Brouillon ou Comptabilisé. Comptabilisé est le choix normal par défaut. L’étape est indépendante du type d’événement facture ou paiement.",
+            "Saisissez la Clé API de test et choisissez Enregistrer le module. Laissez la clé vide lors d’une modification pour conserver celle enregistrée.",
+            "Vérifiez l’événement, l’étape et les limites. Enregistrer un brouillon ou comptabiliser une opération ne prépare ni ne transmet automatiquement de document."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/33-ebs-settings.jpg",
+            "alt": "Module EBS facultatif pour Maurice dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1320,
+            "height": 783
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Le module utilise l’environnement de test EBS. Les accès enregistrés sont chiffrés et ne sont plus affichés. Ne les joignez jamais à une capture ou un exemple de support.",
+            "Seuls les établissements mauriciens peuvent activer EBS. Les fonctions financières générales sont indépendantes de ce module. Aucune intégration comptable externe n’est incluse."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "ebs-workflow",
+      "title": "Préparer et vérifier un document fiscal de test",
+      "summary": "Relisez un instantané avant toute transmission explicite vers EBS.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Modules, sélectionnez la Facture admissible et, en mode paiement, son Paiement affecté. L’admissibilité suit l’événement et l’étape Brouillon ou Comptabilisé enregistrés.",
+            "Choisissez Préparer le document de test. Un instantané apparaît dans le Registre fiscal ; il n’est pas encore transmis.",
+            "Choisissez Vérifier et contrôlez l’établissement, les montants, la devise, l’événement et la référence fiscale distincte. EBS utilise sa propre numérotation fiscale continue ; SO et PO restent des références de création.",
+            "Une personne autorisée disposant d’accès de test peut choisir Transmettre à l’environnement de test. Aucun envoi n’est nécessaire pour essayer la facturation ordinaire.",
+            "Pour une référence en file d’attente, utilisez Actualiser l’état. Faites rapprocher un résultat Inconnu avec EBS avant toute nouvelle tentative ou référence."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/34-ebs-prepare.jpg",
+            "alt": "Préparer et vérifier un document fiscal de test dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1320,
+            "height": 404
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/35-ebs-register.jpg",
+            "alt": "Préparer et vérifier un document fiscal de test dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 1500,
+            "height": 293
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Modifier un brouillon invalide son instantané préparé mais jamais transmis : préparez-le de nouveau après vérification. Dès qu’un document fiscal a été transmis, son brouillon financier ne peut plus être modifié, même en cas de rejet ou de résultat incertain.",
+            "Les lignes de service acceptées sont sans remise, exonérées ou à 15 %. Le mode paiement vise les frais de scolarité non taxés et affectés. Préparé ne signifie pas accepté ; En attente reste en traitement et Inconnu exige un rapprochement. Les envois réels et avoirs fiscaux ne sont pas inclus."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "mobile-use",
+      "title": "Utiliser Bursara sur un petit écran",
+      "summary": "Retrouvez les mêmes comptes et actions depuis le navigateur de votre téléphone.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Sur un petit écran, choisissez Ouvrir le menu en haut à gauche.",
+            "Choisissez Apprenants, Facturation, Paiements ou l’écran souhaité. Fermer le menu permet de revenir sans changer de page.",
+            "Faites glisser horizontalement un registre large pour voir les colonnes masquées. Ouvrez un document pour mieux lire ses détails.",
+            "Dans un formulaire long, vérifiez toutes les lignes, dates et sommes avant d’enregistrer ou de comptabiliser.",
+            "Utilisez À propos de cet écran pour un rappel. Un grand écran peut être plus pratique pour les documents complexes et l’impression."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/29-mobile-navigation.jpg",
+            "alt": "Utiliser Bursara sur un petit écran dans Bursara, avec les commandes utiles repérées.",
+            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "width": 332,
+            "height": 477
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Bursara est une application web : aucune application mobile séparée n’est nécessaire. Le fonctionnement hors connexion de l’application n’est pas inclus.",
+            "Utilisez si nécessaire le zoom du navigateur, puis vérifiez le document entier avant de l’imprimer ou de le partager."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "common-problems",
+      "title": "Résoudre les difficultés courantes",
+      "summary": "Vérifiez le compte, les droits et les montants avant de recommencer une opération.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Connexion impossible : vérifiez les identifiants ou utilisez une clé d’accès enregistrée. Fournissez le code demandé ou un code de récupération inutilisé. Après des échecs répétés, attendez le délai indiqué. Un code déjà utilisé doit être remplacé par le suivant de l’application.",
+            "Bouton absent ou accès refusé : demandez la vérification de vos droits. Un utilisateur client ne peut pas entrer dans un autre établissement.",
+            "Unité absente : vérifiez le programme et les unités de l’apprenant. Des unités de programmes ou de devises différents ne peuvent pas être mélangées sans contrôle.",
+            "Paiement refusé à la comptabilisation : vérifiez décimales, montants positifs, dates et affectations. Une autre opération a peut-être réglé la facture depuis l’enregistrement du brouillon.",
+            "Avoir ou remboursement bloqué : un avoir ne dépasse pas les frais impayés et un remboursement ne dépasse pas le crédit inutilisé. Une facture fiscale nécessite sa procédure locale de correction.",
+            "Résultat fiscal inconnu : arrêtez et faites rapprocher la référence d’origine. Ne retransmettez pas simplement parce que la réponse tarde."
+          ]
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "En cas de doute sur une comptabilisation, recherchez d’abord la référence SO ou PO et le numéro définitif dans les registres et le compte apprenant. Un brouillon existant peut être repris plutôt que recréé.",
+            "Pour signaler un problème, indiquez l’écran, la référence, les étapes, le résultat attendu et le message exact. Retirez les informations personnelles et confidentielles de vos exemples."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "support-and-glossary",
+      "title": "Aide et repères rapides",
+      "summary": "Retrouvez les termes utiles et les coordonnées de l’équipe.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Établissement : une école, un organisme de formation ou un autre lieu d’enseignement disposant de données isolées.",
+            "Programme : le cursus entier. Unité : une année, une matière ou un module auquel un tarif est associé.",
+            "Responsable du paiement : apprenant, parent, tuteur, employeur ou sponsor qui règle les frais.",
+            "Devise fonctionnelle : devise principale de présentation de l’établissement. Devise du document : devise d’une facture ou d’un reçu particulier.",
+            "Avoir sur frais : diminution distincte d’une charge impayée. Crédit apprenant : argent reçu non affecté. Remboursement : restitution de crédit inutilisé.",
+            "Pour de l’aide, contactez support@streaktechnologies.com ou +230 215 2998, ou consultez streaktechnologies.com."
+          ]
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Bursara est un produit de Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Maurice. Contact États-Unis : +1 307 500 3256.",
+            "Le guide couvre programmes, apprenants, brouillons modifiables, comptabilisation autorisée, reçus, échéances, impayés, droits, sécurité de connexion et test fiscal mauricien facultatif. Présence, emplois du temps, encaissement en ligne, intégration comptable et factures récurrentes automatiques ne sont pas inclus."
+          ]
+        }
+      ]
+    }
+  ]
+}

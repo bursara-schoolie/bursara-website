@@ -1,0 +1,316 @@
+{
+  "language": "Langue",
+  "skip": "Aller au contenu",
+  "home": "Accueil",
+  "product": "Le produit",
+  "institutions": "Établissements",
+  "about": "À propos",
+  "help": "Aide",
+  "contact": "Contact",
+  "menu": "Menu",
+  "openNavigation": "Ouvrir la navigation",
+  "mainNavigation": "Navigation principale",
+  "mobileNavigation": "Navigation mobile",
+  "openApp": "Ouvrir l’application",
+  "resources": "Ressources",
+  "allFeatures": "Toutes les fonctionnalités",
+  "studentBilling": "Facturation des apprenants",
+  "receipts": "Reçus et paiements",
+  "debtors": "Suivi des impayés",
+  "currencies": "Plusieurs devises",
+  "learningInstitutions": "Établissements de formation",
+  "schools": "Écoles et académies",
+  "colleges": "Enseignement supérieur et formation",
+  "aboutBursara": "À propos de Bursara",
+  "helpGuides": "Aide et guides",
+  "contactTeam": "Contacter l’équipe",
+  "privacy": "Confidentialité",
+  "terms": "Conditions d’utilisation",
+  "legalNavigation": "Informations légales",
+  "workspace": "L’espace de gestion",
+  "yourInstitution": "Votre établissement",
+  "letsTalk": "Parlons-en",
+  "mauritius": "Maurice",
+  "usa": "États-Unis",
+  "contactDetails": "Nos coordonnées",
+  "by": "Un produit de",
+  "tagline": [
+    "Des comptes clairs.",
+    "Plus de place pour apprendre."
+  ],
+  "socialAlt": "Bursara, la facturation, les reçus et le suivi financier des établissements de formation.",
+  "explore": "Découvrir Bursara",
+  "talkTeam": "Parler à l’équipe",
+  "onPage": "Sur cette page",
+  "questions": "Questions",
+  "illustration": "EXEMPLE ILLUSTRATIF",
+  "example": "UN EXEMPLE CONCRET",
+  "questionsAnswered": "VOS QUESTIONS",
+  "moreClarity": "Pour y voir plus clair.",
+  "figuresIntro": "Comprendre les étapes aide aussi à comprendre les chiffres.",
+  "findHelp": "Consulter les guides",
+  "keepExploring": "Poursuivre la découverte.",
+  "seeWorkflow": "Découvrez le fonctionnement.",
+  "seeWorkflowText": "Explorez Bursara ou parlez à notre équipe des besoins de votre établissement.",
+  "openWorkspace": "Ouvrir l’espace de gestion",
+  "breadcrumb": "Fil d’Ariane",
+  "previousGuide": "Guide précédent",
+  "nextGuide": "Guide suivant",
+  "allGuides": "Tous les guides",
+  "downloadPdf": "Télécharger le PDF complet",
+  "downloadHtml": "Télécharger le guide hors ligne",
+  "guideSections": "Rubriques du guide",
+  "openImage": "Ouvrir l’image en grand :",
+  "guideTitle": "Guide d’utilisation de Bursara",
+  "helpMetaTitle": "Aide et guide Bursara | Facturation et reçus des établissements",
+  "helpMetaDescription": "Des instructions illustrées pour les programmes, les comptes des apprenants, les brouillons, la comptabilisation, les paiements, les droits et la sécurité de connexion.",
+  "helpHeading": [
+    "Un peu d’aide.",
+    "Une gestion plus claire."
+  ],
+  "helpIntro": "Choisissez la tâche à accomplir. Chaque guide reprend les noms des écrans et des commandes de Bursara, avec des exemples fondés sur des données fictives.",
+  "startBasics": "Commencer par les bases",
+  "findGuide": "Trouver un guide",
+  "searchPlaceholder": "Exemple : brouillon, facture, paiement, droits",
+  "guides": "guides",
+  "guide": "guide",
+  "noGuides": "Aucun guide ne correspond à cette recherche.",
+  "shorterSearch": "Essayez un terme plus court ou contactez l’équipe.",
+  "workingDemo": "Vous utilisez la démonstration ?",
+  "fictional": "Utilisez des apprenants fictifs et des opérations financières simulées.",
+  "askHelp": "Demander de l’aide",
+  "currentGuide": "Un guide de l’application.",
+  "guideBoundary": "Utilisez des apprenants fictifs et des opérations simulées dans la démonstration partagée. Les autres utilisateurs de démonstration peuvent consulter ces données. Les guides décrivent la gestion financière. L’assiduité, les emplois du temps, l’envoi automatique de courriels et l’encaissement de paiements en ligne ne sont pas inclus actuellement.",
+  "stillHelp": "Besoin d’un coup de main ?",
+  "supportInstructions": "Indiquez l’écran, les étapes suivies et le résultat attendu. Retirez les informations personnelles des captures et des exemples.",
+  "guideGroups": [
+    [
+      "Premiers pas",
+      "Se connecter, trouver le bon écran et comprendre les comptes."
+    ],
+    [
+      "Programmes et apprenants",
+      "Définir les frais et inscrire les apprenants."
+    ],
+    [
+      "Factures et échéances",
+      "Préparer, vérifier et comptabiliser les frais avec les droits nécessaires."
+    ],
+    [
+      "Paiements et corrections",
+      "Enregistrer les encaissements, les affecter et traiter les ajustements."
+    ],
+    [
+      "Impayés et rapports",
+      "Suivre les sommes dues et comprendre les chiffres."
+    ],
+    [
+      "Équipe et accès aux établissements",
+      "Gérer les utilisateurs, les droits et l’assistance autorisée."
+    ],
+    [
+      "Module fiscal et aide complémentaire",
+      "Découvrir le module par pays et résoudre les difficultés."
+    ]
+  ],
+  "homeData": {
+    "title": "Bursara | Frais de scolarité, paiements et gestion financière",
+    "description": "Scolarité, frais universitaires et transport, brouillons modifiables, reçus et gestion financière avec des modules facultatifs par pays.",
+    "eyebrow": "LA GESTION FINANCIÈRE DES ÉTABLISSEMENTS, REPENSÉE",
+    "heading": [
+      "Chaque frais.",
+      "Chaque paiement.",
+      "Tout devient clair."
+    ],
+    "intro": "De la scolarité aux unités universitaires et au transport. Un espace financier pour les brouillons de frais, les reçus et les comptes apprenants.",
+    "meet": "Voir les fonctionnalités",
+    "note": "Scolarité. Frais universitaires. Transport. Un compte clair.",
+    "previewTitle": "COMPTE D’UN APPRENANT",
+    "previewProgramme": "Secondaire · 1re année",
+    "active": "Actif",
+    "annual": "Frais annuels",
+    "paid": "Déjà réglé",
+    "progress": "Une année clairement suivie.",
+    "paidPercent": "21 % réglés",
+    "remaining": "Solde restant",
+    "statement": "Voir le relevé",
+    "activity": "Dernières opérations",
+    "viewAll": "Tout voir",
+    "partPayment": "Paiement partiel reçu",
+    "transfer": "Virement bancaire · Scolarité",
+    "annualInvoice": "Facture des frais annuels",
+    "schedule": "12 échéances prévues",
+    "oneAccount": "Un seul compte. Une vue d’ensemble.",
+    "forLearning": "POUR TOUS LES ÉTABLISSEMENTS DE FORMATION",
+    "institutionTypes": [
+      "Écoles",
+      "Universités",
+      "Académies",
+      "Organismes de formation"
+    ],
+    "featureEyebrow": "MOINS DE GESTION. PLUS DE CLARTÉ.",
+    "featureHeading": [
+      "Un meilleur rythme",
+      "pour votre service financier."
+    ],
+    "features": [
+      [
+        "01",
+        "Des frais adaptés à votre établissement.",
+        "Scolarité annuelle, unités universitaires ou transport : préparez un brouillon selon les services de votre établissement."
+      ],
+      [
+        "02",
+        "Chaque paiement trouve sa place.",
+        "Vérifiez les brouillons avant comptabilisation, affectez les reçus confirmés et suivez clairement les sommes réglées et celles qui restent dues."
+      ],
+      [
+        "03",
+        "Une vision claire des impayés.",
+        "Suivez les soldes, les échéances et les crédits disponibles sans perdre de vue l’apprenant concerné."
+      ]
+    ],
+    "billingEyebrow": "VOTRE ÉTABLISSEMENT. VOTRE MODE DE FACTURATION.",
+    "billingHeading": [
+      "L’année est prévue.",
+      "Les paiements sont suivis."
+    ],
+    "billingIntro": "Préparez un brouillon modifiable pour la scolarité, les unités universitaires ou le transport. Vérifiez et comptabilisez avec les droits requis. Encaissez séparément ou comptabilisez ensemble une facture intégralement réglée et son reçu.",
+    "viewWorkspace": "Voir l’espace de gestion financière",
+    "steps": [
+      [
+        "Définir les frais",
+        "Scolarité, université ou transport et conditions de paiement claires."
+      ],
+      [
+        "Préparer, vérifier et comptabiliser",
+        "Des brouillons modifiables et des droits de comptabilisation distincts."
+      ],
+      [
+        "Garder une vue d’ensemble",
+        "Soldes, dates d’échéance et relevés des apprenants."
+      ]
+    ],
+    "moduleEyebrow": "VOTRE ESPACE. VOS MODULES.",
+    "moduleHeading": [
+      "La finance au centre.",
+      "Des modules au choix."
+    ],
+    "moduleIntro": "Gardez la gestion financière au centre et ajoutez des modules lorsque vous en avez besoin. La facturation électronique relève de modules par pays, à commencer par EBS pour Maurice ; d’autres prestataires et fonctions peuvent être développés séparément.",
+    "moduleLabel": "MODULE POUR MAURICE",
+    "moduleTitle": "Facturation électronique EBS",
+    "moduleText": "Choisissez l’opération à déclarer et le stade de préparation : brouillon enregistré ou document comptabilisé. L’envoi reste une action explicite.",
+    "moduleNote": "Le module EBS utilise actuellement son environnement de test et nécessite les identifiants adaptés.",
+    "ctaHeading": "Découvrez votre espace.",
+    "ctaIntro": "Explorez l’application, puis échangeons sur les besoins de votre établissement.",
+    "ctaButton": "Ouvrir l’application",
+    "contactHeading": "Parlons de vos frais de formation.",
+    "contactIntro": "Découvrez Bursara pour votre école, votre établissement supérieur ou votre organisme de formation."
+  },
+  "contactData": {
+    "title": "Contacter Bursara | Streak Technologies Ltd",
+    "description": "Parlez de facturation, de reçus et de Bursara avec Streak Technologies Ltd. Retrouvez notre adresse de courriel et nos numéros à Maurice et aux États-Unis.",
+    "eyebrow": "L’ÉQUIPE DERRIÈRE BURSARA",
+    "heading": "Parlons de votre gestion financière.",
+    "intro": "Expliquez-nous comment votre établissement facture ses frais, reçoit les paiements et suit les impayés. Nous pourrons examiner vos besoins et définir un point de départ utile.",
+    "conversation": "PRENDRE CONTACT",
+    "human": "Une personne. Une discussion concrète.",
+    "emailIntro": "Pour une demande sur le produit ou une question d’assistance, écrivez à l’équipe Streak Technologies.",
+    "institution": "Parler de votre établissement",
+    "feedback": "Partager vos observations",
+    "opensEmail": "Ouvre votre application de messagerie.",
+    "usaHeading": "Échangez avec notre équipe.",
+    "companyIntro": "Consultez le site de Streak Technologies pour en savoir plus sur l’entreprise.",
+    "before": "Avant de nous contacter.",
+    "beforeText": "Présentez brièvement votre établissement, ses frais habituels, ses devises et ses modalités de paiement. Il n’est pas nécessaire d’envoyer des dossiers d’apprenants ni des documents financiers pour commencer.",
+    "report": "Vous signalez une difficulté ?",
+    "reportText": "Précisez l’écran, les étapes suivies, le résultat attendu et le résultat obtenu. Retirez les informations personnelles des captures. Le guide explique le fonctionnement.",
+    "look": "Vous préférez d’abord découvrir l’application ?",
+    "lookText": "Explorez la démonstration avec des données fictives."
+  },
+  "notFound": {
+    "title": "Page introuvable",
+    "text": "La page recherchée n’est pas disponible.",
+    "back": "Revenir à Bursara",
+    "or": "ou ouvrir l’application."
+  },
+  "privacyData": {
+    "title": "Politique de confidentialité",
+    "description": "Le traitement des informations de connexion, des établissements et des comptes financiers des apprenants dans Bursara.",
+    "sections": [
+      [
+        "Contact",
+        [
+          "Bursara est un produit de Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Maurice. Pour une question concernant l’application ou ses données, contactez support@streaktechnologies.com ou le +230 215 2998."
+        ]
+      ],
+      [
+        "Données de démonstration",
+        [
+          "L’établissement de démonstration partagé contient des données fictives, accessibles aux autres utilisateurs de démonstration. Utilisez-y des noms, des coordonnées et des opérations fictives. N’y saisissez pas de données personnelles d’apprenants, de paiements réels ni de documents confidentiels."
+        ]
+      ],
+      [
+        "Informations traitées",
+        [
+          "L’application conserve les paramètres de l’établissement, les informations de connexion, les droits, les dossiers des apprenants et responsables du paiement, les programmes, les brouillons, les factures, les reçus, les affectations et les corrections financières. Les paramètres de connexion personnels peuvent comprendre des clés d’accès enregistrées, des secrets d’authentification chiffrés et des codes de récupération chiffrés.",
+          "Les sessions d’assistance enregistrent le membre de l’équipe, l’établissement et les heures d’entrée et de sortie. Les journaux techniques peuvent contenir des adresses IP, des heures de requête et des erreurs utiles au diagnostic."
+        ]
+      ],
+      [
+        "Cookies et hébergement",
+        [
+          "Des cookies essentiels maintiennent la connexion, protègent les formulaires et mémorisent la langue choisie. Le site est hébergé sur Cloudflare Pages ; l’application fonctionne sur un serveur Debian distinct. Bursara n’installe pas de traceurs publicitaires."
+        ]
+      ],
+      [
+        "Module fiscal facultatif",
+        [
+          "Le module EBS pour Maurice est désactivé dans la démonstration partagée. Lorsqu’il est configuré dans un autre établissement, un envoi de test explicite transmet le document fiscal préparé à EBS Mauritius. Les identifiants d’API sont chiffrés en base de données et ne sont pas renvoyés au navigateur."
+        ]
+      ],
+      [
+        "Accès et suppression",
+        [
+          "Contactez l’assistance pour discuter de l’accès, de la correction ou de la suppression de votre compte et de vos données, ainsi que des dispositions applicables à leur traitement. Les données de démonstration peuvent être réinitialisées."
+        ]
+      ]
+    ]
+  },
+  "termsData": {
+    "title": "Conditions d’utilisation",
+    "description": "L’utilisation de Bursara, de sa démonstration partagée et de son module fiscal facultatif.",
+    "sections": [
+      [
+        "Le service",
+        [
+          "Bursara est fourni par Streak Technologies Ltd pour la facturation des apprenants, les reçus et l’administration financière. Les fonctionnalités et modalités de service doivent être convenues avec votre établissement avant de s’appuyer sur l’application pour ses activités."
+        ]
+      ],
+      [
+        "Démonstration partagée",
+        [
+          "Utilisez des données fictives et des opérations simulées dans la démonstration partagée. Les autres utilisateurs de démonstration peuvent consulter ces enregistrements, et les données peuvent être réinitialisées. Les documents de démonstration ne sont pas des reçus réels ni des factures fiscales."
+        ]
+      ],
+      [
+        "Documents et déclarations fiscales",
+        [
+          "Votre établissement est responsable de l’exactitude des frais, des paiements, du traitement fiscal et des comptabilisations autorisées. L’intégration pour Maurice utilise actuellement l’environnement de test d’EBS. Les déclarations réelles, les corrections fiscales et les modules d’autres pays nécessitent une validation distincte."
+        ]
+      ],
+      [
+        "Accès et responsabilités",
+        [
+          "Préservez la confidentialité des identifiants privés des établissements et de l’équipe d’assistance. Utilisez l’accès d’assistance uniquement pour une intervention autorisée. Ne tentez pas d’accéder aux dossiers d’un autre établissement ni de perturber le service. Gardez vos codes de vérification et de récupération confidentiels."
+        ]
+      ],
+      [
+        "Observations et assistance",
+        [
+          "Signalez les difficultés en précisant l’écran, les étapes suivies et le résultat attendu. Retirez les informations confidentielles des exemples. Contactez support@streaktechnologies.com ou le +230 215 2998. Le site streaktechnologies.com présente l’entreprise."
+        ]
+      ]
+    ]
+  }
+}

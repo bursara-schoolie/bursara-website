@@ -1,7 +1,6 @@
 ---
-import Product from '../layouts/Product.astro';
-import { pages } from '../data/pages';
-export function getStaticPaths() { return pages.map(page=>({params:{path:page.path},props:{page}})); }
-const { page }=Astro.props;
+import Product from '../layouts/Product.astro';import Home from '../components/pages/Home.astro';import Contact from '../components/pages/Contact.astro';import Policy from '../components/pages/Policy.astro';import HelpIndex from '../components/pages/HelpIndex.astro';import HelpArticle from '../components/pages/HelpArticle.astro';import NotFound from '../components/pages/NotFound.astro';import {products,publicIds,pageUrl} from '../locales';
+export function getStaticPaths(){return [...products('en').map(page=>({params:{path:page.path},props:{locale:'en',id:page.path}})),...publicIds.map(id=>({params:{path:pageUrl(id,'fr').replace(/^\/|\/$/g,'')},props:{locale:'fr',id}})),{params:{path:'fr/404'},props:{locale:'fr',id:'404'}}];}
+const {locale,id}=Astro.props;const page=products(locale).find(p=>p.path===id);
 ---
-<Product page={page}/>
+{page?<Product page={page} locale={locale}/>:id==='home'?<Home locale={locale}/>:id==='contact'?<Contact locale={locale}/>:id==='help'?<HelpIndex locale={locale}/>:id.startsWith('guide:')?<HelpArticle locale={locale} slug={id.slice(6)}/>:id==='404'?<NotFound locale={locale}/>:<Policy locale={locale} kind={id}/>}

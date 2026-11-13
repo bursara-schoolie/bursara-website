@@ -1,0 +1,4 @@
+---
+import Site from '../../layouts/Site.astro';import {ui,pageUrl,type Locale} from '../../locales';const {locale='en',kind}=Astro.props;const t=ui(locale as Locale);const p=kind==='privacy'?t.privacyData:t.termsData;
+---
+<Site locale={locale} pageId={kind} title={p.title+' | Bursara'} description={p.description}><main id="main-content" class="legal-body"><nav aria-label={t.breadcrumb}><ol class="breadcrumb-list"><li><a href={pageUrl('home',locale)}>{t.home}</a></li><li>{p.title}</li></ol></nav><h1>{p.title}</h1>{p.sections.map(([heading,paragraphs])=><section><h2>{heading}</h2>{paragraphs.map(text=><p>{text}</p>)}</section>)}</main></Site>

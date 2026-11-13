@@ -31,3 +31,9 @@ Product and institution content is defined in `src/data/pages.ts` and rendered a
 The illustrated user guide reads `src/data/manual-chapters.json`. Its index is `/help/`; each chapter has `/help/<slug>/`. Guide screenshots are public files under `/help/images/`, and the complete manual is `/downloads/bursara-user-manual.pdf`; the self-contained offline edition is `/downloads/bursara-user-manual.html`.
 
 `/sitemap.xml` is generated from product and guide data. URLs use trailing slashes. The 404 page is excluded from indexing. The build includes a `bursara-release` metadata value from `CF_PAGES_COMMIT_SHA` for deployment verification.
+
+English and French content is registered explicitly in `src/locales/index.ts`. Add a locale to the registry together with its complete shared strings, product catalogue, manual catalogue and route map. A missing route or a mismatched chapter list fails the build. Templates render translated content directly; no script translates the document after loading.
+
+English URLs remain the default. French pages use `/fr/`, and guide chapter IDs stay identical in both languages. Every public page has its own canonical URL, reciprocal English/French and x-default alternates, and appears in the sitemap. The visible EN/FR selector remembers `bursara_locale` for one year, shared on `.bursara.com` in production. First visits use the browser language; an explicit French URL opens French. The application also respects the cookie and the signed-in user's preference.
+
+Run `npm run build`, then with the preview server available run `node scripts/check-locales.mjs`. The audit checks all public routes, translated metadata, local links and downloads, removal of visible release labels, first-visit detection, manual language persistence, mobile overflow and help search.

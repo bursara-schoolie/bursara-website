@@ -1,0 +1,1135 @@
+[
+  {
+    "path": "features",
+    "label": "Fonctionnalités",
+    "title": "Gestion financière des établissements : frais, reçus et impayés",
+    "description": "Frais scolaires, universitaires et de transport, brouillons de facture modifiables, reçus, impayés et modules facultatifs de facturation électronique.",
+    "eyebrow": "L’ESPACE BURSARA",
+    "heading": "Tout le parcours des frais. Un espace clair.",
+    "intro": "Réunissez les apprenants, les unités facturables, les factures et les reçus dans un même compte financier. Suivez chaque frais, de sa préparation jusqu’au règlement du solde.",
+    "cardTitle": "LE REGISTRE FINANCIER",
+    "cardRows": [
+      [
+        "Apprenant",
+        "La personne formée et le responsable du paiement"
+      ],
+      [
+        "Programme et unités",
+        "Une formation et ses éléments tarifés"
+      ],
+      [
+        "Facture",
+        "Les frais et leurs dates d’échéance"
+      ],
+      [
+        "Paiement",
+        "Les fonds reçus et les frais réglés"
+      ]
+    ],
+    "cardNote": "Un parcours cohérent, de l’inscription au document financier.",
+    "sections": [
+      {
+        "heading": "Partir de l’apprenant, puis définir les frais.",
+        "nav": "Comptes des apprenants",
+        "body": [
+          "L’apprenant n’est pas toujours la personne qui paie. Un parent, un tuteur ou un organisme peut prendre les frais en charge. Gardez ce lien visible avec le programme et les unités choisis.",
+          "Le programme décrit la formation complète. Ses unités décrivent les éléments tarifés, par exemple une année scolaire ou un module universitaire."
+        ],
+        "points": [
+          "Coordonnées de l’apprenant et du responsable du paiement",
+          "Unités à prix fixe ou tarifées par crédit",
+          "Compte individuel avec factures et reçus"
+        ]
+      },
+      {
+        "heading": "Préparer avant de comptabiliser.",
+        "nav": "Facturation",
+        "body": [
+          "Enregistrez un brouillon, vérifiez ses lignes et modifiez-le si nécessaire. La comptabilisation nécessite un droit distinct et attribue le numéro définitif de facture ou de reçu.",
+          "Facturez les frais annuels une seule fois, puis répartissez leurs échéances. Vous pouvez aussi facturer des unités choisies ou enregistrer le paiement intégral au moment de l’émission."
+        ],
+        "points": [
+          "Brouillons modifiables avec référence de création permanente",
+          "Droits de création et de comptabilisation distincts",
+          "Remises, taxes et calendrier de paiement"
+        ]
+      },
+      {
+        "heading": "Affecter chaque paiement aux bons frais.",
+        "nav": "Paiements",
+        "body": [
+          "Enregistrez l’argent réellement reçu, identifiez le payeur et affectez-le aux factures de l’apprenant. Une fois comptabilisé, le reçu conserve la trace de cet encaissement.",
+          "Un paiement anticipé peut rester en crédit disponible. Les réductions de frais et les remboursements sont des opérations distinctes qui conservent l’historique."
+        ],
+        "points": [
+          "Paiements partiels et affectations",
+          "Virements confirmés, espèces, cartes traitées ailleurs et chèques encaissés",
+          "Corrections séparées des documents d’origine"
+        ]
+      },
+      {
+        "heading": "Définir clairement les accès.",
+        "nav": "Accès et modules",
+        "body": [
+          "Chaque établissement dispose de son espace. Ses administrateurs créent les utilisateurs et choisissent les actions autorisées. L’équipe d’assistance peut entrer dans un espace pour une intervention autorisée.",
+          "Les obligations fiscales locales relèvent de modules facultatifs. EBS pour Maurice utilise son environnement de test ; la gestion des frais reste indépendante de ce module."
+        ],
+        "points": [
+          "Données propres à chaque établissement",
+          "Accès d’assistance clairement signalé",
+          "Soldes séparés selon la devise"
+        ]
+      },
+      {
+        "heading": "La finance au centre, des modules au choix.",
+        "nav": "Modules facultatifs",
+        "body": [
+          "Utilisez l’espace financier pour les apprenants, la scolarité, les unités universitaires, le transport, les reçus et le suivi des impayés. Les modules facultatifs ajoutent des fonctions précises sans devenir indispensables au compte de base.",
+          "Le premier module externe disponible est la facturation électronique EBS pour Maurice, dans son environnement de test. La structure permet d’ajouter d’autres pays et modules institutionnels. Présence et emplois du temps ne sont pas inclus aujourd’hui."
+        ],
+        "points": [
+          "Gestion financière indépendante",
+          "Facturation électronique facultative selon le pays",
+          "Possibilité de développer des modules supplémentaires"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Des frais annuels, sans perdre les paiements partiels.",
+      "body": "Une facture annuelle de 120 000 et un paiement affecté de 25 000 laissent 95 000 à régler. Le total facturé, la somme réglée et les échéances racontent les différentes parties du même compte.",
+      "rows": [
+        [
+          "Facture annuelle",
+          "120 000,00"
+        ],
+        [
+          "Paiement affecté",
+          "25 000,00"
+        ],
+        [
+          "Solde à payer",
+          "95 000,00"
+        ],
+        [
+          "Échéancier",
+          "12 échéances mensuelles"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Bursara comprend-il toute la gestion pédagogique ?",
+        "Les fonctionnalités actuelles portent sur la facturation, les reçus et l’administration financière. L’assiduité, les entrées et sorties, les emplois du temps et la gestion pédagogique ne sont pas inclus actuellement."
+      ],
+      [
+        "Remplace-t-il un logiciel comptable ?",
+        "Bursara suit les comptes de frais des apprenants et les écritures de contrôle financier. Il ne s’intègre pas actuellement à un logiciel comptable et ne remplace pas un système complet de comptabilité réglementaire."
+      ],
+      [
+        "Puis-je découvrir tout le parcours ?",
+        "Oui. Utilisez des apprenants fictifs et des paiements simulés dans la démonstration. Le guide décrit les programmes, les inscriptions, les brouillons, la comptabilisation et les reçus."
+      ],
+      [
+        "Que permet le module EBS pour Maurice ?",
+        "Il permet de préparer et d’envoyer explicitement des documents de test. Le rapprochement des résultats reste nécessaire. Les déclarations réelles et les avoirs fiscaux ne sont pas inclus actuellement."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "receipts-and-payments",
+      "debtors"
+    ]
+  },
+  {
+    "path": "student-billing",
+    "label": "Facturation des apprenants",
+    "title": "Facturation des frais scolaires et des unités de formation",
+    "description": "Préparez des brouillons pour la scolarité, les unités universitaires et le transport. Vérifiez puis comptabilisez avec des droits distincts.",
+    "eyebrow": "FACTURATION DES APPRENANTS",
+    "heading": "Des frais qui suivent votre programme.",
+    "intro": "Une année scolaire, une formation professionnelle ou des unités universitaires au choix. Construisez la facture à partir de l’inscription et rendez les conditions de paiement claires.",
+    "cardTitle": "EXEMPLE DE FACTURE ANNUELLE",
+    "cardRows": [
+      [
+        "Programme",
+        "Secondaire"
+      ],
+      [
+        "Unité facturable",
+        "1re année"
+      ],
+      [
+        "Frais annuels",
+        "120 000,00"
+      ],
+      [
+        "Échéancier",
+        "12 mensualités"
+      ]
+    ],
+    "cardNote": "Les frais sont facturés une seule fois. L’échéancier précise quand le solde doit être réglé.",
+    "sections": [
+      {
+        "heading": "Distinguer le programme de l’unité facturable.",
+        "nav": "Programmes et unités",
+        "body": [
+          "Le programme peut être le secondaire, avec les années 1 à 4 comme unités tarifées. Une formation universitaire peut comprendre des modules nommés, chacun avec son prix ou son nombre de crédits.",
+          "Inscrivez l’apprenant aux unités concernées avant de les facturer. Une unité choisie fournit une description et un prix de départ ; une ligne libre peut couvrir un autre frais."
+        ],
+        "points": [
+          "Programmes complets et unités tarifées",
+          "Prix fixe ou prix par crédit",
+          "Apprenant et responsable du paiement identifiés"
+        ]
+      },
+      {
+        "heading": "Vérifier le brouillon, puis comptabiliser.",
+        "nav": "Brouillons et droits",
+        "body": [
+          "Le brouillon peut être enregistré et modifié sans modifier les soldes ni consommer de numéro définitif. Sa référence de création reste la même pendant tout son parcours.",
+          "Un utilisateur autorisé comptabilise ensuite la facture. C’est cette étape qui produit le document financier définitif et son numéro. Les droits de création et de comptabilisation sont distincts."
+        ],
+        "points": [
+          "Préparation et modification avant confirmation",
+          "Numéro définitif attribué à la comptabilisation",
+          "Documents comptabilisés conservés sans modification directe"
+        ]
+      },
+      {
+        "heading": "Facturer maintenant, encaisser progressivement.",
+        "nav": "Échéances",
+        "body": [
+          "Des frais annuels ne nécessitent pas douze factures. Comptabilisez le montant total et répartissez les dates de paiement sur plusieurs mois. Les affectations de paiements réduisent ensuite le solde.",
+          "Distinguez le montant encore dû pour l’année de la somme déjà en retard aujourd’hui. La date de situation permet d’examiner les comptes à un moment précis."
+        ],
+        "points": [
+          "Une facture avec plusieurs échéances",
+          "Paiements partiels sur le solde",
+          "Montant restant distinct du montant en retard"
+        ]
+      },
+      {
+        "heading": "Adapter le document à l’opération.",
+        "nav": "Modes de facturation",
+        "body": [
+          "Lorsque les frais précèdent le paiement, émettez la facture puis enregistrez les encaissements. Lorsque le montant intégral est reçu à l’émission, le mode combiné crée une facture réglée et le paiement correspondant à leur comptabilisation.",
+          "Pour réduire des frais encore impayés, enregistrez un avoir distinct avec sa date et sa raison. Les documents transmis au module fiscal nécessitent leur traitement de correction local."
+        ],
+        "points": [
+          "Facturation avant encaissement",
+          "Émission et paiement intégral ensemble",
+          "Impression ou enregistrement PDF depuis le navigateur"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un apprenant. Deux unités universitaires.",
+      "body": "Un apprenant en sciences biomédicales suit une unité de biologie cellulaire de trois crédits à 250 par crédit et une unité de laboratoire à prix fixe de 400.",
+      "rows": [
+        [
+          "Biologie cellulaire · 3 × 250",
+          "750,00"
+        ],
+        [
+          "Travaux de laboratoire · prix fixe",
+          "400,00"
+        ],
+        [
+          "Total des unités",
+          "1 150,00"
+        ],
+        [
+          "Responsable du paiement",
+          "Apprenant ou organisme enregistré"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Peut-on facturer par année scolaire et par module ?",
+        "Oui. Le programme représente la formation entière ; les années ou modules sont ses unités facturables. Une unité peut avoir un prix fixe ou un tarif multiplié par son nombre de crédits."
+      ],
+      [
+        "Les factures futures sont-elles créées automatiquement ?",
+        "Bursara permet de choisir une période et un échéancier lors de la comptabilisation. La génération automatique de factures récurrentes n’est pas incluse actuellement."
+      ],
+      [
+        "Peut-on envoyer les factures par courriel ?",
+        "Les documents peuvent être consultés et imprimés. L’envoi automatique par courriel n’est pas inclus actuellement."
+      ]
+    ],
+    "related": [
+      "receipts-and-payments",
+      "debtors",
+      "institutions/schools"
+    ]
+  },
+  {
+    "path": "receipts-and-payments",
+    "label": "Reçus et paiements",
+    "title": "Reçus de frais de formation et affectation des paiements",
+    "description": "Enregistrez les encaissements, vérifiez les brouillons de paiement, émettez les reçus et affectez les sommes aux factures des apprenants.",
+    "eyebrow": "REÇUS ET PAIEMENTS",
+    "heading": "Chaque paiement clairement suivi.",
+    "intro": "Identifiez le payeur, le montant reçu et les frais réglés. Préparez le paiement, puis comptabilisez-le pour lui donner sa place dans le compte de l’apprenant.",
+    "cardTitle": "EXEMPLE DE PAIEMENT",
+    "cardRows": [
+      [
+        "Payeur",
+        "Parent ou tuteur"
+      ],
+      [
+        "Montant reçu",
+        "25 000,00"
+      ],
+      [
+        "Moyen enregistré",
+        "Virement bancaire confirmé"
+      ],
+      [
+        "Affectation",
+        "Facture des frais annuels"
+      ]
+    ],
+    "cardNote": "Bursara enregistre un paiement déjà reçu. Il n’effectue pas lui-même un virement ni un débit de carte.",
+    "sections": [
+      {
+        "heading": "Préparer le paiement reçu.",
+        "nav": "Brouillon de paiement",
+        "body": [
+          "Choisissez l’apprenant, le payeur, le montant, la devise, la date de réception et le moyen de paiement. Ajoutez une référence bancaire ou interne utile à votre équipe.",
+          "Enregistrez un brouillon pour vérifier ou corriger la saisie. Le reçu définitif et l’effet sur les comptes apparaissent seulement lors de la comptabilisation autorisée."
+        ],
+        "points": [
+          "Brouillon modifiable avant confirmation",
+          "Référence de création conservée",
+          "Numéro de reçu attribué à la comptabilisation"
+        ]
+      },
+      {
+        "heading": "Régler les bonnes factures.",
+        "nav": "Affectations",
+        "body": [
+          "Un apprenant peut avoir plusieurs factures ouvertes. Sélectionnez celles à régler et indiquez le montant affecté à chacune. Un paiement partiel réduit le solde sans déclarer tous les frais réglés.",
+          "Le montant affecté ne peut dépasser ni les fonds disponibles ni le solde de la facture. Les comptes d’autres apprenants restent distincts."
+        ],
+        "points": [
+          "Affectation à plusieurs factures du même apprenant",
+          "Montant payé et solde restant visibles",
+          "Suivi des virements confirmés et autres encaissements"
+        ]
+      },
+      {
+        "heading": "Conserver les avances en crédit disponible.",
+        "nav": "Crédit de l’apprenant",
+        "body": [
+          "Un encaissement peut précéder le choix de sa facture. Conservez-le en crédit non affecté plutôt que de le rattacher à un frais sans rapport.",
+          "Le reçu indique le crédit disponible. Vous pouvez ensuite l’affecter à une facture admissible dans la même devise ou enregistrer un remboursement de la partie non utilisée."
+        ],
+        "points": [
+          "Encaissement indépendant d’une facture",
+          "Crédit disponible séparé des sommes déjà affectées",
+          "Remboursement distinct avec date et raison"
+        ]
+      },
+      {
+        "heading": "Remettre un document lisible.",
+        "nav": "Documents de paiement",
+        "body": [
+          "Le reçu permet de vérifier le montant, le moyen de paiement et les factures réglées. Il montre l’effet financier de l’encaissement et pas uniquement une référence bancaire.",
+          "Imprimez-le ou enregistrez-le au format PDF depuis le navigateur. Le mode combiné permet aussi de comptabiliser le paiement intégral au moment de l’émission de la facture."
+        ],
+        "points": [
+          "Détail des encaissements et affectations",
+          "Références de facture et de reçu distinctes",
+          "Présentation adaptée à l’impression"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un paiement supérieur à l’affectation du jour.",
+      "body": "L’établissement reçoit 30 000 et affecte 25 000 aux frais annuels. Les 5 000 restants restent visibles comme crédit disponible.",
+      "rows": [
+        [
+          "Montant reçu",
+          "30 000,00"
+        ],
+        [
+          "Affecté à la scolarité",
+          "25 000,00"
+        ],
+        [
+          "Crédit non affecté",
+          "5 000,00"
+        ],
+        [
+          "Reçu",
+          "Encaissement et affectations"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Bursara encaisse-t-il les cartes en ligne ?",
+        "Non. Il enregistre un paiement par carte déjà traité ailleurs. Il ne collecte pas de données de carte et ne débite pas le payeur."
+      ],
+      [
+        "Un parent peut-il régler une partie seulement ?",
+        "Oui. Enregistrez le montant réellement reçu et affectez-le à la facture. Le reste demeure impayé."
+      ],
+      [
+        "Peut-on rembourser un paiement déjà affecté ?",
+        "Le remboursement actuel concerne uniquement les fonds non affectés. L’annulation complète d’une affectation déjà comptabilisée n’est pas incluse."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "debtors",
+      "multi-currency"
+    ]
+  },
+  {
+    "path": "debtors",
+    "label": "Suivi des impayés",
+    "title": "Suivi des frais impayés et des soldes des apprenants",
+    "description": "Examinez les frais impayés, les échéances en retard et les responsables du paiement par date et par devise dans Bursara.",
+    "eyebrow": "SUIVI DES IMPAYÉS",
+    "heading": "Voir le solde. Comprendre l’échéance.",
+    "intro": "Un solde annuel élevé n’est pas toujours un retard. Bursara distingue les frais encore dus des échéances déjà dépassées, pour examiner chaque compte dans son contexte.",
+    "cardTitle": "EXEMPLE DE SITUATION",
+    "cardRows": [
+      [
+        "Frais annuels facturés",
+        "120 000,00"
+      ],
+      [
+        "Paiement affecté",
+        "25 000,00"
+      ],
+      [
+        "Solde restant",
+        "95 000,00"
+      ],
+      [
+        "Montant en retard",
+        "Dépend de la date de situation"
+      ]
+    ],
+    "cardNote": "Examinez le solde restant avec le calendrier des échéances.",
+    "sections": [
+      {
+        "heading": "Distinguer le solde du retard.",
+        "nav": "Sommes dues",
+        "body": [
+          "Le solde impayé comprend les frais non réglés par des paiements ou des avoirs. Une partie peut n’être exigible que dans plusieurs mois. Le retard concerne les échéances antérieures à la date choisie.",
+          "Cette distinction facilite une discussion exacte avec le parent, l’apprenant ou l’organisme responsable du paiement."
+        ],
+        "points": [
+          "Solde complet de chaque facture",
+          "Échéances mensuelles pour comprendre le calendrier",
+          "Responsable du paiement lié à l’apprenant"
+        ]
+      },
+      {
+        "heading": "Choisir une date de situation.",
+        "nav": "Dates de situation",
+        "body": [
+          "Examinez les comptes à une date précise plutôt que de vous limiter au total du jour. Les dates de paiement, d’affectation et d’avoir déterminent le montant encore dû à une date passée.",
+          "Cette vue aide à examiner une période, à préparer un suivi ou à expliquer un retard antérieur à un règlement plus récent."
+        ],
+        "points": [
+          "Vue datée des comptes ouverts",
+          "Choix séparé de la devise",
+          "Accès direct aux pièces justificatives"
+        ]
+      },
+      {
+        "heading": "Retrouver les documents derrière les chiffres.",
+        "nav": "Historique du compte",
+        "body": [
+          "Ouvrez la facture pour examiner les frais et l’échéancier. Le compte de l’apprenant rassemble ses factures et ses reçus.",
+          "Les paiements montrent les fonds reçus et leurs affectations ; les avoirs expliquent les réductions et leurs raisons. Votre équipe peut justifier le solde à partir des enregistrements."
+        ],
+        "points": [
+          "Totaux, paiements et soldes des factures",
+          "Corrections financières distinctes",
+          "Historique centré sur l’apprenant"
+        ]
+      },
+      {
+        "heading": "Préparer le prochain échange.",
+        "nav": "Rapports",
+        "body": [
+          "Utilisez la liste des impayés pour trouver les comptes ouverts et exportez les soldes pour une revue extérieure à l’application. Les devises restent séparées.",
+          "Votre équipe mène les relances auprès des responsables du paiement. L’envoi automatique de campagnes de rappel ou de demandes de paiement n’est pas inclus actuellement."
+        ],
+        "points": [
+          "Consultation des impayés",
+          "Export CSV des soldes",
+          "Suivi humain auprès des payeurs"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un paiement en avance sur la prochaine échéance.",
+      "body": "Une facture de 120 000 comporte douze échéances de 10 000 dès janvier. Un paiement de 25 000 en février règle les deux premières et une partie de la troisième. Avant l’échéance de mars, 95 000 peuvent rester dus sans retard.",
+      "rows": [
+        [
+          "Engagement annuel",
+          "120 000,00"
+        ],
+        [
+          "Janvier et février exigibles",
+          "20 000,00"
+        ],
+        [
+          "Reçu en février",
+          "25 000,00"
+        ],
+        [
+          "Solde avant l’échéance de mars",
+          "95 000,00"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Tout montant impayé est-il en retard ?",
+        "Non. Une échéance future peut rester impayée sans être en retard. Le calendrier et la date de situation permettent de les distinguer."
+      ],
+      [
+        "Les rappels sont-ils envoyés automatiquement ?",
+        "Non. L’équipe examine la liste et communique avec les responsables du paiement selon sa procédure habituelle."
+      ],
+      [
+        "Peut-on additionner des soldes en et ?",
+        "Les vues conservent les devises de transaction séparées afin de ne pas présenter des montants de nature différente comme un seul total."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "receipts-and-payments",
+      "multi-currency"
+    ]
+  },
+  {
+    "path": "multi-currency",
+    "label": "Plusieurs devises",
+    "title": "Facturation des apprenants et paiements en plusieurs devises",
+    "description": "Facturez et enregistrez les frais dans les devises prises en charge, respectez leur précision et consultez les soldes séparément.",
+    "eyebrow": "PLUSIEURS DEVISES",
+    "heading": "Des devises différentes. Des comptes toujours clairs.",
+    "intro": "Un apprenant international, un organisme financeur à l’étranger ou un programme tarifé dans une autre devise doivent garder un compte lisible. La devise reste visible de la facture au reçu.",
+    "cardTitle": "EXEMPLE DE SUIVI DES DEVISES",
+    "cardRows": [
+      [
+        "Suivi de l’établissement",
+        "Une devise fonctionnelle"
+      ],
+      [
+        "Factures et reçus",
+        "Leur devise d’origine"
+      ],
+      [
+        "Montant illustratif",
+        "1 150,00"
+      ],
+      [
+        "Consultation",
+        "Soldes séparés par devise"
+      ]
+    ],
+    "cardNote": "La devise fonctionnelle est définie à la création de l’établissement.",
+    "sections": [
+      {
+        "heading": "Choisir la devise de facturation.",
+        "nav": "Devises des frais",
+        "body": [
+          "Chaque unité tarifée possède sa devise. La facture conserve sa propre devise et son prix au moment de la comptabilisation.",
+          "Les unités de devises différentes doivent être facturées séparément. Choisissez un taux lorsque la devise du document diffère de la devise fonctionnelle de l’établissement."
+        ],
+        "points": [
+          "Devise indiquée sur le document",
+          "Taux saisi par l’établissement",
+          "Prix conservé avec la facture"
+        ]
+      },
+      {
+        "heading": "Respecter la précision monétaire.",
+        "nav": "Précision",
+        "body": [
+          "Toutes les devises n’utilisent pas le même nombre de décimales. Bursara respecte la précision de la devise choisie pour calculer les frais, paiements et affectations.",
+          "Les échéances et affectations doivent conserver le total exact. Un petit écart de division est réparti dans l’échéancier au lieu de disparaître."
+        ],
+        "points": [
+          "Calculs décimaux exacts",
+          "Échéances égales au total de la facture",
+          "Précision adaptée à chaque devise"
+        ]
+      },
+      {
+        "heading": "Recevoir une autre devise.",
+        "nav": "Paiements internationaux",
+        "body": [
+          "Le payeur peut régler dans une devise différente de la facture. Indiquez le montant reçu, le taux applicable et les deux montants de l’affectation : ce qui règle la facture et ce qui est utilisé du paiement.",
+          "Bursara ne télécharge pas automatiquement les taux. Votre équipe doit saisir le taux correct et le montant de règlement convenu."
+        ],
+        "points": [
+          "Devise reçue distincte de la devise facturée",
+          "Deux montants explicites pour l’affectation",
+          "Écart de change dans le contrôle financier"
+        ]
+      },
+      {
+        "heading": "Lire les soldes sans les mélanger.",
+        "nav": "Rapports par devise",
+        "body": [
+          "Choisissez une devise pour les totaux du tableau de bord et des impayés. Le compte de l’apprenant affiche séparément ses soldes et crédits.",
+          "Les rapports de contrôle utilisent aussi la devise fonctionnelle pour expliquer les mouvements. Ils ne remplacent pas un système complet de comptabilité."
+        ],
+        "points": [
+          "Soldes de transaction séparés",
+          "Crédits disponibles par devise",
+          "Écritures de contrôle en devise fonctionnelle"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un règlement, deux montants explicites.",
+      "body": "Lorsque le reçu et la facture utilisent des devises différentes, indiquez séparément le montant réglé sur la facture et celui utilisé du paiement. Conservez le taux convenu avec l’opération.",
+      "rows": [
+        [
+          "Montant réglé sur la facture",
+          "100,00"
+        ],
+        [
+          "Montant utilisé du paiement",
+          "4 700,00"
+        ],
+        [
+          "Taux de change",
+          "Saisi explicitement"
+        ],
+        [
+          "Suivi",
+          "Soldes séparés par devise"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Bursara fournit-il les taux de change ?",
+        "Non. L’établissement saisit les taux et les montants de règlement qu’il utilise."
+      ],
+      [
+        "Peut-on changer la devise fonctionnelle après création ?",
+        "Elle est fixée à la création de l’établissement et ne peut pas être changée dans les paramètres actuels."
+      ],
+      [
+        "Un établissement peut-il utiliser plusieurs devises ?",
+        "Oui. Choisissez une devise prise en charge dans l’application. Factures, reçus et soldes conservent leur devise. Cette prise en charge ne signifie pas que toutes les règles fiscales locales sont intégrées."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "receipts-and-payments",
+      "debtors"
+    ]
+  },
+  {
+    "path": "institutions",
+    "label": "Établissements de formation",
+    "title": "Gestion des frais pour les établissements de formation",
+    "description": "Bursara adapte les programmes, les unités et les comptes financiers aux écoles, aux établissements supérieurs et aux organismes de formation.",
+    "eyebrow": "VOTRE ÉTABLISSEMENT",
+    "heading": "Une structure pour votre façon d’enseigner.",
+    "intro": "Les frais ne suivent pas tous le même modèle. Bursara utilise les programmes et unités pour représenter votre formation, puis suit la facturation et les encaissements dans les comptes des apprenants.",
+    "cardTitle": "UN ESPACE PAR ÉTABLISSEMENT",
+    "cardRows": [
+      [
+        "Identité",
+        "Nom et coordonnées de l’établissement"
+      ],
+      [
+        "Programme",
+        "La formation complète"
+      ],
+      [
+        "Unités",
+        "Les éléments tarifés"
+      ],
+      [
+        "Équipe",
+        "Des droits adaptés à chacun"
+      ]
+    ],
+    "cardNote": "Chaque établissement conserve ses données dans son propre espace.",
+    "sections": [
+      {
+        "heading": "Pour les écoles et académies.",
+        "nav": "Écoles",
+        "body": [
+          "Créez un programme secondaire et une unité par année scolaire. Une facture annuelle peut être réglée en plusieurs échéances.",
+          "Le compte relie l’apprenant au parent, au tuteur ou à l’organisme qui paie. Le service financier garde un suivi clair des frais et des paiements."
+        ],
+        "points": [
+          "Frais annuels",
+          "Échéances et paiements partiels",
+          "Responsable du paiement identifié"
+        ]
+      },
+      {
+        "heading": "Pour l’enseignement supérieur.",
+        "nav": "Enseignement supérieur",
+        "body": [
+          "Une formation peut être constituée de modules tarifés séparément. Les unités peuvent avoir un prix fixe ou un tarif par crédit.",
+          "L’inscription aux unités prépare une facture adaptée à la sélection de l’apprenant, dans la devise concernée."
+        ],
+        "points": [
+          "Facturation par unité",
+          "Crédits et tarifs fixes",
+          "Apprenants et organismes financeurs"
+        ]
+      },
+      {
+        "heading": "Pour la formation professionnelle.",
+        "nav": "Formation",
+        "body": [
+          "Un programme peut représenter une certification ou une formation courte. Les unités peuvent couvrir les différents éléments facturables.",
+          "Suivez les factures, les reçus et les soldes sans organiser la formation autour d’un calendrier scolaire imposé."
+        ],
+        "points": [
+          "Périodes de service libres",
+          "Lignes de frais supplémentaires",
+          "Paiements et crédits disponibles"
+        ]
+      },
+      {
+        "heading": "Des accès propres à chaque équipe.",
+        "nav": "Administration",
+        "body": [
+          "L’administrateur de l’établissement crée les utilisateurs et leur accorde les actions nécessaires. La préparation et la comptabilisation peuvent relever de personnes différentes.",
+          "Les membres autorisés de l’assistance peuvent entrer dans un espace client. Un bandeau signale cet accès et permet de revenir à la liste des établissements."
+        ],
+        "points": [
+          "Données séparées par établissement",
+          "Droits individuels",
+          "Assistance clairement signalée"
+        ]
+      }
+    ],
+    "example": {
+      "title": "La même logique, des formations différentes.",
+      "body": "Le modèle relie une formation complète, ses éléments tarifés, l’apprenant et le payeur. Les documents et les soldes suivent ensuite le même parcours financier.",
+      "rows": [
+        [
+          "École",
+          "Une année scolaire tarifée"
+        ],
+        [
+          "Université",
+          "Des modules et des crédits"
+        ],
+        [
+          "Organisme de formation",
+          "Une certification ou une session"
+        ],
+        [
+          "Dans chaque cas",
+          "Factures, reçus et soldes"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Les données de plusieurs établissements sont-elles mélangées ?",
+        "Non. Un utilisateur ordinaire reste rattaché à son établissement. L’accès d’assistance fait l’objet d’une sélection explicite."
+      ],
+      [
+        "L’application comprend-elle les emplois du temps ?",
+        "La gestion actuelle porte sur les frais et les comptes. L’assiduité, les emplois du temps et la répartition des classes ne sont pas inclus."
+      ],
+      [
+        "Peut-on découvrir le fonctionnement avant d’en parler ?",
+        "Oui. Explorez la démonstration avec des données fictives et consultez les guides illustrés."
+      ]
+    ],
+    "related": [
+      "institutions/schools",
+      "institutions/colleges-and-training",
+      "features"
+    ]
+  },
+  {
+    "path": "institutions/schools",
+    "label": "Écoles et académies",
+    "title": "Facturation des frais scolaires pour les écoles et académies",
+    "description": "Facturez les frais annuels, planifiez les échéances et suivez les paiements des parents dans les comptes des apprenants avec Bursara.",
+    "eyebrow": "ÉCOLES ET ACADÉMIES",
+    "heading": "L’année scolaire, clairement suivie.",
+    "intro": "Scolarité annuelle, transport et frais scolaires ponctuels : gardez les factures, règlements et soldes lisibles pour le secrétariat et le responsable du paiement.",
+    "cardTitle": "EXEMPLE DE FRAIS SCOLAIRES",
+    "cardRows": [
+      [
+        "Programme",
+        "Secondaire"
+      ],
+      [
+        "Unité",
+        "1re année"
+      ],
+      [
+        "Payeur",
+        "Parent ou tuteur"
+      ],
+      [
+        "Échéancier",
+        "Plusieurs mensualités"
+      ]
+    ],
+    "cardNote": "Une charge annuelle peut être suivie sans créer une nouvelle facture chaque mois.",
+    "sections": [
+      {
+        "heading": "Définir le prix de chaque année.",
+        "nav": "Frais annuels",
+        "body": [
+          "Créez le programme et ses années comme unités facturables. Inscrivez ensuite chaque apprenant à l’unité concernée.",
+          "Les coordonnées du responsable du paiement accompagnent le dossier. Les tarifs servent de point de départ au brouillon de facture."
+        ],
+        "points": [
+          "Unités par année scolaire",
+          "Inscription avant facturation",
+          "Parent, tuteur ou organisme responsable"
+        ]
+      },
+      {
+        "heading": "Vérifier avant confirmation.",
+        "nav": "Brouillons",
+        "body": [
+          "Préparez la facture et ses éventuels frais supplémentaires. Les personnes autorisées peuvent modifier le brouillon avant de le comptabiliser.",
+          "La référence de création reste permanente. Le numéro définitif et le solde financier apparaissent à la comptabilisation."
+        ],
+        "points": [
+          "Préparation sans effet sur les soldes",
+          "Droits distincts pour comptabiliser",
+          "Documents définitifs conservés"
+        ]
+      },
+      {
+        "heading": "Accueillir les paiements progressifs.",
+        "nav": "Échéances",
+        "body": [
+          "Une facture annuelle peut comporter plusieurs échéances mensuelles. Les paiements affectés règlent d’abord les échéances impayées les plus anciennes.",
+          "Le compte indique le solde annuel et les montants déjà en retard. Un paiement partiel reste traçable grâce à son reçu."
+        ],
+        "points": [
+          "Paiements partiels",
+          "Échéances les plus anciennes réglées d’abord",
+          "Solde restant et retard séparés"
+        ]
+      },
+      {
+        "heading": "Expliquer le compte à la famille.",
+        "nav": "Suivi des familles",
+        "body": [
+          "Retrouvez les factures et reçus sur le compte de l’apprenant. Ouvrez un document pour expliquer un frais ou un règlement.",
+          "Les crédits non affectés restent distincts des frais impayés. Les avoirs et remboursements admissibles conservent leur propre trace."
+        ],
+        "points": [
+          "Compte individuel lisible",
+          "Relevé imprimable",
+          "Corrections avec raison et date"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Douze échéances pour une facture annuelle.",
+      "body": "Avec 120 000 répartis sur douze échéances, chaque mensualité est de 10 000. Un paiement de 25 000 règle deux mensualités et une partie de la suivante.",
+      "rows": [
+        [
+          "Frais annuels",
+          "120 000,00"
+        ],
+        [
+          "Mensualité prévue",
+          "10 000,00"
+        ],
+        [
+          "Paiement reçu",
+          "25 000,00"
+        ],
+        [
+          "Solde après affectation",
+          "95 000,00"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Doit-on créer douze factures ?",
+        "Non. Une seule facture annuelle peut contenir douze échéances. Cela répartit les dates de paiement sans multiplier les frais."
+      ],
+      [
+        "Peut-on enregistrer une avance ?",
+        "Oui. Comptabilisez le paiement sans l’affecter, puis utilisez le crédit disponible contre une facture admissible."
+      ],
+      [
+        "Le système contacte-t-il automatiquement les parents ?",
+        "L’envoi automatique de courriels et de rappels n’est pas inclus actuellement. Votre équipe garde la maîtrise des échanges."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "receipts-and-payments",
+      "debtors"
+    ]
+  },
+  {
+    "path": "institutions/colleges-and-training",
+    "label": "Enseignement supérieur et formation",
+    "title": "Gestion des frais pour l’enseignement supérieur et la formation",
+    "description": "Facturez les modules universitaires et les formations professionnelles, suivez les financeurs et les paiements en plusieurs devises.",
+    "eyebrow": "ENSEIGNEMENT SUPÉRIEUR ET FORMATION",
+    "heading": "Des unités choisies. Des frais expliqués.",
+    "intro": "Frais de programme, unités universitaires et formation : préparez les brouillons selon l’inscription, puis vérifiez et comptabilisez avec les droits nécessaires.",
+    "cardTitle": "EXEMPLE DE FORMATION",
+    "cardRows": [
+      [
+        "Programme",
+        "Sciences biomédicales"
+      ],
+      [
+        "Unités",
+        "Biologie cellulaire et laboratoire"
+      ],
+      [
+        "Tarification",
+        "Prix par crédit ou prix fixe"
+      ],
+      [
+        "Payeur",
+        "Apprenant ou organisme financeur"
+      ]
+    ],
+    "cardNote": "La facture peut regrouper les unités choisies dans la même devise.",
+    "sections": [
+      {
+        "heading": "Tarifer les éléments de la formation.",
+        "nav": "Programmes et unités",
+        "body": [
+          "Le programme représente le cursus complet. Chaque unité peut correspondre à un module, à des travaux de laboratoire ou à une partie d’une certification.",
+          "Choisissez un prix fixe ou un tarif par crédit. Le nombre de crédits fournit alors la quantité de départ sur la ligne de facture."
+        ],
+        "points": [
+          "Modules nommés",
+          "Prix fixe ou par crédit",
+          "Unités inscrites au dossier de l’apprenant"
+        ]
+      },
+      {
+        "heading": "Définir qui paie.",
+        "nav": "Responsables du paiement",
+        "body": [
+          "Le payeur peut être l’apprenant, son employeur ou un organisme financeur. Conservez son identité dans le compte de frais.",
+          "Les paiements et leurs références restent liés à l’apprenant, même lorsqu’ils proviennent d’un tiers."
+        ],
+        "points": [
+          "Apprenant ou organisme financeur",
+          "Coordonnées du responsable du paiement",
+          "Références de paiement utiles à l’équipe"
+        ]
+      },
+      {
+        "heading": "Préparer la bonne facture.",
+        "nav": "Facturation",
+        "body": [
+          "Choisissez une période de service, les unités et la devise. Vérifiez le brouillon avant la comptabilisation par un utilisateur autorisé.",
+          "Une facture peut prévoir un règlement unique ou plusieurs échéances. Les unités de devises différentes nécessitent des factures distinctes."
+        ],
+        "points": [
+          "Périodes libres",
+          "Brouillons modifiables",
+          "Échéanciers adaptés aux frais"
+        ]
+      },
+      {
+        "heading": "Suivre les encaissements et les soldes.",
+        "nav": "Paiements",
+        "body": [
+          "Comptabilisez les paiements réellement reçus et affectez-les aux factures concernées. Les avances restent en crédit disponible jusqu’à leur affectation.",
+          "Pour les paiements dans une autre devise, indiquez les deux montants de règlement et le taux utilisé. Les vues conservent les devises séparées."
+        ],
+        "points": [
+          "Paiements partiels",
+          "Crédit disponible par devise",
+          "Reçus et soldes accessibles depuis le compte"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Une sélection de modules, un compte clair.",
+      "body": "Trois crédits de biologie cellulaire à 250 et une unité de laboratoire à 400 constituent 1 150 de frais. Le reçu indique ensuite ce qui a été réglé.",
+      "rows": [
+        [
+          "Biologie cellulaire",
+          "750,00"
+        ],
+        [
+          "Travaux de laboratoire",
+          "400,00"
+        ],
+        [
+          "Frais facturés",
+          "1 150,00"
+        ],
+        [
+          "Suivi",
+          "Paiements et solde de l’apprenant"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "Peut-on utiliser un prix par crédit ?",
+        "Oui. Définissez un prix unitaire par crédit et le poids de l’unité. Vérifiez la quantité et le prix sur le brouillon avant comptabilisation."
+      ],
+      [
+        "L’employeur peut-il être le responsable du paiement ?",
+        "Oui. Enregistrez-le comme organisme responsable et identifiez le payeur au moment du paiement."
+      ],
+      [
+        "Bursara organise-t-il les cours ou les évaluations ?",
+        "Non. Les fonctionnalités actuelles portent sur la facturation, les reçus et les comptes financiers, pas sur la pédagogie ou les emplois du temps."
+      ]
+    ],
+    "related": [
+      "student-billing",
+      "multi-currency",
+      "receipts-and-payments"
+    ]
+  },
+  {
+    "path": "about",
+    "label": "À propos de Bursara",
+    "title": "Bursara, un produit de Streak Technologies Ltd",
+    "description": "Découvrez Bursara et sa gestion financière des apprenants, conçue par Streak Technologies Ltd pour les établissements de formation.",
+    "eyebrow": "À PROPOS DE BURSARA",
+    "heading": "Des comptes clairs. Plus de place pour apprendre.",
+    "intro": "Bursara se concentre sur la partie financière de la vie d’un établissement : les frais, les documents, les paiements et les soldes qui doivent pouvoir être expliqués.",
+    "cardTitle": "UNE GESTION FINANCIÈRE CIBLÉE",
+    "cardRows": [
+      [
+        "Apprenants",
+        "Le compte au centre du suivi"
+      ],
+      [
+        "Factures",
+        "Les frais et leurs échéances"
+      ],
+      [
+        "Reçus",
+        "Les paiements reçus et affectés"
+      ],
+      [
+        "Soldes",
+        "Ce qui reste à régler"
+      ]
+    ],
+    "cardNote": "Un produit de Streak Technologies Ltd.",
+    "sections": [
+      {
+        "heading": "Commencer par une question simple.",
+        "nav": "Le besoin",
+        "body": [
+          "Qu’a-t-on facturé, qu’a-t-on reçu et que reste-t-il à régler ? Ces questions reviennent dans les écoles, l’enseignement supérieur et la formation professionnelle.",
+          "Bursara relie les pièces financières au compte de l’apprenant et au responsable du paiement pour que les chiffres restent compréhensibles."
+        ],
+        "points": [
+          "Frais liés à l’apprenant",
+          "Documents reliés aux paiements",
+          "Soldes appuyés sur des enregistrements"
+        ]
+      },
+      {
+        "heading": "Garder un fonctionnement cohérent.",
+        "nav": "Le parcours",
+        "body": [
+          "Les brouillons peuvent être préparés et corrigés avant une comptabilisation autorisée. Les documents définitifs ne sont pas réécrits silencieusement.",
+          "Les réductions de frais, les remboursements et les affectations restent des actions explicites, avec leur date et leur effet financier."
+        ],
+        "points": [
+          "Préparer, vérifier et comptabiliser",
+          "Conserver les références de création",
+          "Tracer les corrections séparément"
+        ]
+      },
+      {
+        "heading": "Une base internationale, des modules locaux.",
+        "nav": "Les modules",
+        "body": [
+          "Les établissements peuvent utiliser les devises proposées et leurs propres programmes. La gestion des frais ne dépend pas du module EBS.",
+          "Les obligations locales de facturation électronique relèvent de fournisseurs facultatifs. Le module pour Maurice utilise actuellement le service de test d’EBS ; cela ne constitue pas une garantie de conformité fiscale mondiale."
+        ],
+        "points": [
+          "Gestion des frais indépendante du module fiscal",
+          "Module EBS facultatif pour Maurice",
+          "Possibilité d’ajouter des fournisseurs par pays"
+        ]
+      },
+      {
+        "heading": "Conçu par Streak Technologies Ltd.",
+        "nav": "L’entreprise",
+        "body": [
+          "Bursara est un produit de Streak Technologies Ltd. Notre contact à Maurice se trouve Royal Road, Pointe aux Cannoniers, Grand Bay. Le site de l’entreprise présente son activité.",
+          "Pour une demande sur le produit, une question ou une discussion sur votre établissement, utilisez nos coordonnées d’assistance publiées."
+        ],
+        "points": [
+          "support@streaktechnologies.com",
+          "Maurice : +230 215 2998",
+          "États-Unis : +1 307 500 3256"
+        ]
+      }
+    ],
+    "example": {
+      "title": "Un compte que l’on peut expliquer.",
+      "body": "Une facture, un reçu et un solde doivent se relier de façon compréhensible pour l’équipe financière et le payeur. C’est le principe concret qui guide Bursara.",
+      "rows": [
+        [
+          "Qu’a-t-on facturé ?",
+          "Les frais comptabilisés"
+        ],
+        [
+          "Qu’a-t-on reçu ?",
+          "Le reçu de paiement"
+        ],
+        [
+          "Qu’a-t-on réglé ?",
+          "L’affectation à une facture"
+        ],
+        [
+          "Que reste-t-il ?",
+          "Le solde du compte"
+        ]
+      ]
+    },
+    "faq": [
+      [
+        "À qui s’adresse Bursara ?",
+        "Aux écoles, académies, établissements supérieurs et organismes de formation qui ont besoin d’un suivi ciblé des factures, des reçus et des comptes des apprenants."
+      ],
+      [
+        "Qui fournit Bursara ?",
+        "Streak Technologies Ltd. Vous pouvez écrire à support@streaktechnologies.com ou consulter streaktechnologies.com."
+      ],
+      [
+        "Peut-on discuter de nos besoins ?",
+        "Oui. Contactez l’équipe pour présenter votre établissement et son fonctionnement. Utilisez des données fictives dans la démonstration et n’envoyez pas de dossiers personnels pour commencer."
+      ]
+    ],
+    "related": [
+      "features",
+      "institutions",
+      "student-billing"
+    ]
+  }
+]
