@@ -115,14 +115,14 @@
   ],
   "homeData": {
     "title": "Bursara | Frais de scolarité, paiements et gestion financière",
-    "description": "Scolarité, frais universitaires et transport, brouillons modifiables, reçus et gestion financière avec des modules facultatifs par pays.",
+    "description": "Scolarité, frais universitaires et transport, brouillons ponctuels et récurrents, reçus et gestion financière avec des modules facultatifs par pays.",
     "eyebrow": "LA GESTION FINANCIÈRE DES ÉTABLISSEMENTS, REPENSÉE",
     "heading": [
       "Chaque frais.",
       "Chaque paiement.",
       "Tout devient clair."
     ],
-    "intro": "De la scolarité aux unités universitaires et au transport. Un espace financier pour les brouillons de frais, les reçus et les comptes apprenants.",
+    "intro": "De la scolarité aux unités universitaires et au transport. Un espace financier pour les frais ponctuels, brouillons récurrents, reçus et comptes apprenants.",
     "meet": "Voir les fonctionnalités",
     "note": "Scolarité. Frais universitaires. Transport. Un compte clair.",
     "previewTitle": "COMPTE D’UN APPRENANT",
@@ -157,7 +157,7 @@
       [
         "01",
         "Des frais adaptés à votre établissement.",
-        "Scolarité annuelle, unités universitaires ou transport : préparez un brouillon selon les services de votre établissement."
+        "Scolarité annuelle, unités universitaires ou transport mensuel : préparez des brouillons ponctuels ou un calendrier récurrent selon vos services."
       ],
       [
         "02",
@@ -175,12 +175,12 @@
       "L’année est prévue.",
       "Les paiements sont suivis."
     ],
-    "billingIntro": "Préparez un brouillon modifiable pour la scolarité, les unités universitaires ou le transport. Vérifiez et comptabilisez avec les droits requis. Encaissez séparément ou comptabilisez ensemble une facture intégralement réglée et son reçu.",
+    "billingIntro": "Créez un brouillon ponctuel ou laissez un calendrier récurrent le préparer automatiquement. Vérifiez, modifiez et comptabilisez avec les droits requis. Encaissez séparément ou comptabilisez ensemble une facture intégralement réglée et son reçu.",
     "viewWorkspace": "Voir l’espace de gestion financière",
     "steps": [
       [
-        "Définir les frais",
-        "Scolarité, université ou transport et conditions de paiement claires."
+        "Définir les frais et leur rythme",
+        "Scolarité, université ou transport, une fois ou selon un calendrier."
       ],
       [
         "Préparer, vérifier et comptabiliser",

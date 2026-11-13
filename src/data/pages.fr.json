@@ -3,7 +3,7 @@
     "path": "features",
     "label": "Fonctionnalités",
     "title": "Gestion financière des établissements : frais, reçus et impayés",
-    "description": "Frais scolaires, universitaires et de transport, brouillons de facture modifiables, reçus, impayés et modules facultatifs de facturation électronique.",
+    "description": "Frais scolaires, universitaires et de transport, brouillons récurrents, reçus, impayés et modules facultatifs de facturation électronique.",
     "eyebrow": "L’ESPACE BURSARA",
     "heading": "Tout le parcours des frais. Un espace clair.",
     "intro": "Réunissez les apprenants, les unités facturables, les factures et les reçus dans un même compte financier. Suivez chaque frais, de sa préparation jusqu’au règlement du solde.",
@@ -81,6 +81,19 @@
         ]
       },
       {
+        "heading": "Répéter les frais, conserver la vérification.",
+        "nav": "Frais récurrents et ponctuels",
+        "body": [
+          "Préparez des frais ponctuels selon les besoins ou programmez leur répétition chaque semaine, mois, trimestre, période de quatre mois, semestre ou année. Scolarité, frais universitaires et transport scolaire peuvent suivre des rythmes différents.",
+          "Chaque exécution crée un brouillon de facture modifiable. Une personne autorisée le vérifie et le comptabilise séparément. Le calendrier ne comptabilise pas automatiquement de facture et n’encaisse pas d’argent."
+        ],
+        "points": [
+          "Frais ponctuels et charges récurrentes",
+          "Création automatique de brouillons à partir d’un modèle",
+          "Droits de préparation et de comptabilisation distincts"
+        ]
+      },
+      {
         "heading": "La finance au centre, des modules au choix.",
         "nav": "Modules facultatifs",
         "body": [
@@ -132,6 +145,10 @@
       [
         "Que permet le module EBS pour Maurice ?",
         "Il permet de préparer et d’envoyer explicitement des documents de test. Le rapprochement des résultats reste nécessaire. Les déclarations réelles et les avoirs fiscaux ne sont pas inclus actuellement."
+      ],
+      [
+        "La facturation récurrente comptabilise-t-elle les factures ou prélève-t-elle de l’argent ?",
+        "Non. Le calendrier crée des brouillons. Une personne autorisée vérifie et comptabilise chaque facture ; les paiements restent des enregistrements distincts de fonds réellement reçus."
       ]
     ],
     "related": [
@@ -144,7 +161,7 @@
     "path": "student-billing",
     "label": "Facturation des apprenants",
     "title": "Facturation des frais scolaires et des unités de formation",
-    "description": "Préparez des brouillons pour la scolarité, les unités universitaires et le transport. Vérifiez puis comptabilisez avec des droits distincts.",
+    "description": "Préparez des brouillons ponctuels ou récurrents pour la scolarité, les unités universitaires et le transport. Vérifiez puis comptabilisez avec des droits distincts.",
     "eyebrow": "FACTURATION DES APPRENANTS",
     "heading": "Des frais qui suivent votre programme.",
     "intro": "Une année scolaire, une formation professionnelle ou des unités universitaires au choix. Construisez la facture à partir de l’inscription et rendez les conditions de paiement claires.",
@@ -219,6 +236,19 @@
           "Facturation avant encaissement",
           "Émission et paiement intégral ensemble",
           "Impression ou enregistrement PDF depuis le navigateur"
+        ]
+      },
+      {
+        "heading": "Répéter les frais, conserver la vérification.",
+        "nav": "Frais récurrents et ponctuels",
+        "body": [
+          "Préparez des frais ponctuels selon les besoins ou programmez leur répétition chaque semaine, mois, trimestre, période de quatre mois, semestre ou année. Scolarité, frais universitaires et transport scolaire peuvent suivre des rythmes différents.",
+          "Chaque exécution crée un brouillon de facture modifiable. Une personne autorisée le vérifie et le comptabilise séparément. Le calendrier ne comptabilise pas automatiquement de facture et n’encaisse pas d’argent."
+        ],
+        "points": [
+          "Frais ponctuels et charges récurrentes",
+          "Création automatique de brouillons à partir d’un modèle",
+          "Droits de préparation et de comptabilisation distincts"
         ]
       }
     ],
@@ -767,7 +797,7 @@
     "description": "Facturez les frais annuels, planifiez les échéances et suivez les paiements des parents dans les comptes des apprenants avec Bursara.",
     "eyebrow": "ÉCOLES ET ACADÉMIES",
     "heading": "L’année scolaire, clairement suivie.",
-    "intro": "Scolarité annuelle, transport et frais scolaires ponctuels : gardez les factures, règlements et soldes lisibles pour le secrétariat et le responsable du paiement.",
+    "intro": "Scolarité annuelle, transport récurrent et frais scolaires ponctuels : gardez les factures, règlements et soldes lisibles pour le secrétariat et le responsable du paiement.",
     "cardTitle": "EXEMPLE DE FRAIS SCOLAIRES",
     "cardRows": [
       [
@@ -840,6 +870,19 @@
           "Relevé imprimable",
           "Corrections avec raison et date"
         ]
+      },
+      {
+        "heading": "Répéter les frais, conserver la vérification.",
+        "nav": "Frais récurrents et ponctuels",
+        "body": [
+          "Préparez des frais ponctuels selon les besoins ou programmez leur répétition chaque semaine, mois, trimestre, période de quatre mois, semestre ou année. Scolarité, frais universitaires et transport scolaire peuvent suivre des rythmes différents.",
+          "Chaque exécution crée un brouillon de facture modifiable. Une personne autorisée le vérifie et le comptabilise séparément. Le calendrier ne comptabilise pas automatiquement de facture et n’encaisse pas d’argent."
+        ],
+        "points": [
+          "Frais ponctuels et charges récurrentes",
+          "Création automatique de brouillons à partir d’un modèle",
+          "Droits de préparation et de comptabilisation distincts"
+        ]
       }
     ],
     "example": {
@@ -891,7 +934,7 @@
     "description": "Facturez les modules universitaires et les formations professionnelles, suivez les financeurs et les paiements en plusieurs devises.",
     "eyebrow": "ENSEIGNEMENT SUPÉRIEUR ET FORMATION",
     "heading": "Des unités choisies. Des frais expliqués.",
-    "intro": "Frais de programme, unités universitaires et formation : préparez les brouillons selon l’inscription, puis vérifiez et comptabilisez avec les droits nécessaires.",
+    "intro": "Frais de programme, unités universitaires et formation ponctuelle ou récurrente : préparez les brouillons selon l’inscription, puis vérifiez et comptabilisez avec les droits nécessaires.",
     "cardTitle": "EXEMPLE DE FORMATION",
     "cardRows": [
       [
@@ -963,6 +1006,19 @@
           "Paiements partiels",
           "Crédit disponible par devise",
           "Reçus et soldes accessibles depuis le compte"
+        ]
+      },
+      {
+        "heading": "Répéter les frais, conserver la vérification.",
+        "nav": "Frais récurrents et ponctuels",
+        "body": [
+          "Préparez des frais ponctuels selon les besoins ou programmez leur répétition chaque semaine, mois, trimestre, période de quatre mois, semestre ou année. Scolarité, frais universitaires et transport scolaire peuvent suivre des rythmes différents.",
+          "Chaque exécution crée un brouillon de facture modifiable. Une personne autorisée le vérifie et le comptabilise séparément. Le calendrier ne comptabilise pas automatiquement de facture et n’encaisse pas d’argent."
+        ],
+        "points": [
+          "Frais ponctuels et charges récurrentes",
+          "Création automatique de brouillons à partir d’un modèle",
+          "Droits de préparation et de comptabilisation distincts"
         ]
       }
     ],

@@ -479,6 +479,72 @@
       ]
     },
     {
+      "slug": "recurring-invoices",
+      "title": "Schedule recurring fee drafts",
+      "summary": "Prepare repeating school, university or bus fees automatically, then review and post each invoice separately.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Recurring billing and select Create schedule. Enter Schedule name and choose the Student.",
+            "Choose Frequency: Weekly, Monthly, Every three months, Every four months, Every six months or Yearly. Set Start date and optional End date.",
+            "Choose currency and fee lines, using enrolled units or custom school, university or bus charges. Set Days until first payment is due and Monthly instalments.",
+            "Select Save schedule. The next occurrence appears in Billing schedules. A future schedule waits until its date; the end date limits future occurrences."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/45-recurring-fields.jpg",
+            "alt": "Recurring billing schedule name, frequency, start and end date controls.",
+            "caption": "Choose how often invoice drafts should be prepared and when the schedule starts.",
+            "width": 1203,
+            "height": 302
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Each occurrence prepares a separate draft using the saved fee template. It does not post an invoice, collect money or submit a fiscal document.",
+            "For a one-off charge, use Create invoice draft in Billing. Monthly instalments divide a single invoice; recurrence prepares separate invoices."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "manage-recurring-invoices",
+      "title": "Manage recurring drafts and schedules",
+      "summary": "Review generated drafts, pause future generation and keep posting under separate control.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Active schedules automatically prepare due drafts. Generate due drafts runs due occurrences now. Future dates wait until they arrive.",
+            "View generated drafts opens the history and SO references. Open each draft, review it and use Edit draft if needed. An authorised user selects Post invoice; no payment is recorded by the schedule.",
+            "Edit schedule changes the future template. Pause stops generation; Resume restarts it. Existing drafts and posted documents stay unchanged.",
+            "If generation reports a problem, check the visible message, learner enrolment and template. Correct the cause before generating again; do not create another schedule just to retry."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/46-recurring-actions.jpg",
+            "alt": "A saved schedule and its generate, edit, pause and history controls.",
+            "caption": "Open generated drafts for review. Posting remains a separate authorised action.",
+            "width": 381,
+            "height": 215
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Schedule changes require Create and edit invoice drafts; posting needs Post invoices. After the first draft, start date and frequency are fixed. Create a new schedule to change them.",
+            "Monthly dates retain the original day where possible. Pausing preserves the next occurrence, so resuming can catch up missed dates. Template edits affect future drafts only; existing drafts and posted documents stay unchanged."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "annual-bill",
       "title": "Create an annual school bill",
       "summary": "Bill the whole school year once and then collect the money over time.",
@@ -541,7 +607,7 @@
           "heading": "What to expect",
           "paragraphs": [
             "MUR 120,000 over twelve instalments gives MUR 10,000 each. Bursara distributes rounding remainders so the schedule always equals the exact invoice total.",
-            "Monthly dates retain the chosen day where possible: 31 January is followed by 28 or 29 February, then 31 March. Automatic repeat invoice generation is not included."
+            "Monthly dates retain the chosen day where possible: 31 January is followed by 28 or 29 February, then 31 March. Recurring billing prepares separate invoice drafts; each is reviewed and posted separately."
           ]
         }
       ]
@@ -1306,8 +1372,8 @@
             "src": "images/en/35-ebs-register.jpg",
             "alt": "Prepared sandbox document with Review and Submit to sandbox highlighted.",
             "caption": "A prepared document is ready for review. Submit to sandbox is a separate action; it was not used to make this guide.",
-            "width": 1500,
-            "height": 59
+            "width": 1509,
+            "height": 297
           }
         },
         {
@@ -1398,7 +1464,7 @@
           "heading": "What to expect",
           "paragraphs": [
             "Bursara is a product of Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Mauritius. USA contact: +1 307 500 3256.",
-            "This guide covers courses, learner records, editable drafts, authorised posting, receipts, instalments, debtor balances, access rights, personal sign-in protection and optional Mauritius test reporting. Attendance, timetables, online collections, accounting integration and automatic repeat invoicing are not included."
+            "This guide covers courses, learner records, editable drafts, authorised posting, receipts, instalments, recurring draft schedules, debtor balances, access rights, personal sign-in protection and optional Mauritius test reporting. Attendance, timetables, online collections, accounting integration are not included."
           ]
         }
       ]

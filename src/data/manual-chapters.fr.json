@@ -479,6 +479,72 @@
       ]
     },
     {
+      "slug": "recurring-invoices",
+      "title": "Programmer des brouillons récurrents",
+      "summary": "Préparez automatiquement les frais scolaires, universitaires ou de transport, puis vérifiez et comptabilisez chaque facture séparément.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Facturation récurrente et choisissez Créer un échéancier récurrent. Renseignez Nom de l’échéancier récurrent et Apprenant.",
+            "Choisissez Fréquence : chaque semaine, chaque mois, tous les trois, quatre ou six mois, ou chaque année. Indiquez Date de début et éventuellement Date de fin (facultative).",
+            "Choisissez devise et lignes : unités inscrites ou frais personnalisés de scolarité, d’université ou de transport. Réglez Délai avant la première échéance (jours) et les échéances mensuelles.",
+            "Choisissez Enregistrer l’échéancier récurrent. La prochaine occurrence apparaît dans les échéanciers. Une date future attend son tour ; la date de fin limite les occurrences suivantes."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/45-recurring-fields.jpg",
+            "alt": "Nom, fréquence et dates d’un calendrier de facturation récurrente.",
+            "caption": "Choisissez le rythme de préparation des brouillons et la date de début.",
+            "width": 1203,
+            "height": 302
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Chaque occurrence prépare un brouillon distinct à partir du modèle enregistré. Elle ne comptabilise aucune facture, n’encaisse pas d’argent et ne transmet aucun document fiscal.",
+            "Pour des frais ponctuels, utilisez Créer un brouillon de facture dans Facturation. Les échéances mensuelles divisent une facture ; la récurrence en prépare plusieurs."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "manage-recurring-invoices",
+      "title": "Gérer les brouillons et échéanciers récurrents",
+      "summary": "Vérifiez les brouillons générés, suspendez les futures occurrences et gardez la comptabilisation sous contrôle.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Les échéanciers actifs préparent automatiquement les brouillons dus. Générer les brouillons arrivés à date lance les occurrences dues ; les dates futures attendent leur tour.",
+            "Voir les brouillons générés affiche l’historique et les références SO. Ouvrez et vérifiez chaque brouillon, puis modifiez-le si nécessaire. Une personne autorisée choisit Comptabiliser la facture ; le calendrier n’enregistre aucun paiement.",
+            "Modifier l’échéancier récurrent change le modèle futur. Suspendre arrête la génération ; Reprendre la réactive. Les documents existants restent inchangés.",
+            "Si la génération signale un problème, vérifiez le message, les unités et le modèle. Corrigez la cause avant de réessayer ; ne créez pas un nouvel échéancier pour contourner l’erreur."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/46-recurring-actions.jpg",
+            "alt": "Calendrier enregistré et commandes de génération, modification, suspension et historique.",
+            "caption": "Ouvrez les brouillons pour les vérifier. Leur comptabilisation reste une action autorisée distincte.",
+            "width": 405,
+            "height": 279
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Créer et modifier les brouillons de facture autorise les échéanciers ; Comptabiliser les factures autorise la validation. Après le premier brouillon, début et fréquence sont fixes : créez un nouvel échéancier pour les changer.",
+            "Les dates mensuelles gardent le jour d’origine lorsque possible. Suspendre conserve la prochaine occurrence : la reprise peut rattraper les dates manquées. Modifier le modèle ne change que les futurs brouillons ; les documents existants restent inchangés."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "annual-bill",
       "title": "Préparer une facture scolaire annuelle",
       "summary": "Enregistrez, vérifiez et comptabilisez les frais d’une année.",
@@ -541,7 +607,7 @@
           "heading": "À savoir",
           "paragraphs": [
             "120 000 MUR sur douze échéances donnent 10 000 MUR par mois. Si les centimes ne se divisent pas exactement, Bursara répartit l’écart pour conserver le total exact.",
-            "Le calendrier garde le jour choisi lorsque c’est possible : après le 31 janvier viennent le 28 ou 29 février, puis le 31 mars. La création automatique de factures récurrentes n’est pas incluse."
+            "Le calendrier garde le jour choisi lorsque c’est possible : après le 31 janvier viennent le 28 ou 29 février, puis le 31 mars. La facturation récurrente prépare des brouillons distincts, à vérifier puis à comptabiliser."
           ]
         }
       ]
@@ -1306,8 +1372,8 @@
             "src": "images/fr/35-ebs-register.jpg",
             "alt": "Préparer et vérifier un document fiscal de test dans Bursara, avec les commandes utiles repérées.",
             "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1500,
-            "height": 293
+            "width": 1509,
+            "height": 297
           }
         },
         {
@@ -1398,7 +1464,7 @@
           "heading": "À savoir",
           "paragraphs": [
             "Bursara est un produit de Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Maurice. Contact États-Unis : +1 307 500 3256.",
-            "Le guide couvre programmes, apprenants, brouillons modifiables, comptabilisation autorisée, reçus, échéances, impayés, droits, sécurité de connexion et test fiscal mauricien facultatif. Présence, emplois du temps, encaissement en ligne, intégration comptable et factures récurrentes automatiques ne sont pas inclus."
+            "Le guide couvre programmes, apprenants, brouillons modifiables, comptabilisation autorisée, reçus, échéances, brouillons récurrents, impayés, droits, sécurité de connexion et test fiscal mauricien facultatif. Présence, emplois du temps, encaissement en ligne, intégration comptable ne sont pas inclus."
           ]
         }
       ]

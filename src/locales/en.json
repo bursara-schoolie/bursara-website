@@ -115,14 +115,14 @@
   ],
   "homeData": {
     "title": "Bursara | School fees, payments and financial clarity",
-    "description": "School, university and bus fees, editable billing drafts, receipts and financial management with optional jurisdiction modules.",
+    "description": "School, university and bus fees, one-off and recurring billing drafts, receipts and financial management with optional jurisdiction modules.",
     "eyebrow": "THE SCHOOL FINANCE OFFICE, REIMAGINED",
     "heading": [
       "Every fee.",
       "Every payment.",
       "In clear view."
     ],
-    "intro": "From school tuition and university units to bus transport. One financial workspace for fee drafts, receipts and clear learner accounts.",
+    "intro": "From school tuition and university units to bus transport. One financial workspace for one-off fees, recurring drafts, receipts and clear learner accounts.",
     "meet": "Explore the features",
     "note": "School fees. University fees. Bus fees. One clear account.",
     "previewTitle": "STUDENT ACCOUNT",
@@ -157,7 +157,7 @@
       [
         "01",
         "Fees that fit your institution.",
-        "Annual tuition, selected university units or bus fees. Prepare a draft around the services your institution provides."
+        "Annual tuition, selected university units or monthly bus fees. Prepare one-off drafts or a recurring schedule around the services you provide."
       ],
       [
         "02",
@@ -175,12 +175,12 @@
       "One year ahead.",
       "One payment at a time."
     ],
-    "billingIntro": "Prepare an editable draft for school tuition, university units or bus fees. Review and post with the required permission. Collect separately, or post a fully paid invoice and receipt together.",
+    "billingIntro": "Create an ad-hoc draft or let a recurring schedule prepare it automatically. Review, edit and post with the required permission. Collect separately, or post a fully paid invoice and receipt together.",
     "viewWorkspace": "See the financial workspace",
     "steps": [
       [
-        "Set the fees",
-        "School, university or bus fees and clear payment terms."
+        "Set the fees and rhythm",
+        "School, university or bus fees, billed once or on a schedule."
       ],
       [
         "Prepare, review and post",

@@ -3,7 +3,7 @@
     "path": "features",
     "label": "Features",
     "title": "School finance software for fees, receipts and debtor management",
-    "description": "School, university and bus fee billing, editable invoice drafts, receipts, debtor balances and optional e-invoicing modules.",
+    "description": "School, university and bus fee billing, recurring invoice drafts, receipts, debtor balances and optional e-invoicing modules in one institution workspace.",
     "eyebrow": "THE BURSARA WORKSPACE",
     "heading": "The whole fee journey. One clear workspace.",
     "intro": "Bring students, billable units, invoices and receipts into one financial account. Bursara helps your team follow each charge from the day it is raised to the moment its balance is settled.",
@@ -94,6 +94,19 @@
         ]
       },
       {
+        "heading": "Repeat the fee schedule, keep the review.",
+        "nav": "Recurring & one-off fees",
+        "body": [
+          "Prepare one-off charges when needed, or set a recurring billing schedule for weekly, monthly, quarterly, four-month, six-month or yearly fees. School tuition, university fees and bus transport can follow different schedules.",
+          "Each scheduled run creates an editable invoice draft. An authorised person checks and posts it separately. A schedule does not automatically collect money or post an invoice."
+        ],
+        "points": [
+          "Ad-hoc fees alongside repeating charges",
+          "Automatic draft creation from a saved template",
+          "Separate review and posting permissions"
+        ]
+      },
+      {
         "heading": "Core finance, optional modules.",
         "nav": "Optional modules",
         "body": [
@@ -145,6 +158,10 @@
       [
         "What does the Mauritius EBS module support?",
         "The optional module uses explicit sandbox preparation and submission. Its current invoice mapper supports undiscounted exempt or 15% service lines; payment-trigger preparation is limited to allocated, zero-tax tuition. Live fiscalisation and fiscal credit notes are not yet available. The help guide explains the workflow and its limits."
+      ],
+      [
+        "Does recurring billing automatically post invoices or take payment?",
+        "No. Due schedules automatically create drafts. An authorised user reviews and posts each invoice; payments remain separate records of money actually received."
       ]
     ],
     "related": [
@@ -157,7 +174,7 @@
     "path": "student-billing",
     "label": "Student billing",
     "title": "Student invoicing and unit-based school fee billing",
-    "description": "Prepare student fee drafts for tuition, university units and bus transport. Review and post invoices with separate permissions.",
+    "description": "Prepare one-off or recurring student fee drafts for tuition, university units and bus transport. Review and post invoices with separate permissions.",
     "eyebrow": "STUDENT BILLING",
     "heading": "Fees that follow your programme.",
     "intro": "A school year, a professional course or selected university units. Build the bill around what the learner is enrolled in, then make the payment terms clear from the start.",
@@ -245,6 +262,19 @@
           "Separate credit entries with an explanation",
           "Original posted bill remains in the account",
           "Totals calculated using the currency’s precision"
+        ]
+      },
+      {
+        "heading": "Repeat the fee schedule, keep the review.",
+        "nav": "Recurring & one-off fees",
+        "body": [
+          "Prepare one-off charges when needed, or set a recurring billing schedule for weekly, monthly, quarterly, four-month, six-month or yearly fees. School tuition, university fees and bus transport can follow different schedules.",
+          "Each scheduled run creates an editable invoice draft. An authorised person checks and posts it separately. A schedule does not automatically collect money or post an invoice."
+        ],
+        "points": [
+          "Ad-hoc fees alongside repeating charges",
+          "Automatic draft creation from a saved template",
+          "Separate review and posting permissions"
         ]
       }
     ],
@@ -794,7 +824,7 @@
     "description": "Track annual school-year fees, parent payments, monthly instalments and outstanding balances with Bursara’s school finance workflow.",
     "eyebrow": "SCHOOLS & ACADEMIES",
     "heading": "The school year, clearly accounted for.",
-    "intro": "Annual tuition, bus fees and occasional school charges. Keep each learner’s fees, payments and outstanding balance understandable for the office and the responsible payer.",
+    "intro": "Annual tuition, recurring bus fees and occasional school charges. Keep each learner’s fees, payments and outstanding balance understandable for the office and the responsible payer.",
     "cardTitle": "A SCHOOL-YEAR FEE ACCOUNT",
     "cardRows": [
       [
@@ -867,6 +897,19 @@
           "Per-currency financial totals",
           "Printable documents for the payer"
         ]
+      },
+      {
+        "heading": "Repeat the fee schedule, keep the review.",
+        "nav": "Recurring & one-off fees",
+        "body": [
+          "Prepare one-off charges when needed, or set a recurring billing schedule for weekly, monthly, quarterly, four-month, six-month or yearly fees. School tuition, university fees and bus transport can follow different schedules.",
+          "Each scheduled run creates an editable invoice draft. An authorised person checks and posts it separately. A schedule does not automatically collect money or post an invoice."
+        ],
+        "points": [
+          "Ad-hoc fees alongside repeating charges",
+          "Automatic draft creation from a saved template",
+          "Separate review and posting permissions"
+        ]
       }
     ],
     "example": {
@@ -918,7 +961,7 @@
     "description": "Model programme units, fixed or per-credit prices and learner payments for colleges, academies and training providers with Bursara.",
     "eyebrow": "COLLEGES & TRAINING PROVIDERS",
     "heading": "A programme of units. A coherent fee account.",
-    "intro": "Programme fees, selected university units and training charges. Prepare drafts around each learner’s enrolment, then review and post them with the appropriate authority.",
+    "intro": "Programme fees, selected university units and one-off or recurring training charges. Prepare drafts around each learner’s enrolment, then review and post them with the appropriate authority.",
     "cardTitle": "AN ILLUSTRATIVE PROGRAMME",
     "cardRows": [
       [
@@ -990,6 +1033,19 @@
           "Supported foreign-currency charges and receipts",
           "Explicit rates rather than an automatic market feed",
           "Separate optional jurisdiction modules"
+        ]
+      },
+      {
+        "heading": "Repeat the fee schedule, keep the review.",
+        "nav": "Recurring & one-off fees",
+        "body": [
+          "Prepare one-off charges when needed, or set a recurring billing schedule for weekly, monthly, quarterly, four-month, six-month or yearly fees. School tuition, university fees and bus transport can follow different schedules.",
+          "Each scheduled run creates an editable invoice draft. An authorised person checks and posts it separately. A schedule does not automatically collect money or post an invoice."
+        ],
+        "points": [
+          "Ad-hoc fees alongside repeating charges",
+          "Automatic draft creation from a saved template",
+          "Separate review and posting permissions"
         ]
       }
     ],
