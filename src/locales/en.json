@@ -63,7 +63,7 @@
   "openImage": "Open full-size image:",
   "guideTitle": "Bursara user guide",
   "helpMetaTitle": "Bursara help and user guide | School billing and receipts",
-  "helpMetaDescription": "Illustrated instructions for courses, student accounts, editable drafts, posting invoices and payments, permissions, sign-in security and debtor management.",
+  "helpMetaDescription": "Illustrated help for products, VAT defaults, courses, student accounts, recurring drafts, authorised posting, receipts, permissions and sign-in security.",
   "helpHeading": [
     "A little guidance.",
     "A clearer working day."
@@ -115,7 +115,7 @@
   ],
   "homeData": {
     "title": "Bursara | School fees, payments and financial clarity",
-    "description": "School, university and bus fees, one-off and recurring billing drafts, receipts and financial management with optional jurisdiction modules.",
+    "description": "Reusable school, university and bus fee templates, VAT price previews, recurring drafts, receipts and financial management with optional modules.",
     "eyebrow": "THE SCHOOL FINANCE OFFICE, REIMAGINED",
     "heading": [
       "Every fee.",
@@ -157,7 +157,7 @@
       [
         "01",
         "Fees that fit your institution.",
-        "Annual tuition, selected university units or monthly bus fees. Prepare one-off drafts or a recurring schedule around the services you provide."
+        "Reuse fee templates for tuition, university units or bus transport. Prepare one-off or recurring drafts, with clear tax defaults and a preview before posting."
       ],
       [
         "02",

@@ -2,7 +2,7 @@
 import Site from '../../layouts/Site.astro';import {ui,manual,pageUrl,type Locale} from '../../locales';import '../../styles/help-index.css';const {locale='en'}=Astro.props;const t=ui(locale as Locale);const data=manual(locale);const download='/downloads/bursara-user-manual'+(locale==='fr'?'-fr':'');
 const definitions=[
  {title:'Getting started',description:'Sign in, find the right screen and understand the account.',slugs:['start-here','money-words','sign-in','passkeys-and-verification','navigation-help','overview']},
- {title:'Programmes & learners',description:'Build the fee structure and enrol the student.',slugs:['create-course','fixed-unit','per-credit-unit','enrol-student','edit-records','student-account']},
+ {title:'Programmes & learners',description:'Build the fee structure and enrol the student.',slugs:['create-course','fixed-unit','per-credit-unit','enrol-student','edit-records','products-and-prices','vat-and-tax-pricing','student-account']},
  {title:'Bills & instalments',description:'Raise fees and choose how the balance becomes due.',slugs:['billing-workflows','edit-and-post-drafts','recurring-invoices','manage-recurring-invoices','annual-bill','instalment-schedule','university-unit-bill','receive-and-issue','read-invoice']},
  {title:'Payments & corrections',description:'Record money received, allocate it and handle adjustments.',slugs:['part-payment','allocate-payments','cross-currency','advance-payment','apply-student-credit','refund-unused-credit','credit-fees','receipt-print','print-statement']},
  {title:'Debtors & reporting',description:'Review what remains unpaid and follow the figures.',slugs:['debtors','reports-export','financial-journal']},

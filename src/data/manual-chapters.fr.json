@@ -22,8 +22,8 @@
             "src": "images/fr/02-overview.jpg",
             "alt": "Bien commencer dans Bursara, avec les commandes utiles repérées.",
             "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1500,
-            "height": 251
+            "width": 1455,
+            "height": 225
           }
         },
         {
@@ -182,7 +182,7 @@
           "steps": [
             "Choisissez la Date de situation. Les chiffres utilisent les opérations financières jusqu’à cette date ; vous pouvez ainsi examiner une situation antérieure.",
             "Choisissez la Devise d’affichage. Chaque devise garde ses propres chiffres : sélectionner USD ne convertit pas les opérations en MUR.",
-            "Lisez les totaux des frais facturés, paiements reçus, sommes restant dues et échéances en retard.",
+            "Lisez les totaux des frais facturés, paiements reçus, sommes restant dues et échéances en retard. Les frais facturés indiquent aussi le net et la TVA d’origine.",
             "Repérez le crédit apprenant non affecté sous les totaux. Il s’agit d’argent disponible qui n’a pas encore réglé de facture.",
             "Ouvrez une facture ou un encaissement récent, ou utilisez les actions de création autorisées."
           ]
@@ -193,8 +193,8 @@
             "src": "images/fr/02-overview.jpg",
             "alt": "Lire la vue d’ensemble dans Bursara, avec les commandes utiles repérées.",
             "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1500,
-            "height": 251
+            "width": 1455,
+            "height": 225
           }
         },
         {
@@ -377,6 +377,74 @@
       ]
     },
     {
+      "slug": "products-and-prices",
+      "title": "Réutiliser des produits et modèles de frais",
+      "summary": "Enregistrez des frais de scolarité, d’université ou de transport à réutiliser dans les factures ponctuelles et récurrentes.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Ouvrez Produits et tarifs et choisissez Créer un produit. Renseignez Nom du produit, Code du produit unique, Description, Quantité par défaut, Prix et Devise.",
+            "Dans Disponibilité, choisissez Tout l’établissement, Un apprenant, Une unité inscrite ou Un programme. Une unité liée exige son inscription ; un programme lié doit être le programme actuel de l’apprenant.",
+            "Conservez les paramètres de TVA hérités ou définissez une dérogation pour ce produit. Vérifiez si le prix saisi inclut ou exclut la TVA.",
+            "Choisissez Enregistrer le produit. Dans un brouillon ou un modèle récurrent, sélectionnez l’apprenant puis un produit disponible sur la ligne. Vérifiez description, quantité, prix repris et aperçu.",
+            "Contrôlez remises, dates et totaux, puis enregistrez le brouillon ou l’échéancier. La comptabilisation reste une action autorisée distincte."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/47-product-template.jpg",
+            "alt": "Prix, quantité, devise et disponibilité d’un produit réutilisable.",
+            "caption": "Définissez le prix et la quantité repris, puis choisissez la disponibilité du produit.",
+            "width": 1203,
+            "height": 360
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "Les produits restent dans votre établissement. Gérer les produits autorise le catalogue ; les utilisateurs autorisés à facturer peuvent les sélectionner. La devise doit correspondre à la facture. La sélection copie prix, quantité et description ; le catalogue ne réécrit pas les lignes existantes.",
+            "Désactivez un produit pour arrêter ses nouvelles sélections, ou réactivez-le ensuite. Aucune suppression n’est proposée. Les documents existants gardent leurs instantanés. Vous pouvez toujours saisir des frais libres sans produit. Vérifiez les modèles récurrents si un produit lié devient indisponible."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vat-and-tax-pricing",
+      "title": "Définir la TVA et les dérogations de ligne",
+      "summary": "Choisissez le traitement fiscal et le mode de prix, puis vérifiez le réglage appliqué à chaque ligne.",
+      "sections": [
+        {
+          "heading": "Marche à suivre",
+          "steps": [
+            "Dans Paramètres, ouvrez TVA par défaut de l’établissement. Vérifiez Établissement enregistré à la TVA et le numéro facultatif.",
+            "Choisissez Traitement de TVA et Taux de TVA (%). Taxable exige un enregistrement et un taux positif. Taux zéro, Exonéré et Hors champ de TVA restent distincts. Un nouvel établissement commence non enregistré, hors champ, au taux nul.",
+            "Choisissez Mode de prix, puis Enregistrer les paramètres de TVA. Prix TVA comprise contient la taxe ; Prix hors TVA la reçoit en supplément. Les remises réduisent le montant de la ligne avant le calcul de la TVA.",
+            "Adaptez les valeurs du programme, de l’unité, du produit ou de la ligne si nécessaire. Pour hériter, choisissez Hériter du traitement de TVA et Hériter du mode de prix et laissez le taux vide.",
+            "Vérifiez Montant net, Montant de TVA et Montant total dans l’aperçu avant d’enregistrer le brouillon. Sa comptabilisation reste une action autorisée distincte."
+          ]
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/48-vat-settings.jpg",
+            "alt": "Enregistrement à la TVA, traitement, taux et mode de prix de l’établissement.",
+            "caption": "Vérifiez les valeurs de l’établissement avant de définir des dérogations plus précises.",
+            "width": 1257,
+            "height": 512
+          }
+        },
+        {
+          "heading": "À savoir",
+          "paragraphs": [
+            "La priorité suit la ligne, le produit, l’unité, le programme, puis l’établissement. Des frais libres utilisent l’établissement ; choisir un apprenant ne reprend pas seul la fiscalité de son programme. Le taux enregistré de l’établissement peut servir aux frais définis comme Taxable même si son traitement par défaut ne facture aucune TVA.",
+            "Changer les valeurs par défaut ne modifie pas un brouillon enregistré. Le modifier puis l’enregistrer recalcule les paramètres hérités ; les dérogations de ligne restent fixes. La comptabilisation conserve l’instantané vérifié. Les futurs brouillons récurrents reprennent la fiscalité héritée actuelle, mais gardent les prix du modèle jusqu’à modification de l’échéancier."
+          ]
+        }
+      ]
+    },
+    {
       "slug": "student-account",
       "title": "Utiliser le compte d’un apprenant",
       "summary": "Retrouvez les factures, reçus et soldes d’une personne.",
@@ -552,7 +620,7 @@
         {
           "heading": "Marche à suivre",
           "steps": [
-            "Créez la facture, choisissez l’apprenant et Facturer puis encaisser. Indiquez la Date d’émission et la Période de service, par exemple Année scolaire 2027.",
+            "Créez la facture, choisissez l’apprenant et Facturer puis encaisser. Indiquez la Date d’émission et la Période de prestation, par exemple Année scolaire 2027.",
             "Dans les lignes de frais, sélectionnez l’année dans Unité inscrite. Vérifiez Description, Quantité / crédits et Prix unitaire. Ajouter une ligne permet d’inclure d’autres frais.",
             "Confirmez la Devise. Si elle diffère de la devise fonctionnelle, saisissez le taux demandé. Vérifiez les remises et la taxe.",
             "Indiquez Première échéance et Échéances mensuelles, puis choisissez Enregistrer le brouillon. Sa référence SO ne modifie pas le restant dû.",
@@ -565,14 +633,14 @@
             "src": "images/fr/11-fee-lines.jpg",
             "alt": "Préparer une facture scolaire annuelle dans Bursara, avec les commandes utiles repérées.",
             "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1194,
-            "height": 468
+            "width": 1149,
+            "height": 236
           }
         },
         {
           "heading": "À savoir",
           "paragraphs": [
-            "120 000 MUR avec une quantité de 1 représentent une seule charge annuelle. Douze échéances changent les dates de règlement, pas le total.",
+            "Un prix unitaire de MUR 120 000 avec une quantité de 1 représente des frais annuels avant TVA. Douze échéances changent les dates, pas le total. Vérifiez traitement de TVA et mode de prix dans l’aperçu.",
             "Une opération comptabilisée ne se modifie plus. Réduisez des frais impayés avec un avoir distinct et autorisé, sans réécrire la facture d’origine."
           ]
         }
@@ -620,7 +688,7 @@
         {
           "heading": "Marche à suivre",
           "steps": [
-            "Créez un brouillon de facture pour l’apprenant et indiquez la Période de service, par exemple Semestre 1 / 2027.",
+            "Créez un brouillon de facture pour l’apprenant et indiquez la Période de prestation, par exemple Semestre 1 / 2027.",
             "Sélectionnez une Unité inscrite. Pour un tarif par crédit, vérifiez la Quantité / crédits proposée et le prix d’un crédit.",
             "Vérifiez la Devise et le Taux demandé. Ajouter une ligne permet d’ajouter une autre unité dans la même devise.",
             "Indiquez les échéances et choisissez Enregistrer le brouillon. Modifier le brouillon permet de corriger les matières, quantités ou tarifs.",
@@ -633,8 +701,18 @@
             "src": "images/fr/14-unit-bill.jpg",
             "alt": "Facturer des unités universitaires dans Bursara, avec les commandes utiles repérées.",
             "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1194,
-            "height": 569
+            "width": 1203,
+            "height": 113
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/49-unit-quantity.jpg",
+            "alt": "Quantité et prix unitaire repris de l’unité universitaire.",
+            "caption": "Vérifiez la quantité de crédits et le prix avant l’aperçu de TVA.",
+            "width": 774,
+            "height": 111
           }
         },
         {
@@ -690,7 +768,7 @@
           "steps": [
             "Dans Facturation, ouvrez le numéro. Vérifiez établissement, apprenant, responsable du paiement, date et période.",
             "Lisez les lignes : description, quantité, prix unitaire, remise, taxe et montant.",
-            "Vérifiez Total des frais, Paiements affectés, Avoirs et Impayé, puis le Calendrier de paiement.",
+            "Vérifiez Montant net, Montant de TVA, Total des frais, Paiements affectés, Avoirs et Impayé, puis le Calendrier de paiement.",
             "Recevoir un paiement prépare un règlement. Réduire les frais impayés enregistre une réduction autorisée de la charge."
           ]
         },
@@ -699,9 +777,9 @@
           "image": {
             "src": "images/fr/15-invoice.jpg",
             "alt": "Lire une facture comptabilisée dans Bursara, avec les commandes utiles repérées.",
-            "caption": "Vérifiez l’établissement, l’apprenant et le numéro définitif de la facture.",
-            "width": 1386,
-            "height": 375
+            "caption": "Numéro définitif de facture et référence de création permanente.",
+            "width": 282,
+            "height": 95
           }
         },
         {
@@ -710,14 +788,15 @@
             "src": "images/fr/44-invoice-totals.jpg",
             "alt": "Récapitulatif financier de la facture.",
             "caption": "Lisez les totaux comptabilisés et le solde restant.",
-            "width": 525,
-            "height": 266
+            "width": 537,
+            "height": 395
           }
         },
         {
           "heading": "À savoir",
           "paragraphs": [
-            "La référence SO reste associée au numéro INV attribué à la comptabilisation. Le solde inclut les échéances futures impayées. Une facture comptabilisée ne se modifie plus : utilisez un avoir distinct lorsque possible. Les documents fiscaux nécessitent leur correction locale."
+            "La référence SO reste associée au numéro INV attribué à la comptabilisation. Le solde inclut les échéances futures impayées. Une facture comptabilisée ne se modifie plus : utilisez un avoir distinct lorsque possible. Les documents fiscaux nécessitent leur correction locale.",
+            "Les anciens documents peuvent afficher un taux avec traitement non renseigné. Leurs montants sont conservés ; un taux nul ne prouve pas une exonération."
           ]
         }
       ]
@@ -980,16 +1059,27 @@
           "image": {
             "src": "images/fr/20-receipt.jpg",
             "alt": "Lire et imprimer un reçu dans Bursara, avec les commandes utiles repérées.",
-            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
+            "caption": "Le reçu constate le montant réellement encaissé.",
             "width": 1332,
-            "height": 476
+            "height": 137
+          }
+        },
+        {
+          "heading": "À l’écran",
+          "image": {
+            "src": "images/fr/50-receipt-invoice-vat.jpg",
+            "alt": "Net, TVA et total de la facture d’origine indiqués sur un reçu partiel.",
+            "caption": "Ces chiffres concernent la facture d’origine ; ce ne sont pas une nouvelle TVA sur le reçu.",
+            "width": 801,
+            "height": 98
           }
         },
         {
           "heading": "À savoir",
           "paragraphs": [
             "Les documents de démonstration portent un avertissement. Ils ne sont ni de véritables factures fiscales ni des preuves de paiement réel.",
-            "Le parcours combiné permet de facturer et d’encaisser ensemble. Le registre des reçus conserve toujours l’encaissement et sa référence permanente PO."
+            "Le parcours combiné permet de facturer et d’encaisser ensemble. Le registre des reçus conserve toujours l’encaissement et sa référence permanente PO.",
+            "La ligne net, TVA et total décrit la facture d’origine, pas uniquement la part réglée par ce reçu."
           ]
         }
       ]
@@ -1064,15 +1154,15 @@
     {
       "slug": "reports-export",
       "title": "Consulter et exporter les soldes",
-      "summary": "Retrouvez les montants par devise et téléchargez les factures ouvertes.",
+      "summary": "Consultez les montants par devise et téléchargez les soldes des factures comptabilisées.",
       "sections": [
         {
           "heading": "Marche à suivre",
           "steps": [
             "Ouvrez Rapports et choisissez la Date de situation. Utilisez la même date pour comparer avec Suivi des impayés.",
-            "Lisez les soldes par devise : facturé, encaissé, restant dû et en retard sont séparés pour chaque devise.",
+            "Lisez les soldes par devise : Montant net, Montant de TVA, Total facturé, encaissé, restant dû et en retard sont séparés par devise.",
             "Choisissez Exporter les soldes. Le navigateur télécharge bursara-open-items.csv.",
-            "Ouvrez le CSV dans votre tableur et vérifiez les colonnes de facture, apprenant, responsable, devise, total, paiements, avoirs, solde et retard.",
+            "Ouvrez le CSV dans votre tableur. Vérifiez facture, apprenant, responsable, devise, net, TVA, total brut, paiements, avoirs, solde et retard.",
             "Conservez la date choisie avec le fichier pour que son destinataire sache quelle situation il présente."
           ]
         },
@@ -1081,15 +1171,15 @@
           "image": {
             "src": "images/fr/24-report-export.jpg",
             "alt": "Consulter et exporter les soldes dans Bursara, avec les commandes utiles repérées.",
-            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 1500,
-            "height": 341
+            "caption": "Net, TVA et total sont les frais facturés d’origine. L’export comprend les factures comptabilisées réglées et impayées jusqu’à la date choisie.",
+            "width": 806,
+            "height": 156
           }
         },
         {
           "heading": "À savoir",
           "paragraphs": [
-            "Les brouillons sont exclus des chiffres. Un CSV contient un tableau de valeurs, pas une mise en page PDF. Votre tableur peut demander comment interpréter les dates, nombres et séparateurs. Les encaissements correspondent aux sommes reçues avant remboursement, pas à une trésorerie nette.",
+            "Les brouillons sont exclus des chiffres. Un CSV contient un tableau de valeurs, pas une mise en page PDF. Votre tableur peut demander comment interpréter les dates, nombres et séparateurs. Les encaissements correspondent aux sommes reçues avant remboursement, pas à une trésorerie nette. Net, TVA et total brut correspondent aux frais facturés d’origine ; les avoirs et les soldes sont présentés séparément.",
             "Aucune connexion à une plateforme comptable externe n’est incluse. Définissez le processus comptable et les contrôles nécessaires avec votre établissement."
           ]
         }
@@ -1172,7 +1262,7 @@
           "heading": "Marche à suivre",
           "steps": [
             "Dans Utilisateurs et droits, choisissez Modifier les droits pour un utilisateur ordinaire.",
-            "Gérer les apprenants permet de créer et modifier les inscriptions. Gérer les programmes et les frais permet de gérer les programmes et unités.",
+            "Gérer les apprenants permet de créer et modifier les inscriptions. Gérer les programmes et les frais permet de gérer les programmes et unités. Gérer les produits autorise séparément les modèles de frais réutilisables.",
             "Créer et modifier les brouillons de facture autorise les brouillons ; Comptabiliser les factures autorise leur validation financière. Les paiements suivent la même séparation.",
             "Le parcours combiné exige les deux droits de comptabilisation. Accorder des avoirs et remboursements autorise les corrections distinctes. Vérifiez séparément les droits de rapports, modules, paramètres et utilisateurs.",
             "Enregistrez l’utilisateur et les droits, puis contrôlez les actions visibles. Une personne peut préparer un document et en laisser la comptabilisation à un collègue autorisé."
@@ -1183,9 +1273,9 @@
           "image": {
             "src": "images/fr/38-permission-checkboxes.jpg",
             "alt": "Définir les bons droits dans Bursara, avec les commandes utiles repérées.",
-            "caption": "Les repères indiquent les commandes utiles. Les exemples utilisent des données fictives.",
-            "width": 804,
-            "height": 570
+            "caption": "Gérer les produits et Comptabiliser les factures sont des droits distincts. Adaptez les actions aux responsabilités de la personne.",
+            "width": 813,
+            "height": 510
           }
         },
         {
@@ -1379,8 +1469,8 @@
         {
           "heading": "À savoir",
           "paragraphs": [
-            "Modifier un brouillon invalide son instantané préparé mais jamais transmis : préparez-le de nouveau après vérification. Dès qu’un document fiscal a été transmis, son brouillon financier ne peut plus être modifié, même en cas de rejet ou de résultat incertain.",
-            "Les lignes de service acceptées sont sans remise, exonérées ou à 15 %. Le mode paiement vise les frais de scolarité non taxés et affectés. Préparé ne signifie pas accepté ; En attente reste en traitement et Inconnu exige un rapprochement. Les envois réels et avoirs fiscaux ne sont pas inclus."
+            "Modifier un brouillon invalide son instantané préparé mais jamais transmis : préparez-le de nouveau après vérification. Un brouillon fiscal transmis reste verrouillé, même si le résultat est rejeté ou incertain.",
+            "EBS prépare les services taxables à 15 %, à taux zéro, exonérés ou hors champ si les totaux enregistrés sont représentables exactement. Le mode paiement exige des frais non taxés affectés, avec un traitement unique. Préparé ne signifie pas accepté ; Inconnu exige un rapprochement. Envois réels et avoirs fiscaux ne sont pas inclus."
           ]
         }
       ]
@@ -1464,7 +1554,7 @@
           "heading": "À savoir",
           "paragraphs": [
             "Bursara est un produit de Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Maurice. Contact États-Unis : +1 307 500 3256.",
-            "Le guide couvre programmes, apprenants, brouillons modifiables, comptabilisation autorisée, reçus, échéances, brouillons récurrents, impayés, droits, sécurité de connexion et test fiscal mauricien facultatif. Présence, emplois du temps, encaissement en ligne, intégration comptable ne sont pas inclus."
+            "Le guide couvre programmes, produits réutilisables, TVA par défaut, apprenants, brouillons modifiables, comptabilisation autorisée, reçus, échéances, brouillons récurrents, impayés, droits, sécurité de connexion et test fiscal mauricien facultatif. Présence, emplois du temps, encaissement en ligne, intégration comptable ne sont pas inclus."
           ]
         }
       ]

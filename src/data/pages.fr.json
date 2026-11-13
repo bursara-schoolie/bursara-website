@@ -3,7 +3,7 @@
     "path": "features",
     "label": "Fonctionnalités",
     "title": "Gestion financière des établissements : frais, reçus et impayés",
-    "description": "Frais scolaires, universitaires et de transport, brouillons récurrents, reçus, impayés et modules facultatifs de facturation électronique.",
+    "description": "Produits de frais réutilisables, TVA, brouillons ponctuels et récurrents, reçus et suivi des impayés pour les établissements d’enseignement.",
     "eyebrow": "L’ESPACE BURSARA",
     "heading": "Tout le parcours des frais. Un espace clair.",
     "intro": "Réunissez les apprenants, les unités facturables, les factures et les reçus dans un même compte financier. Suivez chaque frais, de sa préparation jusqu’au règlement du solde.",
@@ -105,6 +105,32 @@
           "Facturation électronique facultative selon le pays",
           "Possibilité de développer des modules supplémentaires"
         ]
+      },
+      {
+        "heading": "Des tarifs réutilisables pour les frais habituels.",
+        "nav": "Produits de facturation",
+        "body": [
+          "Créez un produit réutilisable pour la scolarité, une unité universitaire, le transport ou un autre service. Proposez-le à tout l’établissement ou liez-le à un apprenant, une unité inscrite ou un programme.",
+          "Sa sélection dans une facture ponctuelle ou un modèle récurrent reprend description, prix et quantité. Le brouillon garde ses propres valeurs : modifier le catalogue ne réécrit pas silencieusement un document financier."
+        ],
+        "points": [
+          "Disponibilité contrôlée dans l’établissement",
+          "Tarifs pour facturation ponctuelle et récurrente",
+          "Droit de gestion des produits distinct"
+        ]
+      },
+      {
+        "heading": "Une priorité claire pour la TVA.",
+        "nav": "TVA et prix",
+        "body": [
+          "Définissez la TVA de l’établissement et des prix TVA comprise ou hors TVA, puis les règles des programmes, unités, produits ou lignes. Vérifiez net, TVA et total dans l’aperçu avant d’enregistrer.",
+          "Une dérogation de ligne est prioritaire, puis viennent le produit, l’unité, le programme et l’établissement. Vous choisissez l’enregistrement et le traitement ; aucune exonération éducative ni aucun taux national n’est présumé. Les documents enregistrés conservent leur instantané ; une modification explicite du brouillon peut actualiser les valeurs héritées avant comptabilisation."
+        ],
+        "points": [
+          "Traitements taxable, taux zéro, exonéré et hors champ",
+          "Aperçus des prix TVA comprise et hors TVA",
+          "Montants vérifiés conservés à la comptabilisation"
+        ]
       }
     ],
     "example": {
@@ -149,6 +175,10 @@
       [
         "La facturation récurrente comptabilise-t-elle les factures ou prélève-t-elle de l’argent ?",
         "Non. Le calendrier crée des brouillons. Une personne autorisée vérifie et comptabilise chaque facture ; les paiements restent des enregistrements distincts de fonds réellement reçus."
+      ],
+      [
+        "Un changement de tarif ou de TVA réécrit-il une facture existante ?",
+        "Non. Changer les valeurs par défaut ne modifie pas les documents enregistrés. Modifier puis enregistrer un brouillon reprend la TVA héritée actuelle tout en conservant les dérogations explicites. La comptabilisation garde les montants vérifiés ; le document comptabilisé reste immuable."
       ]
     ],
     "related": [
@@ -161,7 +191,7 @@
     "path": "student-billing",
     "label": "Facturation des apprenants",
     "title": "Facturation des frais scolaires et des unités de formation",
-    "description": "Préparez des brouillons ponctuels ou récurrents pour la scolarité, les unités universitaires et le transport. Vérifiez puis comptabilisez avec des droits distincts.",
+    "description": "Réutilisez les modèles de scolarité, d’université et de transport. Vérifiez net, TVA et total, puis comptabilisez les brouillons ponctuels ou récurrents.",
     "eyebrow": "FACTURATION DES APPRENANTS",
     "heading": "Des frais qui suivent votre programme.",
     "intro": "Une année scolaire, une formation professionnelle ou des unités universitaires au choix. Construisez la facture à partir de l’inscription et rendez les conditions de paiement claires.",
@@ -250,6 +280,32 @@
           "Création automatique de brouillons à partir d’un modèle",
           "Droits de préparation et de comptabilisation distincts"
         ]
+      },
+      {
+        "heading": "Des tarifs réutilisables pour les frais habituels.",
+        "nav": "Produits de facturation",
+        "body": [
+          "Créez un produit réutilisable pour la scolarité, une unité universitaire, le transport ou un autre service. Proposez-le à tout l’établissement ou liez-le à un apprenant, une unité inscrite ou un programme.",
+          "Sa sélection dans une facture ponctuelle ou un modèle récurrent reprend description, prix et quantité. Le brouillon garde ses propres valeurs : modifier le catalogue ne réécrit pas silencieusement un document financier."
+        ],
+        "points": [
+          "Disponibilité contrôlée dans l’établissement",
+          "Tarifs pour facturation ponctuelle et récurrente",
+          "Droit de gestion des produits distinct"
+        ]
+      },
+      {
+        "heading": "Une priorité claire pour la TVA.",
+        "nav": "TVA et prix",
+        "body": [
+          "Définissez la TVA de l’établissement et des prix TVA comprise ou hors TVA, puis les règles des programmes, unités, produits ou lignes. Vérifiez net, TVA et total dans l’aperçu avant d’enregistrer.",
+          "Une dérogation de ligne est prioritaire, puis viennent le produit, l’unité, le programme et l’établissement. Vous choisissez l’enregistrement et le traitement ; aucune exonération éducative ni aucun taux national n’est présumé. Les documents enregistrés conservent leur instantané ; une modification explicite du brouillon peut actualiser les valeurs héritées avant comptabilisation."
+        ],
+        "points": [
+          "Traitements taxable, taux zéro, exonéré et hors champ",
+          "Aperçus des prix TVA comprise et hors TVA",
+          "Montants vérifiés conservés à la comptabilisation"
+        ]
       }
     ],
     "example": {
@@ -286,6 +342,10 @@
       [
         "Peut-on envoyer les factures par courriel ?",
         "Les documents peuvent être consultés et imprimés. L’envoi automatique par courriel n’est pas inclus actuellement."
+      ],
+      [
+        "Un changement de tarif ou de TVA réécrit-il une facture existante ?",
+        "Non. Changer les valeurs par défaut ne modifie pas les documents enregistrés. Modifier puis enregistrer un brouillon reprend la TVA héritée actuelle tout en conservant les dérogations explicites. La comptabilisation garde les montants vérifiés ; le document comptabilisé reste immuable."
       ]
     ],
     "related": [

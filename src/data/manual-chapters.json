@@ -22,8 +22,8 @@
             "src": "images/en/02-overview.jpg",
             "alt": "Start here in Bursara, with numbered controls highlighted.",
             "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 1500,
-            "height": 251
+            "width": 1455,
+            "height": 225
           }
         },
         {
@@ -182,7 +182,7 @@
           "steps": [
             "Choose Balance date. The figures use financial records up to that date, so changing it lets you review an earlier position.",
             "Choose Display currency. Each currency has its own figures; selecting USD does not convert every MUR transaction into dollars.",
-            "Read the four totals: Fees billed, Payments received, Outstanding and Overdue.",
+            "Read the four totals: Fees billed, Payments received, Outstanding and Overdue. Fees billed also shows original net and VAT amounts.",
             "Look at unapplied student credit below the totals. This is received money still available to apply to a student's bills.",
             "Open a document in Recent bills or Recent collections, or use Create invoice draft and Create payment draft when your permissions allow them."
           ]
@@ -193,8 +193,8 @@
             "src": "images/en/02-overview.jpg",
             "alt": "Read the overview in Bursara, with numbered controls highlighted.",
             "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 1500,
-            "height": 251
+            "width": 1455,
+            "height": 225
           }
         },
         {
@@ -372,6 +372,74 @@
           "paragraphs": [
             "Manage courses and fees controls catalogue changes. Manage students controls learner changes. An edit never grants access to another institution.",
             "There is no deletion or student promotion workflow here. Verify references and contacts before saving."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "products-and-prices",
+      "title": "Reuse products and fee templates",
+      "summary": "Save reusable tuition, university, transport and other charges, then select them on one-off or recurring invoices.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "Open Products & prices and select Create product. Enter Product name, a unique Product code, Description, Default quantity, Price and Currency.",
+            "Choose Availability scope: Institution-wide, One learner, One enrolled unit or One programme. A unit-linked product requires enrolment in that unit; a programme-linked product requires the learner’s current programme.",
+            "Keep inherited tax settings, or configure a product tax override where appropriate. Review whether the entered price includes or excludes tax.",
+            "Select Save product. In an invoice draft or recurring template, choose the learner and select an available product on the fee line. Check its copied description, quantity, price and preview.",
+            "Review quantity, discounts, dates and totals, then save the draft or schedule. Posting remains a separate authorised action."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/47-product-template.jpg",
+            "alt": "Reusable product price, quantity, currency and availability controls.",
+            "caption": "Set the copied price and quantity, then choose who can use the product.",
+            "width": 1203,
+            "height": 360
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Products stay within your institution. Manage products controls catalogue changes; billing users can select eligible products. Their currency must match the invoice. Selecting a product copies its price, quantity and description; catalogue edits do not rewrite existing lines.",
+            "Deactivate a product to stop future selections, or reactivate it when needed. There is no delete action. Existing drafts and posted documents keep their snapshots. Freeform fees remain available without a product. Review recurring templates when a linked product becomes unavailable."
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "vat-and-tax-pricing",
+      "title": "Set VAT defaults and line overrides",
+      "summary": "Choose tax treatment and price mode, then understand which setting applies to a fee line.",
+      "sections": [
+        {
+          "heading": "How to use it",
+          "steps": [
+            "In Settings, find Institution VAT defaults. Review VAT-registered institution and the optional registration number.",
+            "Choose VAT treatment and VAT rate (%). Taxable requires registration and a positive rate. Zero-rated, Exempt and Outside the scope of VAT remain separate classifications. New institutions start unregistered, outside scope, at a zero rate.",
+            "Choose Price mode, then Save VAT defaults. Inclusive prices contain tax; exclusive prices have tax added. Discounts reduce the line amount before VAT is calculated.",
+            "Override defaults in a course, unit, product or invoice line as needed. To inherit again, select Inherit tax treatment and Inherit price mode and leave the rate blank.",
+            "Check the price preview’s Net amount, VAT amount and Gross amount before saving a draft. Posting remains a separate authorised action."
+          ]
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/48-vat-settings.jpg",
+            "alt": "Institution VAT registration, default treatment, rate and price mode.",
+            "caption": "Review the institution defaults before configuring more specific overrides.",
+            "width": 1257,
+            "height": 512
+          }
+        },
+        {
+          "heading": "What to expect",
+          "paragraphs": [
+            "Priority is line override, product, unit, course, then institution. A freeform line uses institution defaults; choosing a learner alone does not apply course tax settings. The institution’s stored rate may still supply fees configured as Taxable even when its own default treatment has no VAT charge.",
+            "Changing defaults alone does not alter a saved draft. Explicitly editing and saving it resolves inherited tax again; manual line overrides stay fixed. Posting preserves the reviewed snapshot. Future recurring drafts resolve current inherited tax, while their template prices stay saved until the schedule is edited."
           ]
         }
       ]
@@ -565,14 +633,14 @@
             "src": "images/en/11-fee-lines.jpg",
             "alt": "Create an annual school bill in Bursara, with numbered controls highlighted.",
             "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 1194,
-            "height": 468
+            "width": 1149,
+            "height": 236
           }
         },
         {
           "heading": "What to expect",
           "paragraphs": [
-            "MUR 120,000 with quantity 1 is one annual fee. Twelve instalments change when it is due, not the fee total.",
+            "A unit price of MUR 120,000 with quantity 1 is one annual fee before any VAT. Twelve instalments change when the bill is due, not its total. Check the VAT treatment and price mode in the preview.",
             "Posted records are immutable. Correct an unpaid charge using an authorised separate fee credit rather than changing the original invoice."
           ]
         }
@@ -633,8 +701,18 @@
             "src": "images/en/14-unit-bill.jpg",
             "alt": "Bill university units in Bursara, with numbered controls highlighted.",
             "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 1194,
-            "height": 569
+            "width": 1203,
+            "height": 113
+          }
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/49-unit-quantity.jpg",
+            "alt": "Quantity and unit price copied from the chosen university unit.",
+            "caption": "Check the credit quantity and price before reviewing the VAT preview.",
+            "width": 774,
+            "height": 111
           }
         },
         {
@@ -690,7 +768,7 @@
           "steps": [
             "In Billing, open the invoice number. Check the institution, student, billing contact, date and service period.",
             "Review each line: description, quantity, unit price, discount, tax and amount.",
-            "Read Total fees, Payments applied, Credits and Outstanding. Check the Payment schedule below.",
+            "Read Net amount, VAT amount, Total fees, Payments applied, Credits and Outstanding. Check the Payment schedule below.",
             "Use Receive payment to prepare a collection, or Credit outstanding fees for an approved reduction of unpaid charges."
           ]
         },
@@ -699,9 +777,9 @@
           "image": {
             "src": "images/en/15-invoice.jpg",
             "alt": "Read a posted invoice in Bursara, with numbered controls highlighted.",
-            "caption": "Check the institution, student and final invoice number.",
-            "width": 1386,
-            "height": 375
+            "caption": "Final invoice number and permanent creation reference.",
+            "width": 251,
+            "height": 95
           }
         },
         {
@@ -710,14 +788,15 @@
             "src": "images/en/44-invoice-totals.jpg",
             "alt": "Invoice financial summary.",
             "caption": "Read the posted totals and remaining balance.",
-            "width": 525,
-            "height": 266
+            "width": 537,
+            "height": 395
           }
         },
         {
           "heading": "What to expect",
           "paragraphs": [
-            "The permanent SO reference stays alongside the INV number assigned at posting. Outstanding includes future unpaid instalments. Posted invoices cannot be edited: use a separate credit where supported. Fiscal documents require their local correction process."
+            "The permanent SO reference stays alongside the INV number assigned at posting. Outstanding includes future unpaid instalments. Posted invoices cannot be edited: use a separate credit where supported. Fiscal documents require their local correction process.",
+            "Older documents may show a VAT rate with treatment not recorded. Their saved amounts remain intact; do not infer an exemption from a zero rate."
           ]
         }
       ]
@@ -980,16 +1059,27 @@
           "image": {
             "src": "images/en/20-receipt.jpg",
             "alt": "Read and print a receipt in Bursara, with numbered controls highlighted.",
-            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
+            "caption": "The receipt records the amount actually received.",
             "width": 1332,
-            "height": 476
+            "height": 137
+          }
+        },
+        {
+          "heading": "On your screen",
+          "image": {
+            "src": "images/en/50-receipt-invoice-vat.jpg",
+            "alt": "Original invoice net, VAT and gross referenced by a partial receipt.",
+            "caption": "These figures refer to the original bill; they are not a second VAT charge on the receipt.",
+            "width": 873,
+            "height": 98
           }
         },
         {
           "heading": "What to expect",
           "paragraphs": [
             "Demonstration documents are marked as testing documents. They must not be used as real tax invoices or real payment acknowledgements.",
-            "An institution may use the combined invoice/receipt workflow when charging and collecting together. The receipt register still records the money received."
+            "An institution may use the combined invoice/receipt workflow when charging and collecting together. The receipt register still records the money received.",
+            "The net, VAT and gross subline describes the original invoice, not just the portion settled by this receipt."
           ]
         }
       ]
@@ -1064,15 +1154,15 @@
     {
       "slug": "reports-export",
       "title": "Review and export balances",
-      "summary": "Reports gives a currency summary and a spreadsheet-friendly list of invoice balances.",
+      "summary": "Review the currency totals and download balances for posted invoices.",
       "sections": [
         {
           "heading": "How to use it",
           "steps": [
             "Open Reports and choose Balance date. Use the same date when comparing the report with Debtors.",
-            "Read Balances by currency. Billed, collected, outstanding and overdue amounts are separated by currency.",
+            "Read Balances by currency: Net amount, VAT amount, Gross billed, collected, outstanding and overdue are separated by currency.",
             "Select Export balances. Your browser downloads bursara-open-items.csv.",
-            "Open the CSV in your spreadsheet application. Check the invoice, student, debtor, currency, total, paid, credit, balance and overdue columns.",
+            "Open the CSV in your spreadsheet. Check Invoice, Student, Debtor, Currency, Net, VAT, Gross total, Paid, Credit, Balance and Overdue.",
             "Keep the chosen date with the exported file so another person knows which position was reviewed."
           ]
         },
@@ -1081,15 +1171,15 @@
           "image": {
             "src": "images/en/24-report-export.jpg",
             "alt": "Review and export balances in Bursara, with numbered controls highlighted.",
-            "caption": "Numbered outlines identify the controls described in the steps. Screens show fictional demonstration records.",
-            "width": 1500,
-            "height": 341
+            "caption": "Net, VAT and gross are original billed amounts. Export includes settled and outstanding posted invoices through the selected date.",
+            "width": 809,
+            "height": 156
           }
         },
         {
           "heading": "What to expect",
           "paragraphs": [
-            "Only posted financial records affect these figures. Saved drafts are excluded. A CSV is a table of values, not a formatted PDF. Your spreadsheet may ask how to interpret dates, numbers or the comma separator. Collected shows the money originally received before any refunds; it is not a net-cash figure.",
+            "Only posted financial records affect these figures. Saved drafts are excluded. A CSV is a table of values, not a formatted PDF. Your spreadsheet may ask how to interpret dates, numbers or the comma separator. Collected shows the money originally received before any refunds; it is not a net-cash figure. Net, VAT and gross are original billed amounts; credits and outstanding balances are shown separately.",
             "Bursara does not connect to an external accounting platform. Use this export for review and testing; establish the full reporting and accounting process before using Bursara for live operations."
           ]
         }
@@ -1172,7 +1262,7 @@
           "heading": "How to use it",
           "steps": [
             "Open Users & permissions and select Edit permissions for an ordinary user.",
-            "Manage students allows creating and editing learners. Manage courses and fees allows creating and editing programmes and units.",
+            "Manage students allows creating and editing learners. Manage courses and fees allows creating and editing programmes and units. Manage products separately authorises reusable fee templates.",
             "Create and edit invoice drafts allows saving and correcting drafts. Post invoices separately authorises posting. Create and edit payment drafts and Post payments follow the same separation.",
             "Receive full payment and issue requires both posting rights. Issue credits and refunds authorises separate corrections. Review report, module, settings and user-management rights individually.",
             "Select Save user and rights. Check the user sees the expected actions. A draft creator can leave posting to another authorised person."
@@ -1183,9 +1273,9 @@
           "image": {
             "src": "images/en/38-permission-checkboxes.jpg",
             "alt": "Set the right permissions in Bursara, with numbered controls highlighted.",
-            "caption": "1 Create and edit payment drafts. 2 Post payments and apply credit. Grant these rights separately to match the person’s responsibilities.",
-            "width": 804,
-            "height": 435
+            "caption": "Manage products and Post invoices are separate rights. Choose each action to match the user’s responsibilities.",
+            "width": 813,
+            "height": 402
           }
         },
         {
@@ -1380,7 +1470,7 @@
           "heading": "What to expect",
           "paragraphs": [
             "An unsubmitted prepared snapshot is invalidated if its financial draft changes, so prepare it again after review. A submitted fiscal draft is locked against financial editing, including rejected or uncertain submissions.",
-            "Current service lines support undiscounted exempt or 15% charges. Payment reporting supports allocated untaxed tuition. Prepared does not mean accepted; Queued is pending, Accepted is success and Unknown needs reconciliation. Live submissions and fiscal credit notes are not included."
+            "EBS preparation supports 15% taxable, zero-rated, exempt or outside-scope service lines only when their saved totals can be represented exactly. Payment reporting requires allocated zero-tax tuition with one consistent treatment. Prepared is not accepted; Unknown needs reconciliation. Live submissions and fiscal credit notes are not included."
           ]
         }
       ]
@@ -1464,7 +1554,7 @@
           "heading": "What to expect",
           "paragraphs": [
             "Bursara is a product of Streak Technologies Ltd, Royal Road, Pointe aux Cannoniers, Grand Bay, Mauritius. USA contact: +1 307 500 3256.",
-            "This guide covers courses, learner records, editable drafts, authorised posting, receipts, instalments, recurring draft schedules, debtor balances, access rights, personal sign-in protection and optional Mauritius test reporting. Attendance, timetables, online collections, accounting integration are not included."
+            "This guide covers courses, reusable products, VAT defaults, learner records, editable drafts, authorised posting, receipts, instalments, recurring draft schedules, debtor balances, access rights, personal sign-in protection and optional Mauritius test reporting. Attendance, timetables, online collections, accounting integration are not included."
           ]
         }
       ]

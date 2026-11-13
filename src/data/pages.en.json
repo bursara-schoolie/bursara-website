@@ -3,7 +3,7 @@
     "path": "features",
     "label": "Features",
     "title": "School finance software for fees, receipts and debtor management",
-    "description": "School, university and bus fee billing, recurring invoice drafts, receipts, debtor balances and optional e-invoicing modules in one institution workspace.",
+    "description": "Reusable fee products, VAT pricing, ad-hoc and recurring drafts, receipts and debtor management for schools, universities and training providers.",
     "eyebrow": "THE BURSARA WORKSPACE",
     "heading": "The whole fee journey. One clear workspace.",
     "intro": "Bring students, billable units, invoices and receipts into one financial account. Bursara helps your team follow each charge from the day it is raised to the moment its balance is settled.",
@@ -118,6 +118,32 @@
           "Optional jurisdiction-specific e-invoicing",
           "Additional modules can be developed as needs grow"
         ]
+      },
+      {
+        "heading": "Reusable prices for familiar fees.",
+        "nav": "Fee products",
+        "body": [
+          "Create a reusable fee product for tuition, university units, bus transport or another service. Make it available throughout the institution, or link it to a learner, enrolled unit or programme.",
+          "Select the product in an ad-hoc invoice or recurring template to copy its description, price and quantity. The draft keeps its own values, so a later catalogue edit does not silently rewrite a financial document."
+        ],
+        "points": [
+          "Controlled availability within each institution",
+          "Reusable prices for one-off and recurring billing",
+          "Separate product-management permissions"
+        ]
+      },
+      {
+        "heading": "Tax settings with a clear order.",
+        "nav": "VAT and pricing",
+        "body": [
+          "Choose institution VAT settings, tax-inclusive or tax-exclusive prices, then add more specific rules for courses, units, products or individual lines. Preview net, VAT and gross amounts before saving.",
+          "Line overrides take priority, followed by the product, unit, course and institution. Your institution chooses its registration and treatment; no education exemption or country rate is assumed. Existing saved documents keep their snapshots. Explicit draft edits can refresh inherited tax before posting."
+        ],
+        "points": [
+          "Taxable, zero-rated, exempt and outside-scope classifications",
+          "Inclusive and exclusive price previews",
+          "Reviewed amounts preserved when posted"
+        ]
       }
     ],
     "example": {
@@ -157,11 +183,15 @@
       ],
       [
         "What does the Mauritius EBS module support?",
-        "The optional module uses explicit sandbox preparation and submission. Its current invoice mapper supports undiscounted exempt or 15% service lines; payment-trigger preparation is limited to allocated, zero-tax tuition. Live fiscalisation and fiscal credit notes are not yet available. The help guide explains the workflow and its limits."
+        "The optional EBS module uses explicit test preparation and submission. Its service-line mapper supports zero-rated, exempt, outside-scope or 15% taxable saved amounts when they can be represented exactly. Payment reporting requires consistent zero-tax tuition. Live fiscalisation and fiscal credit notes are not currently available."
       ],
       [
         "Does recurring billing automatically post invoices or take payment?",
         "No. Due schedules automatically create drafts. An authorised user reviews and posts each invoice; payments remain separate records of money actually received."
+      ],
+      [
+        "Can a saved price or tax-default change rewrite an existing invoice?",
+        "No. Changing defaults alone does not rewrite saved documents. An explicit draft edit and save resolves inherited tax again while preserving manual line overrides. Posting preserves the reviewed amounts; posted documents stay immutable."
       ]
     ],
     "related": [
@@ -174,7 +204,7 @@
     "path": "student-billing",
     "label": "Student billing",
     "title": "Student invoicing and unit-based school fee billing",
-    "description": "Prepare one-off or recurring student fee drafts for tuition, university units and bus transport. Review and post invoices with separate permissions.",
+    "description": "Reuse tuition, university and bus fee templates. Preview net, VAT and gross prices, then review and post one-off or recurring invoice drafts.",
     "eyebrow": "STUDENT BILLING",
     "heading": "Fees that follow your programme.",
     "intro": "A school year, a professional course or selected university units. Build the bill around what the learner is enrolled in, then make the payment terms clear from the start.",
@@ -276,6 +306,32 @@
           "Automatic draft creation from a saved template",
           "Separate review and posting permissions"
         ]
+      },
+      {
+        "heading": "Reusable prices for familiar fees.",
+        "nav": "Fee products",
+        "body": [
+          "Create a reusable fee product for tuition, university units, bus transport or another service. Make it available throughout the institution, or link it to a learner, enrolled unit or programme.",
+          "Select the product in an ad-hoc invoice or recurring template to copy its description, price and quantity. The draft keeps its own values, so a later catalogue edit does not silently rewrite a financial document."
+        ],
+        "points": [
+          "Controlled availability within each institution",
+          "Reusable prices for one-off and recurring billing",
+          "Separate product-management permissions"
+        ]
+      },
+      {
+        "heading": "Tax settings with a clear order.",
+        "nav": "VAT and pricing",
+        "body": [
+          "Choose institution VAT settings, tax-inclusive or tax-exclusive prices, then add more specific rules for courses, units, products or individual lines. Preview net, VAT and gross amounts before saving.",
+          "Line overrides take priority, followed by the product, unit, course and institution. Your institution chooses its registration and treatment; no education exemption or country rate is assumed. Existing saved documents keep their snapshots. Explicit draft edits can refresh inherited tax before posting."
+        ],
+        "points": [
+          "Taxable, zero-rated, exempt and outside-scope classifications",
+          "Inclusive and exclusive price previews",
+          "Reviewed amounts preserved when posted"
+        ]
       }
     ],
     "example": {
@@ -312,6 +368,10 @@
       [
         "Can I send invoices by email from Bursara?",
         "The workflow provides on-screen and printable documents. Automated document email delivery is not part of the application."
+      ],
+      [
+        "Can a saved price or tax-default change rewrite an existing invoice?",
+        "No. Changing defaults alone does not rewrite saved documents. An explicit draft edit and save resolves inherited tax again while preserving manual line overrides. Posting preserves the reviewed amounts; posted documents stay immutable."
       ]
     ],
     "related": [

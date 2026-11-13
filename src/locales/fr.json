@@ -63,7 +63,7 @@
   "openImage": "Ouvrir l’image en grand :",
   "guideTitle": "Guide d’utilisation de Bursara",
   "helpMetaTitle": "Aide et guide Bursara | Facturation et reçus des établissements",
-  "helpMetaDescription": "Des instructions illustrées pour les programmes, les comptes des apprenants, les brouillons, la comptabilisation, les paiements, les droits et la sécurité de connexion.",
+  "helpMetaDescription": "Aide illustrée : produits, TVA, programmes, comptes apprenants, brouillons récurrents, comptabilisation, reçus, droits et sécurité de connexion.",
   "helpHeading": [
     "Un peu d’aide.",
     "Une gestion plus claire."
@@ -115,7 +115,7 @@
   ],
   "homeData": {
     "title": "Bursara | Frais de scolarité, paiements et gestion financière",
-    "description": "Scolarité, frais universitaires et transport, brouillons ponctuels et récurrents, reçus et gestion financière avec des modules facultatifs par pays.",
+    "description": "Modèles réutilisables de scolarité, d’université et de transport, aperçus de TVA, brouillons récurrents, reçus et modules facultatifs.",
     "eyebrow": "LA GESTION FINANCIÈRE DES ÉTABLISSEMENTS, REPENSÉE",
     "heading": [
       "Chaque frais.",
@@ -157,7 +157,7 @@
       [
         "01",
         "Des frais adaptés à votre établissement.",
-        "Scolarité annuelle, unités universitaires ou transport mensuel : préparez des brouillons ponctuels ou un calendrier récurrent selon vos services."
+        "Réutilisez les modèles de scolarité, d’unités universitaires ou de transport. Préparez des brouillons ponctuels ou récurrents avec une TVA claire et un aperçu avant comptabilisation."
       ],
       [
         "02",
